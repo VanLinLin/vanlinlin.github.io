@@ -217,8 +217,8 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 # 🎖 Honors and Awards
-- *2025.03*: Winner (3/306), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
-- *2025.03*: Winner (6/244), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
+- *2025.03*: Winner (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
+- *2025.03*: Winner (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2024.12*: 8th Foxconn Scholarship recipient.
 - *2024.12*: Nan Shan Life Insurance Company Scholarship.
 - *2024.07*: **Winner**, Beyond Visible Spectrum: AI for Agriculture Challenge, International Conference on Pattern Recognition (ICPR).
