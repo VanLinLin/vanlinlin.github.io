@@ -201,6 +201,10 @@
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
+      <li>
+        <i class="fas fa-fw fa-chart-bar" aria-hidden="true"></i>
+        Total Citations: <span id="total_cit">Loading...</span>
+      </li>
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
       {% endif %}
