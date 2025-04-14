@@ -24,6 +24,8 @@ jobs:
           pip install -r google_scholar_crawler/requirements.txt
 
       - name: Run main.py to fetch Google Scholar stats
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
           echo "🚀 Starting scholar crawler"
           python google_scholar_crawler/main.py
