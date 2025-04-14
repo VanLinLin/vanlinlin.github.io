@@ -275,8 +275,16 @@ ACM International Conference on Multimedia (ACMMM2024)
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
 
 # 🌍 Global Collaborations
-<div style="max-width: 800px; margin: 0 auto;">
-  <div id="globeViz" style="width: 100%; height: 400px; border-radius: 10px;"></div>
+<h2>🌍 Global Collaborations</h2>
+
+<!-- 限制最大寬高＋自動縮放 -->
+<div style="display: flex; justify-content: center;">
+  <div id="globeViz" style="
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10px;
+  "></div>
 </div>
 
 <script src="https://unpkg.com/three"></script>
@@ -285,12 +293,14 @@ ACM International Conference on Multimedia (ACMMM2024)
   const myGlobe = Globe()
     (document.getElementById('globeViz'))
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
+    .backgroundColor('#000010') // 深色背景
     .pointsData([
       { lat: 22.9987, lng: 120.2195, size: 1, color: 'yellow' }, // NCKU
       { lat: 24.1231, lng: 120.6740, size: 1, color: 'green' },  // NCHU
-      { lat: 35.6762, lng: 139.6503, size: 1, color: 'red' }     // Tokyo (example)
+      { lat: 55.9533, lng: -3.1883, size: 1, color: 'red' }      // e.g. Edinburgh
     ])
     .pointAltitude('size')
     .pointColor('color');
 </script>
+
 
