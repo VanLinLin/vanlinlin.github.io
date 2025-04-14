@@ -51,7 +51,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 # 📝 Selected Publications
 <!-- DenseSR -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ACMMM25</div><img src='images/S3RNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ACMMM25</div><img src='images/DenseSR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DenseSR: Image Shadow Removal as Dense Prediction**
