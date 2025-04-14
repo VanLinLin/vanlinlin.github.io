@@ -304,8 +304,8 @@ ACM International Conference on Multimedia (ACMMM2024)
     .pointAltitude('size')
     .pointColor('color');
 
-  globeEl.width([600]);
-  globeEl.height([300]);
+  globeEl.width([1200]);
+  globeEl.height([600]);
 
   // ⬇️ ⬇️ 增加這段處理高 DPI 模糊問題 ⬇️ ⬇️
   setTimeout(() => {
