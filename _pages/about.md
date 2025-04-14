@@ -275,9 +275,6 @@ ACM International Conference on Multimedia (ACMMM2024)
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
 
 # 🌍 Global Collaborations
-<h2>🌍 Global Collaborations</h2>
-<h2>🌍 Global Collaborations</h2>
-
 <div id="globe-wrapper" style="
   display: flex;
   justify-content: center;
@@ -295,21 +292,37 @@ ACM International Conference on Multimedia (ACMMM2024)
 <script src="https://unpkg.com/three"></script>
 <script src="https://unpkg.com/globe.gl"></script>
 <script>
-  const globeEl = Globe()(document.getElementById('globeViz'))
+  const globeEl = Globe()
+    (document.getElementById('globeViz'))
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
     .backgroundColor('rgba(0,0,0,1)')
     .pointsData([
       { lat: 22.9987, lng: 120.2195, size: 1, color: 'yellow' }, // NCKU
       { lat: 24.1231, lng: 120.6740, size: 1, color: 'green' },  // NCHU
-      { lat: 55.9533, lng: -3.1883, size: 1, color: 'red' }      // e.g. Edinburgh
+      { lat: 55.9533, lng: -3.1883, size: 1, color: 'red' }      // example
     ])
     .pointAltitude('size')
     .pointColor('color');
 
-  // 👇 這段是關鍵，強制 canvas 限定大小，否則會佔滿全頁！
   globeEl.width([600]);
   globeEl.height([300]);
+
+  // ⬇️ ⬇️ 增加這段處理高 DPI 模糊問題 ⬇️ ⬇️
+  setTimeout(() => {
+    const DPR = window.devicePixelRatio || 1;
+    const globeContainer = document.getElementById('globeViz');
+    const canvas = globeContainer.querySelector('canvas');
+    if (canvas) {
+      canvas.style.width = '100%';
+      canvas.style.height = '100%';
+      canvas.width = globeContainer.offsetWidth * DPR;
+      canvas.height = globeContainer.offsetHeight * DPR;
+      const ctx = canvas.getContext('webgl') || canvas.getContext('webgl2');
+      if (ctx) ctx.viewport(0, 0, canvas.width, canvas.height);
+    }
+  }, 300); // wait a bit for canvas to appear
 </script>
+
 
 
 
