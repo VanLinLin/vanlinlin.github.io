@@ -276,24 +276,28 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 # 🌍 Global Collaborations
 <h2>🌍 Global Collaborations</h2>
+<h2>🌍 Global Collaborations</h2>
 
-<!-- 限制最大寬高＋自動縮放 -->
-<div style="display: flex; justify-content: center;">
-  <div id="globeViz" style="
-    width: 100%;
-    max-width: 500px;
-    height: 300px;
-    border-radius: 10px;
-  "></div>
+<div id="globe-wrapper" style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+">
+  <div id="globeViz" style="width: 100%; height: 100%;"></div>
 </div>
 
 <script src="https://unpkg.com/three"></script>
 <script src="https://unpkg.com/globe.gl"></script>
 <script>
-  const myGlobe = Globe()
-    (document.getElementById('globeViz'))
+  const globeEl = Globe()(document.getElementById('globeViz'))
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
-    .backgroundColor('#000010') // 深色背景
+    .backgroundColor('rgba(0,0,0,1)')
     .pointsData([
       { lat: 22.9987, lng: 120.2195, size: 1, color: 'yellow' }, // NCKU
       { lat: 24.1231, lng: 120.6740, size: 1, color: 'green' },  // NCHU
@@ -301,6 +305,11 @@ ACM International Conference on Multimedia (ACMMM2024)
     ])
     .pointAltitude('size')
     .pointColor('color');
+
+  // 👇 這段是關鍵，強制 canvas 限定大小，否則會佔滿全頁！
+  globeEl.width([600]);
+  globeEl.height([300]);
 </script>
+
 
 
