@@ -308,6 +308,8 @@ ACM International Conference on Multimedia (ACMMM2024)
 
   globeEl.width([1200]);
   globeEl.height([600]);
+  globeEl.pointOfView({ lat: 0, lng: 0, altitude: 2 }, 0); // 完全正中
+
 
 
   // ⬇️ ⬇️ 增加這段處理高 DPI 模糊問題 ⬇️ ⬇️
