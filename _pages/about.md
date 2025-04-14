@@ -320,7 +320,7 @@ ACM International Conference on Multimedia (ACMMM2024)
     if (canvas) {
       canvas.style.width = '100%';
       canvas.style.height = '100%';
-      canvas.width = globeContainer.offsetWidth * DPR;
+      canvas.width = globeContainer.offsetWidth * DPR-2000;
       canvas.height = globeContainer.offsetHeight * DPR;
       const ctx = canvas.getContext('webgl') || canvas.getContext('webgl2');
       if (ctx) ctx.viewport(0, 0, canvas.width, canvas.height);
