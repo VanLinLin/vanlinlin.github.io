@@ -32,8 +32,10 @@ jobs:
           echo "🚀 Starting scholar crawler"
           echo "import os" > run_scholar.py
           echo "import signal" >> run_scholar.py
-          echo "from scholarly import scholarly, set_serpapi_api_key" >> run_scholar.py
-          echo "set_serpapi_api_key(os.environ['SERPAPI_API_KEY'])" >> run_scholar.py
+          echo "import json" >> run_scholar.py
+          echo "from scholarly import scholarly" >> run_scholar.py
+          echo "os.environ['SCHOLARY_BACKEND'] = 'serpapi'" >> run_scholar.py
+          echo "os.environ['SERPAPI_API_KEY'] = os.environ['SERPAPI_API_KEY']" >> run_scholar.py
           echo "def handler(signum, frame):" >> run_scholar.py
           echo "    raise TimeoutError('Timeout while fetching Google Scholar data')" >> run_scholar.py
           echo "signal.signal(signal.SIGALRM, handler)" >> run_scholar.py
@@ -42,6 +44,12 @@ jobs:
           echo "author = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])" >> run_scholar.py
           echo "author = scholarly.fill(author)" >> run_scholar.py
           echo "print('✅ Done. Citations:', author['citedby'])" >> run_scholar.py
+          echo "os.makedirs('google_scholar_crawler/results', exist_ok=True)" >> run_scholar.py
+          echo "with open('google_scholar_crawler/results/gs_data.json', 'w') as f:" >> run_scholar.py
+          echo "    json.dump(author, f, indent=2)" >> run_scholar.py
+          echo "shieldsio_data = {'schemaVersion': 1, 'label': 'citations', 'message': str(author['citedby']), 'color': 'blue'}" >> run_scholar.py
+          echo "with open('google_scholar_crawler/results/gs_data_shieldsio.json', 'w') as f:" >> run_scholar.py
+          echo "    json.dump(shieldsio_data, f, indent=2)" >> run_scholar.py
           python run_scholar.py
 
       - name: Check output
