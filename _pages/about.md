@@ -156,7 +156,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 <!-- promptHSI -->
 
 
-<!-- RobustDGA -->
+<!-- AuroraHSI -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICCV25</div><img src='images/DGA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -170,8 +170,8 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 * Robust Hyperspectral Image Fusion
 * Graph Neural Network
 
-<!-- <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
+<div style="margin-top: 10px;">
+  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
     <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
       arXiv
     </button>
@@ -181,7 +181,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 </div>
 </div>
-<!-- RobustDGA -->
+<!-- AuroraHSI -->
 
 
 <!-- SMPD2024 -->
@@ -243,16 +243,15 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 # 🎖 Honors and Awards
-- *2025.03*: Winner (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
-- *2025.03*: Winner (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
+- *2025.03*: **3rd place** (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
+- *2025.03*: **6rd place** (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2024.12*: 8th Foxconn Scholarship recipient.
 - *2024.12*: Nan Shan Life Insurance Company Scholarship.
 - *2024.07*: **Winner**, Beyond Visible Spectrum: AI for Agriculture Challenge, International Conference on Pattern Recognition (ICPR).
 - *2024.05*: **Top Performance Award**, Socia Media Popularity Prediction Challenge, ACM International Conference on Multimedia (ACMMM).
-- *2024.05*:  **3rd place**, Socia Media Popularity Prediction Challenge, ACM International Conference on Multimedia (ACMMM). 
 - *2024.03*: **Runner-up (2/1200+)**, Auto-WCEBleedGen Challenge Version V2, IEEE International Conference on Image Processing (ICIP).
-- *2024.03*: Presidential Award, Department of Applied Mathematics (Data Science and Computing Program), National Chung Hsing University.
-- *2023.10*: Presidential Award, Department of Applied Mathematics (Data Science and Computing Program), National Chung Hsing University.
+- *2024.03*: **Presidential Award**, Department of Applied Mathematics (Data Science and Computing Program), National Chung Hsing University.
+- *2023.10*: **Presidential Award**, Department of Applied Mathematics (Data Science and Computing Program), National Chung Hsing University.
 - *2021.10*: **Runner-up (2/30+)**, Second XRun! Motion Sensing Technology Innovation Competition.
 - *2021.08*: **Titanium Medal Award (Top 10%)**, Green Idea Invention and Design Fair.
 - *2020.12*: 4th Foxconn Scholarship recipient.
@@ -261,7 +260,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 # 💼 Projects
 - *2024.7~*: Brake system Defect Detection, Taiwan High Speed Rail.
 - *2024.4~*: Cybersecurity in distributed computing for remote sensing, NVIDIA Taiwan Research.
-- *2024.3~*: Scenario understanding and augmented intelligence, Industrial Technology Research Institute (ITRI).
+- *2024.3~2025.4*: Scenario understanding and augmented intelligence, Industrial Technology Research Institute (ITRI).
 - *2023.2~2024.3*: Developing an Automatic Prohibited Items Detection Model for Airport Luggage X ray Images Based on the Integration of Convolutional Neural Networks and Visual Transformers, National Science and Technology Council (NSTC).
 - *2023.2~2024.3*: Plant Disease Analysis System, National Chung Hsing University. (Joint-project with Institute of Agronomy, National Chung Hsing University)
 
@@ -270,7 +269,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 - *2022.02 - 2024.06*, B.S. National Chung Hsing University (NCHU), the Deparement of Applied Mathematics, Taiwan. 
 - *2020.09 - 2022.02*, B.S. National Kaohsiung University of Science and Technology (NKUST), the Department of Telecommunication Engineering, Taiwan.
   
-# 💼 Academic Services
+<!-- # 💼 Academic Services -->
 
 # 🗺️ Visitor Map
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
