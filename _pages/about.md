@@ -280,16 +280,14 @@ ACM International Conference on Multimedia (ACMMM2024)
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 100%;
-  max-width: 1200px;
-  height: 600px;
+  height: 300px;
+  max-width: 600px;
   margin: 0 auto;
   border-radius: 10px;
   position: relative;
 ">
   <div id="globeViz" style="width: 100%; height: 100%;"></div>
 </div>
-
 
 <script src="https://unpkg.com/three"></script>
 <script src="https://unpkg.com/globe.gl"></script>
@@ -306,11 +304,8 @@ ACM International Conference on Multimedia (ACMMM2024)
     .pointAltitude('size')
     .pointColor('color');
 
-  globeEl.width([1200]);
-  globeEl.height([600]);
-  globeEl.pointOfView({ lat: 0, lng: 0, altitude: 2 }, 0); // 完全正中
-
-
+  globeEl.width([600]);
+  globeEl.height([300]);
 
   // ⬇️ ⬇️ 增加這段處理高 DPI 模糊問題 ⬇️ ⬇️
   setTimeout(() => {
@@ -320,12 +315,12 @@ ACM International Conference on Multimedia (ACMMM2024)
     if (canvas) {
       canvas.style.width = '100%';
       canvas.style.height = '100%';
-      canvas.width = globeContainer.offsetWidth * DPR-2000;
+      canvas.width = globeContainer.offsetWidth * DPR;
       canvas.height = globeContainer.offsetHeight * DPR;
       const ctx = canvas.getContext('webgl') || canvas.getContext('webgl2');
       if (ctx) ctx.viewport(0, 0, canvas.width, canvas.height);
     }
-  }, 300);
+  }, 300); // wait a bit for canvas to appear
 </script>
 
 
