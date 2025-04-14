@@ -50,57 +50,83 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 - *2018/06/02*: &nbsp;🎉🎉 I received the 1st place in the Asian Robotic Athletic Competition!
 
 # 📝 Selected Publications
+<!-- DenseSR -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ACMMM25</div><img src='images/S3RNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**DenseSR: Image Shadow Removal as Dense Prediction**
+
+**Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)
+
+**Keywords**
+
+* Single Image Shadow Removal
+
+<div style="margin-top: 10px;">
+  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- DenseSR -->
+
+
+
+<!-- S^3RNET -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS</div><img src='images/S3RNet_second.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**S$^3$RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening**
+
+[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en) 
+
+**Keywords**
+
+* Efficient Hyperspectral Image Pansharpening
+* Robustness and Sparse Representation
+* Network Compression and Knowledge Distillation
+
+<div style="margin-top: 10px;">
+  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- S^3RNET -->
+
+
 <!-- S^3RNET -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/S3RNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation**
 
-[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Li-Wei Kang, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
+[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
 
 **Keywords**
 
 * Hyperspectral Image Fusion
 * Sparse Representation
 
-<!-- <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
+<div style="margin-top: 10px;">
+  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
     <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
       arXiv
     </button>
   </a>
-</div> -->
+</div>
 
 </div>
 </div>
 <!-- S^3RNET -->
-
-
-<!-- HyFusion -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/HyFusionhpe.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion**
-
-[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Hao Ho, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Hyperspectral Image Fusion
-* Data Efficiency
-* Reception Field
-
-<!-- <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      arXiv
-    </button>
-  </a>
-</div> -->
-
-</div>
-</div>
-<!-- promptHSI -->
 
 
 <!-- promptHSI -->
