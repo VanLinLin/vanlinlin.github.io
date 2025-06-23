@@ -25,7 +25,7 @@ redirect_from:
 Hello,
 My name is Yu-Fan (Van) Lin. I am a master's student with the <a href="https://sites.google.com/view/acvlab/">Advanced Computer Vision Laboratory (ACVLAB)</a> at the Institute of Data Science, National Cheng Kung University (NCKU), Tainan, Taiwan. I actively participate in various competitions and research projects as part of the ACVLAB team.
 
-Previously, I earned my bachelor's degree from the Department of Applied Mathematics at National Chung Hsing University (NCHU), where I engaged in multiple projects during my undergraduate studies. You can find my resume [here](https://drive.google.com/file/d/144pJuSJKy3wadpG3LUrX2sZNe9qzYQxc/view?usp=sharing) (last updated May 22, 2024). Currently, my research focuses on deep learning.
+Previously, I earned my bachelor's degree from the Department of Applied Mathematics at National Chung Hsing University (NCHU), where I engaged in multiple projects during my undergraduate studies. You can find my resume [here](https://drive.google.com/file/d/1zEQLS8rUtHtRMGjeW4GWxc37EYiyAG4D/view?usp=sharing) (last updated June 22, 2025). Currently, my research focuses on deep learning.
 
 My primary research interests include:
 * Multimodal Learning
