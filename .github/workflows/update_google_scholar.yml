@@ -42,16 +42,15 @@ jobs:
 
       - name: Commit and push updated JSON
         run: |
-          cd google_scholar_crawler/results
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
-          git init
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git checkout -b google-scholar-stats || git checkout google-scholar-stats
-          git pull origin google-scholar-stats || echo "No previous branch"
-          git add *.json
-          git commit -m "🔄 Update Google Scholar stats"
-          git push origin google-scholar-stats --force
+          git add google_scholar_crawler/results/*.json
+          # 檢查是否有檔案變動
+          if ! git diff --staged --quiet; then
+            git commit -m "🔄 Update Google Scholar stats"
+            git push
+          else
+            echo "No changes to commit."
+          fi
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
