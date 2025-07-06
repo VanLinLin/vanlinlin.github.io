@@ -34,7 +34,7 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
-- *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Ireland.
+- *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Ireland!
 - *2025/03/24*: &nbsp;🎉🎉 I achieved 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
 - *2025/03/24*: &nbsp;🎉🎉 I achieved 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
 - *2025/03/15*: &nbsp;🎉🎉 Two paper are accepted by IGARSS 2025, see you in Brisbane!
