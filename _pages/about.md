@@ -34,6 +34,7 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
+- *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Ireland.
 - *2025/03/24*: &nbsp;🎉🎉 I achieved 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
 - *2025/03/24*: &nbsp;🎉🎉 I achieved 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
 - *2025/03/15*: &nbsp;🎉🎉 Two paper are accepted by IGARSS 2025, see you in Brisbane!
@@ -50,34 +51,8 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 - *2018/06/02*: &nbsp;🎉🎉 I received the 1st place in the Asian Robotic Athletic Competition!
 
 # 📝 Selected Publications
-<!-- SSCNet -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ACMMM25</div><img src='images/SSCNet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**SSCNet: Factorized Spatial-Spectral Correlation for Efficient Hyperspectral Image Fusion**
-
-[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en) [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Efficient Hyperspectral Image Pansharpening
-
-<div style="margin-top: 10px;">
-  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- SSCNet -->
-
-
-
 <!-- DenseSR -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ACMMM25</div><img src='images/DenseSR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/DenseSR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DenseSR: Image Shadow Removal as Dense Prediction**
@@ -101,6 +76,29 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 <!-- DenseSR -->
 
 
+<!-- SSCNet -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS25</div><img src='images/SSCNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SSCNet: Factorized Spatial-Spectral Correlation for Efficient Hyperspectral Image Fusion**
+
+[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en) [Chih-Chung Hsu](https://cchsu.info/)
+
+**Keywords**
+
+* Efficient Hyperspectral Image Pansharpening
+
+<div style="margin-top: 10px;">
+  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- SSCNet -->
 
 <!-- S^3RNET -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
