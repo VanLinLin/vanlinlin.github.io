@@ -17,20 +17,20 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
-          # === 核心修正：暫時不使用快取，強制重新安裝 ===
-          # bundler-cache: true (我們將這行註解掉)
 
-      - name: Install dependencies & generate lockfile
-        run: bundle install # 執行這個指令會自動產生 Gemfile.lock
+      - name: Force delete old lockfile
+        run: rm -f Gemfile.lock
+
+      - name: Install dependencies & generate new lockfile
+        run: bundle install
 
       - name: Commit and Push Gemfile.lock
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Gemfile.lock
-          # 檢查 lock 檔案是否有變動，有才 commit
           if ! git diff --staged --quiet; then
-            git commit -m "ci: Generate Gemfile.lock"
+            git commit -m "ci: Regenerate Gemfile.lock"
             git push
           else
             echo "Gemfile.lock is already up to date."
