@@ -308,7 +308,7 @@ ACM International Conference on Multimedia (ACMMM2024)
   .globe-container {
     position: relative;
     width: 100%;
-    max-width: 500px;  /* 您可以在這裡控制地球的最大尺寸 */
+    max-width: 1000px;  /* 您可以在這裡控制地球的最大尺寸 */
     margin: 30px auto; /* 水平置中，並和上方內容保留一些間距 */
 
     /* 關鍵：利用 padding-top 創造一個完美的 1:1 正方形 */
