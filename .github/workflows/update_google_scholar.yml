@@ -25,13 +25,34 @@ jobs:
           pip install scholarly
 
       - name: Run main.py to fetch Google Scholar stats
+        # 增加超時設定，10分鐘沒跑完就自動判定失敗，避免無限空等
+        timeout-minutes: 10
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: |
           echo "🚀 Starting scholar crawler"
+
+          # ==================== DEBUGGING STEP ====================
+          # 檢查 Secrets 是否有被正確載入
+          if [ -z "$GOOGLE_SCHOLAR_ID" ]; then
+            echo "❌ 錯誤：找不到 GOOGLE_SCHOLAR_ID 這個 Secret！"
+            exit 1
+          else
+            echo "✅ GOOGLE_SCHOLAR_ID 已設定。"
+          fi
+
+          if [ -z "$SERPAPI_API_KEY" ]; then
+            echo "❌ 錯誤：找不到 SERPAPI_API_KEY 這個 Secret！請檢查 repo -> Settings -> Secrets and variables -> Actions"
+            exit 1
+          else
+            # 為了安全，只印出金鑰的前5個字元，確認它有被載入
+            echo "✅ SERPAPI_API_KEY 已設定 (金鑰開頭為: ${SERPAPI_API_KEY:0:5}...)"
+          fi
+          # =========================================================
+
           export SCHOLARY_BACKEND=serpapi
-          export SCHOLARLY_API_KEY=${SERPAPI_API_KEY}
+          # scholarly 會自動從環境變數讀取 SERPAPI_API_KEY
           python google_scholar_crawler/main.py
 
       - name: Check output
