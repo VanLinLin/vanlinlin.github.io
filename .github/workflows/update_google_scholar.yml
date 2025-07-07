@@ -13,89 +13,59 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Set up Python 3
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r google_scholar_crawler/requirements.txt
-          pip install scholarly
-
-# ==================== 請加入這個新步驟 ====================
-      - name: Test Google Scholar Author Endpoint via SERPAPI
+      - name: Fetch and Process Google Scholar Stats
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
-          echo "🧪 直接測試 SERPAPI 的 Google Scholar 作者搜尋功能..."
-          # 這個 curl 指令會直接模擬 scholarly 套件的行為
-          curl --location "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&api_key=${SERPAPI_API_KEY}" > serpapi_scholar_test.json
+          echo "🚀 Fetching Google Scholar data using curl..."
           
-          echo "🔍 檢查回傳的結果中是否有錯誤..."
-          # 檢查回傳的 JSON 檔案中是否包含 "error" 這個字
-          if grep -q "error" serpapi_scholar_test.json; then
-            echo "❌ SERPAPI 的 Scholar 作者搜尋功能測試失敗！"
-            cat serpapi_scholar_test.json
+          # 1. 建立目標資料夾
+          mkdir -p google_scholar_crawler/results
+          
+          # 2. 直接使用 curl 抓取原始的學者資料，並存成 gs_data.json
+          curl --location --silent "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&api_key=${SERPAPI_API_KEY}" > google_scholar_crawler/results/gs_data.json
+
+          # 3. 檢查抓取的資料是否有誤
+          if grep -q "error_message" google_scholar_crawler/results/gs_data.json; then
+            echo "❌ SERPAPI returned an error:"
+            cat google_scholar_crawler/results/gs_data.json
             exit 1
-          else
-            echo "✅ SERPAPI 的 Scholar 作者搜尋功能測試成功！"
-            # 為了安全，只顯示部分成功回傳的內容
-            cat serpapi_scholar_test.json | head -n 20
           fi
+          echo "✅ Successfully fetched raw author data."
 
-
-      - name: Run main.py to fetch Google Scholar stats
-        # 增加超時設定，10分鐘沒跑完就自動判定失敗，避免無限空等
-        timeout-minutes: 10
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-        run: |
-          echo "🚀 Starting scholar crawler"
-
-          # ==================== DEBUGGING STEP ====================
-          # 檢查 Secrets 是否有被正確載入
-          if [ -z "$GOOGLE_SCHOLAR_ID" ]; then
-            echo "❌ 錯誤：找不到 GOOGLE_SCHOLAR_ID 這個 Secret！"
+          # 4. 使用 jq 從 gs_data.json 中提取被引用次數 (citations)
+          CITATIONS=$(jq '.author.citedby' google_scholar_crawler/results/gs_data.json)
+          if [ -z "$CITATIONS" ] || [ "$CITATIONS" == "null" ]; then
+            echo "❌ Could not find citation count in the response."
             exit 1
-          else
-            echo "✅ GOOGLE_SCHOLAR_ID 已設定。"
           fi
+          echo "📊 Citation count: $CITATIONS"
 
-          if [ -z "$SERPAPI_API_KEY" ]; then
-            echo "❌ 錯誤：找不到 SERPAPI_API_KEY 這個 Secret！請檢查 repo -> Settings -> Secrets and variables -> Actions"
-            exit 1
-          else
-            # 為了安全，只印出金鑰的前5個字元，確認它有被載入
-            echo "✅ SERPAPI_API_KEY 已設定 (金鑰開頭為: ${SERPAPI_API_KEY:0:5}...)"
-          fi
-          # =========================================================
-
-          export SCHOLARY_BACKEND=serpapi
-          # scholarly 會自動從環境變數讀取 SERPAPI_API_KEY
-          python google_scholar_crawler/main.py
+          # 5. 使用 jq 建立給 shields.io 使用的 JSON 檔案
+          jq -n --arg citations "$CITATIONS" '{schemaVersion: 1, label: "citations", message: $citations}' > google_scholar_crawler/results/gs_data_shieldsio.json
+          echo "✅ Successfully created shields.io JSON file."
 
       - name: Check output
         run: |
-          ls -al google_scholar_crawler/results || echo "📂 Folder not found"
-          cat google_scholar_crawler/results/gs_data.json || echo "❌ gs_data.json missing"
-          cat google_scholar_crawler/results/gs_data_shieldsio.json || echo "❌ gs_data_shieldsio.json missing"
+          ls -al google_scholar_crawler/results
+          echo "--- gs_data.json content ---"
+          cat google_scholar_crawler/results/gs_data.json | head -n 10
+          echo "--- gs_data_shieldsio.json content ---"
+          cat google_scholar_crawler/results/gs_data_shieldsio.json
 
       - name: Commit and push updated JSON
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
-          # 在 git add 後面加上 -f 參數
+          # 使用 -f 強制加入被 .gitignore 忽略的 json 檔案
           git add -f google_scholar_crawler/results/*.json
-          # 檢查是否有檔案變動
+          # 檢查是否有檔案變動，沒有變動就不提交
           if ! git diff --staged --quiet; then
-            git commit -m "🔄 Update Google Scholar stats"
+            git commit -m "🔄 Update Google Scholar stats (via curl)"
             git push
           else
-            echo "No changes to commit."
+            echo "✅ No changes in Google Scholar stats. Nothing to commit."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
