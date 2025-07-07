@@ -1,81 +1,61 @@
 <style>
-    /* 對 iframe 的 body 進行基本重置和置中設定 */
-    body, html {
+    /* 基本重置，確保內容填滿整個 iframe */
+    html, body {
         margin: 0;
         padding: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        background-color: #FFF;
-        text-align: center; /* 關鍵：讓內部的區塊可以水平置中 */
-    }
-    
-    /* 置中標題 */
-    h2 {
-        font-size: 1.2em;
-        margin: 1em 0;
-        color: #555;
-        font-weight: bold;
-    }
-    
-    /* 地球儀的外層容器，設為 inline-block 來實現置中 */
-    #globe-wrapper {
-        display: inline-block;
-        width: 100%;
-        max-width: 500px;  /* 您可以調整地球的最大寬度 */
-        padding-top: 100%; /* 這會創建一個 1:1 的高寬比容器 */
-        position: relative;
-    }
-
-    /* 地球儀的渲染區域 */
-    #globeViz {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
+        overflow: hidden; /* 確保 iframe 內部絕對不會有卷軸 */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: #FFF;
+
+        /* 使用 Flexbox 進行垂直佈局 */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* 水平置中 */
     }
 
-    #loading-message {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #888;
+    /* 標題樣式 */
+    h2 {
+        font-size: 1.2em;
+        color: #555;
+        font-weight: bold;
+        padding: 10px 0; /* 給標題一點上下空間 */
+        margin: 0;
+        flex-shrink: 0; /* 防止標題被壓縮 */
+    }
+
+    /* 地球儀的渲染區域，讓它填滿剩餘的所有空間 */
+    #globeViz {
+        width: 100%;
+        height: 100%;
+        flex-grow: 1; /* 關鍵：自動長大以填滿空間 */
     }
 </style>
 
 <h2>🌍 Global Collaborations</h2>
-<div id="globe-wrapper">
-    <div id="globeViz"></div>
-    <div id="loading-message">Loading Globe...</div>
-</div>
+<div id="globeViz"></div>
 
 <script src="https://unpkg.com/globe.gl"></script>
 <script>
+    // JavaScript 程式碼維持不變
     window.addEventListener('load', function() {
         const globeContainer = document.getElementById('globeViz');
-        const loadingMessage = document.getElementById('loading-message');
+        const globe = Globe()(globeContainer)
+            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+            .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+            .backgroundColor('rgba(255,255,255,0)')
+            .showGraticules(true)
+            .pointsData([
+                { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' },
+                { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },
+                { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }
+            ])
+            .pointAltitude(0).pointColor('color').pointRadius('size');
 
-        if (globeContainer) {
-            loadingMessage.style.display = 'none';
-            const globe = Globe()
-                (globeContainer)
-                .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-                .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
-                .backgroundColor('rgba(255,255,255,0)')
-                .showGraticules(true)
-                .pointsData([
-                    { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' },
-                    { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },
-                    { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }
-                ])
-                .pointAltitude(0).pointColor('color').pointRadius('size');
-
-            // 將 altitude 的值調降，讓地球看起來更大
-            globe.pointOfView({ lat: 23.5, lng: 121, altitude: 1.7 });
-            
-            globe.controls().autoRotate = true;
-            globe.controls().autoRotateSpeed = 0.4;
-            globe.controls().enableZoom = false;
-        }
+        globe.pointOfView({ lat: 23.5, lng: 121, altitude: 1.7 });
+        globe.controls().autoRotate = true;
+        globe.controls().autoRotateSpeed = 0.4;
+        globe.controls().enableZoom = false;
     });
 </script>

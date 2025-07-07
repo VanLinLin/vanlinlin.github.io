@@ -301,5 +301,32 @@ ACM International Conference on Multimedia (ACMMM2024)
 - 🔎 Reviewer
   - International Journal of Pattern Recognition and Artificial Intelligence (IJPRAI)
 
-<iframe src="/widgets/" width="100%" height="650" style="border:none;"></iframe>
+<!-- <iframe src="/widgets/" width="100%" height="650" style="border:none;"></iframe> -->
 
+<style>
+  /* 這是用來包裹 iframe 的神奇容器 */
+  .globe-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;  /* 您可以在這裡控制地球的最大尺寸 */
+    margin: 30px auto; /* 水平置中，並和上方內容保留一些間距 */
+
+    /* 關鍵：利用 padding-top 創造一個完美的 1:1 正方形 */
+    /* 這會讓容器的高度永遠等於其寬度的 100% */
+    padding-top: 100%;
+  }
+
+  /* 讓 iframe 填滿整個容器 */
+  .globe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; /* 移除邊框 */
+  }
+</style>
+
+<div class="globe-container">
+  <iframe src="/widgets/"></iframe>
+</div>
