@@ -34,9 +34,11 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
+- *2025/07/07*: &nbsp;🎉🎉 I received 1st place in the ICCV 2025 Multi-Source Covid-19 Detection Challenge!
 - *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Ireland!
-- *2025/03/24*: &nbsp;🎉🎉 I achieved 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
-- *2025/03/24*: &nbsp;🎉🎉 I achieved 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
+- *2025/06/09*: &nbsp;🎉🎉 I received 1st place in the ICRA 2025 TreeScope Tree Diameter Estimation Challenge!
+- *2025/03/24*: &nbsp;🎉🎉 I received 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
+- *2025/03/24*: &nbsp;🎉🎉 I received 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
 - *2025/03/15*: &nbsp;🎉🎉 Two paper are accepted by IGARSS 2025, see you in Brisbane!
 - *2025/01/21*: &nbsp;🎉🎉 One paper is accepted by ICCT-Pacific 2025.
 - *2024/12/10*: &nbsp;🎉🎉 I received the 8th Foxconn Scholarship!
@@ -267,6 +269,8 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 # 🎖 Honors and Awards
+- *2025.07*: **Winner**, Multi-Source Covid-19 Detection Challenge, International Conference on Computer Vision (ICCV).
+- *2025.07*: **Winner**, TreeScope Tree Diameter Estimation Challenge, IEEE International Conference on Robotics and Automation (ICRA).
 - *2025.03*: **3rd place** (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2025.03*: **6rd place** (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2024.12*: 8th Foxconn Scholarship recipient.
