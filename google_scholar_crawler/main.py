@@ -20,7 +20,7 @@ try:
     author['updated'] = str(datetime.now())
     author['publications'] = {v['author_pub_id']:v for v in author['publications']}
     print("✅ Successfully fetched data for:", name)
-    # print(json.dumps(author, indent=2)) # 在 Action 中印出太多資訊可能會讓 Log 難以閱讀，建議移除或註解
+    print(json.dumps(author, indent=2)) # 在 Action 中印出太多資訊可能會讓 Log 難以閱讀，建議移除或註解
 
     # 確保 results 資料夾存在 (會在 google_scholar_crawler/ 下建立)
     os.makedirs(results_dir, exist_ok=True)
