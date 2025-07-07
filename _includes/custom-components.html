@@ -3,10 +3,12 @@
     body, html {
         margin: 0;
         padding: 0;
-        text-align: center; /* 讓內部 inline-block 的元素可以水平置中 */
-        background-color: #FFF;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: #FFF;
+        text-align: center; /* 關鍵：讓內部的區塊可以水平置中 */
     }
+    
+    /* 置中標題 */
     h2 {
         font-size: 1.2em;
         margin: 1em 0;
@@ -19,7 +21,7 @@
         display: inline-block;
         width: 100%;
         max-width: 500px;  /* 您可以調整地球的最大寬度 */
-        padding-top: 100%; /* 關鍵：這會創建一個 1:1 的高寬比容器 */
+        padding-top: 100%; /* 這會創建一個 1:1 的高寬比容器 */
         position: relative;
     }
 
@@ -68,7 +70,9 @@
                 ])
                 .pointAltitude(0).pointColor('color').pointRadius('size');
 
+            // 將 altitude 的值調降，讓地球看起來更大
             globe.pointOfView({ lat: 23.5, lng: 121, altitude: 1.7 });
+            
             globe.controls().autoRotate = true;
             globe.controls().autoRotateSpeed = 0.4;
             globe.controls().enableZoom = false;
