@@ -6,23 +6,27 @@ on:
       - main # 當 main 分支有更新時觸發
   workflow_dispatch: # 允許手動觸發
 
+# 設定並發控制，確保同時間只有一個部署在執行
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # 更新到 v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7' # Minimal Mistakes 主題建議的版本
+          ruby-version: '2.7'
           bundler-cache: true # 自動快取 Gems
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5 # 更新到 v5
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -30,7 +34,8 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        # 自動將建置好的網站內容打包，準備給下一步的部署使用
+        uses: actions/upload-pages-artifact@v3 # 更新到 v3
 
   deploy:
     needs: build
@@ -38,7 +43,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4 # 更新到 v4
