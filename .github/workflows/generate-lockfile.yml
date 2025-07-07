@@ -17,7 +17,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
-          bundler-cache: true # 這會自動執行 bundle install 並產生 lock 檔
+          # === 核心修正：暫時不使用快取，強制重新安裝 ===
+          # bundler-cache: true (我們將這行註解掉)
+
+      - name: Install dependencies & generate lockfile
+        run: bundle install # 執行這個指令會自動產生 Gemfile.lock
 
       - name: Commit and Push Gemfile.lock
         run: |
