@@ -1,61 +1,115 @@
 <style>
-    /* 基本重置，確保內容填滿整個 iframe */
+    /* 樣式碼維持不變 */
     html, body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden; /* 確保 iframe 內部絕對不會有卷軸 */
+        margin: 0; padding: 0; width: 100%; height: 100%;
+        overflow: hidden;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         background-color: #FFF;
-
-        /* 使用 Flexbox 進行垂直佈局 */
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* 水平置中 */
+        display: flex; flex-direction: column; align-items: center;
     }
-
-    /* 標題樣式 */
     h2 {
-        font-size: 1.2em;
-        color: #555;
-        font-weight: bold;
-        padding: 10px 0; /* 給標題一點上下空間 */
-        margin: 0;
-        flex-shrink: 0; /* 防止標題被壓縮 */
+        font-size: 1.2em; color: #555; font-weight: bold;
+        padding: 10px 0; margin: 0; flex-shrink: 0;
     }
-
-    /* 地球儀的渲染區域，讓它填滿剩餘的所有空間 */
     #globeViz {
-        width: 100%;
-        height: 100%;
-        flex-grow: 1; /* 關鍵：自動長大以填滿空間 */
+        width: 100%; height: 100%; flex-grow: 1; cursor: grab;
     }
 </style>
 
-
+<h2>🌍 Global Collaborations</h2>
 <div id="globeViz"></div>
 
 <script src="https://unpkg.com/globe.gl"></script>
 <script>
-    // JavaScript 程式碼維持不變
-    window.addEventListener('load', function() {
-        const globeContainer = document.getElementById('globeViz');
-        const globe = Globe()(globeContainer)
-            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-            .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
-            .backgroundColor('rgba(255,255,255,0)')
-            .showGraticules(true)
-            .pointsData([
-                { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' },
-                { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },
-                { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }
-            ])
-            .pointAltitude(0).pointColor('color').pointRadius('size');
+window.addEventListener('load', function() {
+    const globeContainer = document.getElementById('globeViz');
 
-        globe.pointOfView({ lat: 23.5, lng: 121, altitude: 2 });
-        globe.controls().autoRotate = true;
-        globe.controls().autoRotateSpeed = 0.4;
-        globe.controls().enableZoom = false;
-    });
+    // =================================================================
+    // 1. 設定您未來的後端 API 網址
+    // =================================================================
+    // 當您建立好後端後，請將這個網址換成您自己的
+    const BACKEND_API_URL = 'https://your-backend-api.vercel.app/api/locations'; // <--- 替換成您的 API
+
+    // =================================================================
+    // 2. 初始化地球儀
+    // =================================================================
+    const globe = Globe()(globeContainer)
+        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+        .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+        .backgroundColor('rgba(255,255,255,0)')
+        .showGraticules(true);
+
+    globe.pointOfView({ lat: 23.5, lng: 121, altitude: 2.0 });
+    globe.controls().autoRotate = true;
+    globe.controls().autoRotateSpeed = 0.4;
+    globe.controls().enableZoom = false;
+
+    // =================================================================
+    // 3. 定義點的樣式
+    // =================================================================
+    globe.pointAltitude(0.01) // 讓點稍微浮起來
+         .pointColor('color')
+         .pointRadius('radius');
+
+    // =================================================================
+    // 4. 取得訪客數據並繪製
+    // =================================================================
+    async function fetchAndDrawLocations() {
+        try {
+            // 從您的後端獲取所有過去的訪客座標
+            // fetch 會自動送出您當前的 IP，後端可以接收並處理
+            const response = await fetch(BACKEND_API_URL);
+            if (!response.ok) {
+                throw new Error(`API Error: ${response.statusText}`);
+            }
+            const data = await response.json();
+
+            // data 應該包含:
+            // {
+            //   "pastLocations": [ { "lat": ..., "lng": ... }, ... ],
+            //   "currentLocation": { "lat": ..., "lng": ... }
+            // }
+
+            // 處理過去的訪客 (靜態點)
+            const pastPoints = data.pastLocations.map(loc => ({
+                ...loc,
+                radius: 0.25,
+                color: 'rgba(255, 255, 255, 0.7)' // 靜態點：白色
+            }));
+
+            // 處理當下的訪客 (動態點)
+            const currentPoint = {
+                ...data.currentLocation,
+                radius: 0.4, // 動態點比較大
+                color: '#ffcc00' // 動態點：亮黃色
+            };
+
+            // 將所有點合併並更新到地球上
+            const allPoints = [...pastPoints, currentPoint];
+            globe.pointsData(allPoints);
+
+        } catch (error) {
+            console.error("無法獲取訪客位置:", error);
+            // 如果 API 失敗，顯示預設的點
+            globe.pointsData([
+                { lat: 22.9987, lng: 120.2195, radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'},
+                { lat: 24.1231, lng: 120.6740, radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'},
+                { lat: 55.9533, lng: -3.1883,  radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'}
+            ]);
+        }
+    }
+
+    fetchAndDrawLocations();
+
+    // 讓動態的點有 "呼吸" 的動畫效果
+    setInterval(() => {
+        const points = globe.pointsData();
+        const current = points[points.length - 1]; // 假設最後一個點是當前訪客
+        if (current) {
+            current.radius = 0.4 + Math.sin(Date.now() / 300) * 0.15;
+            globe.pointsData(points);
+        }
+    }, 60);
+
+});
 </script>
