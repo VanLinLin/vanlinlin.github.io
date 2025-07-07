@@ -270,7 +270,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 # 🎖 Honors and Awards
 - *2025.07*: **Winner**, Multi-Source Covid-19 Detection Challenge, International Conference on Computer Vision (ICCV).
-- *2025.07*: **Winner**, TreeScope Tree Diameter Estimation Challenge, IEEE International Conference on Robotics and Automation (ICRA).
+- *2025.06*: **Winner**, TreeScope Tree Diameter Estimation Challenge, IEEE International Conference on Robotics and Automation (ICRA).
 - *2025.03*: **3rd place** (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2025.03*: **6rd place** (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2024.12*: 8th Foxconn Scholarship recipient.
