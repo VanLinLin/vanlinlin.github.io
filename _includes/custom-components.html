@@ -97,11 +97,11 @@ window.addEventListener('load', function() {
             console.error("無法獲取訪客位置:", error);
             // API 失敗時的預設資料
             globe.pointsData([
-                { lat: 22.9987, lng: 120.2195, radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'},
-                { lat: 24.1231, lng: 120.6740, radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'}
+                { lat: 24.1231, lng: 120.6740, radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'},
+                { lat: 55.9533, lng: -3.1883, radius: 0.25, color: 'rgba(255, 255, 255, 0.7)'}
             ]);
             // 預設一個當前位置用於展示動畫
-            currentLocation = { lat: 55.9533, lng: -3.1883 };
+            currentLocation = { lat: 22.9987, lng: 120.2195 };
             globe.pointsData([...globe.pointsData(), {...currentLocation, radius: 0.3, color: '#ffcc00'}]);
         }
     }
