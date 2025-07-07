@@ -23,21 +23,25 @@ jobs:
           # 1. 建立目標資料夾
           mkdir -p google_scholar_crawler/results
           
-          # 2. 直接使用 curl 抓取原始的學者資料，並存成 gs_data.json
+          # 2. 直接使用 curl 抓取原始的學者資料
           curl --location --silent "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&api_key=${SERPAPI_API_KEY}" > google_scholar_crawler/results/gs_data.json
 
+          echo "🔍 Dumping received JSON content for verification:"
+          cat google_scholar_crawler/results/gs_data.json | head -n 20 # 印出前20行以供檢查
+          
           # 3. 檢查抓取的資料是否有誤
           if grep -q "error_message" google_scholar_crawler/results/gs_data.json; then
-            echo "❌ SERPAPI returned an error:"
-            cat google_scholar_crawler/results/gs_data.json
+            echo "❌ SERPAPI returned an error."
             exit 1
           fi
           echo "✅ Successfully fetched raw author data."
 
-          # 4. 使用 jq 從 gs_data.json 中提取被引用次數 (citations)
-          CITATIONS=$(jq '.author.cited_by' google_scholar_crawler/results/gs_data.json)
+          # 4. === 核心修正 ===
+          # 從 gs_data.json 中提取被引用次數，使用正確的深層路徑
+          CITATIONS=$(jq '.author.cited_by.table[0].citations.all' google_scholar_crawler/results/gs_data.json)
+          
           if [ -z "$CITATIONS" ] || [ "$CITATIONS" == "null" ]; then
-            echo "❌ Could not find citation count in the response."
+            echo "❌ Could not find citation count using the new path. Please check the JSON dump above."
             exit 1
           fi
           echo "📊 Citation count: $CITATIONS"
