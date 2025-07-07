@@ -301,5 +301,5 @@ ACM International Conference on Multimedia (ACMMM2024)
 - 🔎 Reviewer
   - International Journal of Pattern Recognition and Artificial Intelligence (IJPRAI)
 
-{% include custom-components.html %}
+<iframe src="/widgets/" width="100%" height="650" style="border:none;"></iframe>
 

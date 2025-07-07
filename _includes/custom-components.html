@@ -1,14 +1,43 @@
 <style>
-    /* 這些是地圖和地球儀的專屬樣式 */
-    #globe-wrapper { display: flex; justify-content: center; align-items: center; height: 350px; max-width: 600px; margin: 1.5em auto; position: relative; background-color: #f8f8f8; border-radius: 10px; }
-    #globeViz { width: 100%; height: 100%; }
-    #revolvermaps-container { min-height: 160px; text-align: center; margin: 1.5em 0; }
+    body, html { margin: 0; padding: 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #FFF; }
+    h2 { font-size: 1.2em; margin: 1em 0; color: #555; font-weight: bold; }
+    #globe-wrapper { display: flex; justify-content: center; align-items: center; height: 350px; max-width: 600px; margin: 0 auto; position: relative; }
+    #globeViz, #revolvermaps-container { width: 100%; }
+    #revolvermaps-container { min-height: 150px; }
+    #loading-message { position: absolute; color: #888; }
 </style>
 
-<h2><span class="anchor" id="visitor-map"></span>🗺️ Visitor Map</h2>
-<div id="revolvermaps-container"></div>
-
-<h2><span class="anchor" id="global-collaborations"></span>🌍 Global Collaborations</h2>
+<h2>🌍 Global Collaborations</h2>
 <div id="globe-wrapper">
-  <div id="globeViz"></div>
+    <div id="loading-message">Loading Globe...</div>
+    <div id="globeViz"></div>
 </div>
+
+<script src="https://unpkg.com/globe.gl"></script>
+<script>
+    window.addEventListener('load', function() {
+        const globeContainer = document.getElementById('globeViz');
+        const loadingMessage = document.getElementById('loading-message');
+
+        if (globeContainer) {
+            loadingMessage.style.display = 'none';
+            const globe = Globe()
+                (globeContainer)
+                .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+                .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+                .backgroundColor('rgba(255,255,255,0)')
+                .showGraticules(true)
+                .pointsData([
+                    { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' },
+                    { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },
+                    { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }
+                ])
+                .pointAltitude(0).pointColor('color').pointRadius('size');
+
+            globe.pointOfView({ lat: 23.5, lng: 121, altitude: 2 });
+            globe.controls().autoRotate = true;
+            globe.controls().autoRotateSpeed = 0.4;
+            globe.controls().enableZoom = false;
+        }
+    });
+</script>
