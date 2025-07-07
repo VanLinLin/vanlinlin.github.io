@@ -269,8 +269,8 @@
   }
 }
 
-.google-scholar-badge img {
-  width: 60px; // 直接設定寬度，而不是最大寬度
-  height: auto; // 高度自動縮放以保持比例
-  vertical-align: middle; // 保持垂直置中
+.author__urls .google-scholar-badge img {
+  width: 130px !important;       // 強制設定寬度為 130px
+  height: auto !important;        // 高度自動，保持比例
+  vertical-align: middle;         // 保持垂直置中
 }
