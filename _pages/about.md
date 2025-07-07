@@ -303,44 +303,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 {% raw %}{% include custom-components.html %}{% endraw %}
-<!-- # 🗺️ Visitor Map
 
-{::nomarkdown}
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
-{:/nomarkdown}
-
-# 🌍 Global Collaborations
-
-{::nomarkdown}
-<div id="globe-wrapper" style="display: flex; justify-content: center; align-items: center; overflow: hidden; height: 300px; max-width: 600px; margin: 0 auto; border-radius: 10px; position: relative;">
-  <div id="globeViz" style="width: 100%; height: 100%;"></div>
-</div>
-
-<script src="https://unpkg.com/globe.gl"></script>
-<script>
-  // 確保在頁面完全載入後再執行腳本
-  window.addEventListener('load', () => {
-    const globeContainer = document.getElementById('globeViz');
-    if (globeContainer) {
-      const globe = Globe()
-        (globeContainer)
-        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
-        .backgroundColor('rgba(255,255,255,0)') // 背景設為透明，以融入您的網站主題
-        .pointsData([
-          { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' }, // NCKU
-          { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },  // NCHU
-          { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }      // example
-        ])
-        .pointAltitude(0)
-        .pointColor('color')
-        .pointRadius('size');
-
-      globe.controls().autoRotate = true;
-      globe.controls().autoRotateSpeed = 0.5;
-    }
-  });
-</script>
-{:/nomarkdown} -->
 
 
 
