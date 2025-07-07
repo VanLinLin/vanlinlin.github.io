@@ -270,6 +270,7 @@
 }
 
 .google-scholar-badge img {
-  max-width: 200px; // 您可以依喜好調整這個數字，例如 110px 或 130px
-  vertical-align: middle; // 讓徽章和前面的圖示能更好地垂直對齊
+  width: 130px; // 直接設定寬度，而不是最大寬度
+  height: auto; // 高度自動縮放以保持比例
+  vertical-align: middle; // 保持垂直置中
 }
