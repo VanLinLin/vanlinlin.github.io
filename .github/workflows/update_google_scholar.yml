@@ -23,11 +23,12 @@ jobs:
           # 1. 建立目標資料夾
           mkdir -p google_scholar_crawler/results
           
-          # 2. 直接使用 curl 抓取原始的學者資料
-          curl --location --silent "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&api_key=${SERPAPI_API_KEY}" > google_scholar_crawler/results/gs_data.json
+          # 2. === 核心修正 ===
+          # 在 curl 網址中加入 &view_op=list_works&sortby=pubdate 來確保能抓到引用次數表格
+          curl --location --silent "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&view_op=list_works&sortby=pubdate&api_key=${SERPAPI_API_KEY}" > google_scholar_crawler/results/gs_data.json
 
           echo "🔍 Dumping received JSON content for verification:"
-          cat google_scholar_crawler/results/gs_data.json | head -n 20 # 印出前20行以供檢查
+          cat google_scholar_crawler/results/gs_data.json | head -n 30
           
           # 3. 檢查抓取的資料是否有誤
           if grep -q "error_message" google_scholar_crawler/results/gs_data.json; then
@@ -37,11 +38,11 @@ jobs:
           echo "✅ Successfully fetched raw author data."
 
           # 4. === 核心修正 ===
-          # 從 gs_data.json 中提取被引用次數，使用正確的深層路徑
-          CITATIONS=$(jq '.author.cited_by.table[0].citations.all' google_scholar_crawler/results/gs_data.json)
+          # 從 gs_data.json 中提取被引用次數，使用最外層的 "cited_by" 物件
+          CITATIONS=$(jq '.cited_by.table[0].citations.all' google_scholar_crawler/results/gs_data.json)
           
           if [ -z "$CITATIONS" ] || [ "$CITATIONS" == "null" ]; then
-            echo "❌ Could not find citation count using the new path. Please check the JSON dump above."
+            echo "❌ Could not find citation count. Please check the JSON dump above."
             exit 1
           fi
           echo "📊 Citation count: $CITATIONS"
@@ -53,20 +54,14 @@ jobs:
       - name: Check output
         run: |
           ls -al google_scholar_crawler/results
-          echo "--- gs_data.json content ---"
-          cat google_scholar_crawler/results/gs_data.json | head -n 10
-          echo "--- gs_data_shieldsio.json content ---"
-          cat google_scholar_crawler/results/gs_data_shieldsio.json
 
       - name: Commit and push updated JSON
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
-          # 使用 -f 強制加入被 .gitignore 忽略的 json 檔案
           git add -f google_scholar_crawler/results/*.json
-          # 檢查是否有檔案變動，沒有變動就不提交
           if ! git diff --staged --quiet; then
-            git commit -m "🔄 Update Google Scholar stats (via curl)"
+            git commit -m "🔄 Update Google Scholar stats"
             git push
           else
             echo "✅ No changes in Google Scholar stats. Nothing to commit."
