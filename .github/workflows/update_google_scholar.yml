@@ -35,7 +35,7 @@ jobs:
           echo "✅ Successfully fetched raw author data."
 
           # 4. 使用 jq 從 gs_data.json 中提取被引用次數 (citations)
-          CITATIONS=$(jq '.author.citedby' google_scholar_crawler/results/gs_data.json)
+          CITATIONS=$(jq '.author.cite_dby' google_scholar_crawler/results/gs_data.json)
           if [ -z "$CITATIONS" ] || [ "$CITATIONS" == "null" ]; then
             echo "❌ Could not find citation count in the response."
             exit 1
