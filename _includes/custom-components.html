@@ -1,10 +1,43 @@
 <style>
-    body, html { margin: 0; padding: 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #FFF; }
-    h2 { font-size: 1.2em; margin: 1em 0; color: #555; font-weight: bold; }
-    #globe-wrapper { display: flex; justify-content: center; align-items: center; height: 350px; max-width: 600px; margin: 0 auto; position: relative; }
-    #globeViz, #revolvermaps-container { width: 100%; }
-    #revolvermaps-container { min-height: 150px; }
-    #loading-message { position: absolute; color: #888; }
+    body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #FFF; /* 確保背景為白色 */
+    }
+    h2 {
+        font-size: 1.2em;
+        margin: 1em 0;
+        color: #555;
+        font-weight: bold;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    /* 地球儀的外層容器 */
+    #globe-wrapper {
+        width: 100%;
+        max-width: 500px;  /* 您可以調整地球的最大寬度 */
+        margin: 0 auto;    /* 水平置中 */
+        padding-top: 100%; /* 關鍵：這會創建一個 1:1 的高寬比容器，使其高度等於寬度 */
+        position: relative; /* 為了讓內層的 globeViz 可以絕對定位 */
+    }
+
+    /* 地球儀的渲染區域 */
+    #globeViz {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #loading-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* 精確置中 */
+        color: #888;
+    }
 </style>
 
 <h2>🌍 Global Collaborations</h2>
