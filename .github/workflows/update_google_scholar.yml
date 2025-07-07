@@ -24,6 +24,24 @@ jobs:
           pip install -r google_scholar_crawler/requirements.txt
           pip install scholarly
 
+# ==================== 請加入這個新步驟 ====================
+      - name: Test SERPAPI API Key
+        run: |
+          echo "🧪 Testing SERPAPI API Key..."
+          curl "https://serpapi.com/search.json?engine=google&q=coffee&api_key=${{ secrets.SERPAPI_API_KEY }}" > serpapi_test_output.json
+          
+          # 檢查回傳的 JSON 中是否包含 "error" 這個詞
+          if grep -q "error" serpapi_test_output.json; then
+            echo "❌ SERPAPI API Key 測試失敗！請檢查您的金鑰或帳戶狀態。"
+            cat serpapi_test_output.json
+            exit 1
+          else
+            echo "✅ SERPAPI API Key 測試成功！"
+            # 為了安全，只顯示部分無關緊要的回傳內容
+            cat serpapi_test_output.json | head -n 10
+          fi
+
+
       - name: Run main.py to fetch Google Scholar stats
         # 增加超時設定，10分鐘沒跑完就自動判定失敗，避免無限空等
         timeout-minutes: 10
