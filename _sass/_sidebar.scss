@@ -268,3 +268,8 @@
     display: none;
   }
 }
+
+.google-scholar-badge img {
+  max-width: 50px; // 您可以依喜好調整這個數字，例如 110px 或 130px
+  vertical-align: middle; // 讓徽章和前面的圖示能更好地垂直對齊
+}
