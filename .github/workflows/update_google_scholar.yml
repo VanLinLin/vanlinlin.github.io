@@ -3,15 +3,14 @@ name: Update Google Scholar Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 22 * * *' # 改為 UTC 22:00 (台灣時間早上6點) 執行
 
 jobs:
   update-scholar:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Fetch and Process Google Scholar Stats
         env:
@@ -19,46 +18,30 @@ jobs:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
           echo "🚀 Fetching Google Scholar data using curl..."
-          
-          # 1. 建立目標資料夾
           mkdir -p google_scholar_crawler/results
-          
-          # 2. === 核心修正 ===
-          # 在 curl 網址中加入 &view_op=list_works&sortby=pubdate 來確保能抓到引用次數表格
           curl --location --silent "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&view_op=list_works&sortby=pubdate&api_key=${SERPAPI_API_KEY}" > google_scholar_crawler/results/gs_data.json
-
-          echo "🔍 Dumping received JSON content for verification:"
-          cat google_scholar_crawler/results/gs_data.json | head -n 30
           
-          # 3. 檢查抓取的資料是否有誤
           if grep -q "error_message" google_scholar_crawler/results/gs_data.json; then
             echo "❌ SERPAPI returned an error."
+            cat google_scholar_crawler/results/gs_data.json
             exit 1
           fi
           echo "✅ Successfully fetched raw author data."
 
-          # 4. === 核心修正 ===
-          # 從 gs_data.json 中提取被引用次數，使用最外層的 "cited_by" 物件
           CITATIONS=$(jq '.cited_by.table[0].citations.all' google_scholar_crawler/results/gs_data.json)
-          
           if [ -z "$CITATIONS" ] || [ "$CITATIONS" == "null" ]; then
-            echo "❌ Could not find citation count. Please check the JSON dump above."
+            echo "❌ Could not find citation count."
             exit 1
           fi
           echo "📊 Citation count: $CITATIONS"
-
-          # 5. 使用 jq 建立給 shields.io 使用的 JSON 檔案
+          
           jq -n --arg citations "$CITATIONS" '{schemaVersion: 1, label: "citations", message: $citations}' > google_scholar_crawler/results/gs_data_shieldsio.json
           echo "✅ Successfully created shields.io JSON file."
-
-      - name: Check output
-        run: |
-          ls -al google_scholar_crawler/results
 
       - name: Commit and push updated JSON
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f google_scholar_crawler/results/*.json
           if ! git diff --staged --quiet; then
             git commit -m "🔄 Update Google Scholar stats"
@@ -66,5 +49,3 @@ jobs:
           else
             echo "✅ No changes in Google Scholar stats. Nothing to commit."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
