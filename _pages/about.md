@@ -302,7 +302,7 @@ ACM International Conference on Multimedia (ACMMM2024)
   - International Journal of Pattern Recognition and Artificial Intelligence (IJPRAI)
 
 <!-- <iframe src="/widgets/" width="100%" height="650" style="border:none;"></iframe> -->
-
+# 🌍 Global Collaborations
 <style>
   /* 這是用來包裹 iframe 的神奇容器 */
   .globe-container {
