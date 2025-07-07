@@ -1,0 +1,351 @@
+{
+  "search_metadata": {
+    "id": "686b2a977d6e701aca26df2d",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/686b2a977d6e701aca26df2d.json",
+    "created_at": "2025-07-07 02:01:59 UTC",
+    "processed_at": "2025-07-07 02:01:59 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/686b2a977d6e701aca26df2d.html",
+    "total_time_taken": 0.61
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "ook-p6wAAAAJ",
+    "hl": "en",
+    "view_op": "list_works"
+  },
+  "author": {
+    "name": "Yu-Fan Lin",
+    "affiliations": "Institute of Data Science, National Cheng Kung University, Taiwan",
+    "email": "Verified email at gs.ncku.edu.tw",
+    "website": "https://vanlinlin.github.io/",
+    "interests": [
+      {
+        "title": "computer vision",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computer_vision",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputer_vision"
+      },
+      {
+        "title": "deep learning",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:deep_learning",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Adeep_learning"
+      },
+      {
+        "title": "multimodal learning",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:multimodal_learning",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amultimodal_learning"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ook-p6wAAAAJ&citpid=1"
+  },
+  "articles": [
+    {
+      "title": "NTIRE 2025 image shadow removal challenge report",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:LkGwnXOMwfcC",
+      "citation_id": "ook-p6wAAAAJ:LkGwnXOMwfcC",
+      "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
+      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
+      "cited_by": {
+        "value": 83,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
+        "cites_id": "14189750575234650542"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "NTIRE 2025 challenge on single image reflection removal in the wild: Datasets, methods and results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "ook-p6wAAAAJ:eQOLeE2rZwMC",
+      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
+      "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
+        "cites_id": "1148325222184111124"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "3rd Workshop on Maritime Computer Vision (MaCVi) 2025: Challenge Results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "ook-p6wAAAAJ:IjCSPb-OGe4C",
+      "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
+      "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250&engine=google_scholar&hl=en",
+        "cites_id": "3658394587071482250"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
+      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
+        "cites_id": "4649120131747553119"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
+      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
+        "cites_id": "18307115968291267381"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
+      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
+      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
+        "cites_id": "2163386554197043219"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
+      "authors": "YF Lin, BC Qiu, CM Lee, CC Hsu",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
+        "cites_id": "6911928956960792046"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "authors": "YF Lin, CM Lee, CC Hsu",
+      "publication": "ACMMM, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "SSCP: Factorized Spatial-Spectral Correlation with Prompt-guided Band Selection for Efficient Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "ook-p6wAAAAJ:_FxGoFyzp5QC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "S³RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "ook-p6wAAAAJ:W7OEmFMy1HYC",
+      "authors": "CC Hsu, CM Lee, YF Lin, LW Kang",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "ook-p6wAAAAJ:Y0pCki6q_DkC",
+      "authors": "CM Lee, CJ Kang, CH Cheng, YF Lin, YS Chou, CC Hsu, FE Yang, ...",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "A Multi-Stage Deep Learning Pipeline for Crack Detection and Segmentation in High-Speed Rail Brake Discs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "ook-p6wAAAAJ:zYLM7Y9cAGgC",
+      "authors": "CH Cheng, YF Lin, CM Lee, CC Hsu, YL Shih, C Ting",
+      "publication": "IEEE International Conference on Consumer Technology (ICCT-Pacific), 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "publication": "arXiv preprint arXiv:2501.07953, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "NTIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
+      "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
+      "authors": "S Han, H Fan, F Kong, W Liao, C Guo, C Li, R Timofte, L Li, T Li, J Cui, ...",
+      "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1104-1125, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "RobustDGA: Generalized Hyperspectral Image Fusion via High Frequency Information Sharing and Compensation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "ook-p6wAAAAJ:d1gkVwhDpl0C",
+      "authors": "CM Lee, CJ Kang, CH Cheng, YF Lin, YS Chou, CC Hsu, FE Yang, ...",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2409.00395, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
+      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
+      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
+      "cited_by": {
+        "value": null
+      },
+      "year": ""
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 122,
+          "since_2020": 122
+        }
+      },
+      {
+        "h_index": {
+          "all": 3,
+          "since_2020": 3
+        }
+      },
+      {
+        "i10_index": {
+          "all": 2,
+          "since_2020": 2
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2023,
+        "citations": 17
+      },
+      {
+        "year": 2024,
+        "citations": 38
+      },
+      {
+        "year": 2025,
+        "citations": 66
+      }
+    ]
+  },
+  "public_access": {
+    "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=ook-p6wAAAAJ",
+    "available": 1,
+    "not_available": 0
+  },
+  "co_authors": [
+    {
+      "name": "Chia-Ming Lee",
+      "link": "https://scholar.google.com/citations?user=koBVaaUAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=koBVaaUAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "koBVaaUAAAAJ",
+      "affiliations": "National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=9"
+    },
+    {
+      "name": "Chih-Chung Hsu",
+      "link": "https://scholar.google.com/citations?user=mIWRYc4AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=mIWRYc4AAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "mIWRYc4AAAAJ",
+      "affiliations": "Associate Professor of Institute of Intelligent Systems, College of AI, NYCU",
+      "email": "Verified email at nycu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mIWRYc4AAAAJ&citpid=7"
+    },
+    {
+      "name": "Ching-Heng Cheng",
+      "link": "https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=2UmoEfcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "2UmoEfcAAAAJ",
+      "affiliations": "National Cheng Kung University, M.S. student",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Fu-En Yang",
+      "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "k6Iz9VoAAAAJ",
+      "affiliations": "Research Scientist, NVIDIA Research",
+      "email": "Verified email at nvidia.com",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
+    },
+    {
+      "name": "Yi-Ching Cheng",
+      "link": "https://scholar.google.com/citations?user=HFImtzUAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=HFImtzUAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "HFImtzUAAAAJ",
+      "affiliations": "Institute of Data Science, National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HFImtzUAAAAJ&citpid=7"
+    },
+    {
+      "name": "Yi-Shiuan Chou",
+      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "iGX8FBcAAAAJ",
+      "affiliations": "Institute of Data Science, National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
+    },
+    {
+      "name": "Yu-Chiang Frank Wang",
+      "link": "https://scholar.google.com/citations?user=HSGvdtoAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=HSGvdtoAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "HSGvdtoAAAAJ",
+      "affiliations": "National Taiwan University & NVIDIA",
+      "email": "Verified email at ntu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HSGvdtoAAAAJ&citpid=7"
+    }
+  ]
+}
