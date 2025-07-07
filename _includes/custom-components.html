@@ -1,48 +1,58 @@
-<h2 id="visitor-map">🗺️ Visitor Map</h2>
-<div id="revolvermaps-container" style="text-align: center;"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html { margin: 0; padding: 0; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #FFF; }
+        h2 { font-size: 1.2em; margin: 1em 0; color: #555; font-weight: bold; }
+        #globe-wrapper { display: flex; justify-content: center; align-items: center; height: 350px; max-width: 600px; margin: 0 auto; position: relative; }
+        #globeViz, #revolvermaps-container { width: 100%; }
+        #revolvermaps-container { min-height: 150px; }
+        #loading-message { position: absolute; color: #888; }
+    </style>
+</head>
+<body>
 
-<h2 id="global-collaborations">🌍 Global Collaborations</h2>
-<div id="globe-wrapper" style="display: flex; justify-content: center; align-items: center; overflow: hidden; height: 300px; max-width: 600px; margin: 20px auto; border-radius: 10px; position: relative; background: #000;">
-  <div id="globeViz" style="width: 100%; height: 100%;"></div>
-</div>
+    <h2>🗺️ Visitor Map</h2>
+    <div id="revolvermaps-container">
+        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+    </div>
 
-<script>
-// 等待整個頁面（包含所有圖片和樣式）都載入完成
-document.addEventListener("DOMContentLoaded", function() {
+    <h2>🌍 Global Collaborations</h2>
+    <div id="globe-wrapper">
+        <div id="loading-message">Loading Globe...</div>
+        <div id="globeViz"></div>
+    </div>
 
-  // 動態建立並插入 RevolverMaps 的 script
-  var revolverScript = document.createElement('script');
-  revolverScript.type = 'text/javascript';
-  revolverScript.async = true;
-  revolverScript.src = '//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80';
-  document.getElementById('revolvermaps-container').appendChild(revolverScript);
+    <script src="https://unpkg.com/globe.gl"></script>
+    <script>
+        window.addEventListener('load', function() {
+            const globeContainer = document.getElementById('globeViz');
+            const loadingMessage = document.getElementById('loading-message');
 
-  // 動態建立 globe.gl 的 script
-  var globeScript = document.createElement('script');
-  globeScript.src = 'https://unpkg.com/globe.gl';
-  document.head.appendChild(globeScript);
+            if (globeContainer) {
+                loadingMessage.style.display = 'none';
+                const globe = Globe()
+                    (globeContainer)
+                    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+                    .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+                    .backgroundColor('rgba(255,255,255,0)')
+                    .showGraticules(true)
+                    .pointsData([
+                        { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' },
+                        { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },
+                        { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }
+                    ])
+                    .pointAltitude(0).pointColor('color').pointRadius('size');
 
-  // 當 globe.gl 的 script 載入完成後，才執行初始化
-  globeScript.onload = function() {
-    const globeContainer = document.getElementById('globeViz');
-    if (globeContainer) {
-      const globe = Globe()
-        (globeContainer)
-        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
-        .backgroundColor('rgba(0,0,0,0)')
-        .pointsData([
-            { lat: 22.9987, lng: 120.2195, size: 0.5, color: 'yellow' }, // NCKU
-            { lat: 24.1231, lng: 120.6740, size: 0.5, color: 'green' },  // NCHU
-            { lat: 55.9533, lng: -3.1883,  size: 0.5, color: 'red' }      // example
-        ])
-        .pointAltitude(0)
-        .pointColor('color')
-        .pointRadius('size');
+                globe.pointOfView({ lat: 23.5, lng: 121, altitude: 2 });
+                globe.controls().autoRotate = true;
+                globe.controls().autoRotateSpeed = 0.4;
+                globe.controls().enableZoom = false;
+            }
+        });
+    </script>
 
-      globe.controls().autoRotate = true;
-      globe.controls().autoRotateSpeed = 0.5;
-      globe.controls().enableZoom = false; // 禁用滾輪縮放
-    }
-  };
-});
-</script>
+</body>
+</html>
