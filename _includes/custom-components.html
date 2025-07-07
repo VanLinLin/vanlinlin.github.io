@@ -1,25 +1,26 @@
 <style>
+    /* 對 iframe 的 body 進行基本重置和置中設定 */
     body, html {
         margin: 0;
         padding: 0;
-        background-color: #FFF; /* 確保背景為白色 */
+        text-align: center; /* 讓內部 inline-block 的元素可以水平置中 */
+        background-color: #FFF;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
     h2 {
         font-size: 1.2em;
         margin: 1em 0;
         color: #555;
         font-weight: bold;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
     
-    /* 地球儀的外層容器 */
+    /* 地球儀的外層容器，設為 inline-block 來實現置中 */
     #globe-wrapper {
+        display: inline-block;
         width: 100%;
         max-width: 500px;  /* 您可以調整地球的最大寬度 */
-        margin: 0 auto;    /* 水平置中 */
-        padding-top: 100%; /* 關鍵：這會創建一個 1:1 的高寬比容器，使其高度等於寬度 */
-        position: relative; /* 為了讓內層的 globeViz 可以絕對定位 */
+        padding-top: 100%; /* 關鍵：這會創建一個 1:1 的高寬比容器 */
+        position: relative;
     }
 
     /* 地球儀的渲染區域 */
@@ -35,15 +36,15 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%); /* 精確置中 */
+        transform: translate(-50%, -50%);
         color: #888;
     }
 </style>
 
 <h2>🌍 Global Collaborations</h2>
 <div id="globe-wrapper">
-    <div id="loading-message">Loading Globe...</div>
     <div id="globeViz"></div>
+    <div id="loading-message">Loading Globe...</div>
 </div>
 
 <script src="https://unpkg.com/globe.gl"></script>
