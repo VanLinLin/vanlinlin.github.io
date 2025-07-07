@@ -25,20 +25,25 @@ jobs:
           pip install scholarly
 
 # ==================== 請加入這個新步驟 ====================
-      - name: Test SERPAPI API Key
+      - name: Test Google Scholar Author Endpoint via SERPAPI
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
-          echo "🧪 Testing SERPAPI API Key..."
-          curl "https://serpapi.com/search.json?engine=google&q=coffee&api_key=${{ secrets.SERPAPI_API_KEY }}" > serpapi_test_output.json
+          echo "🧪 直接測試 SERPAPI 的 Google Scholar 作者搜尋功能..."
+          # 這個 curl 指令會直接模擬 scholarly 套件的行為
+          curl --location "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${GOOGLE_SCHOLAR_ID}&api_key=${SERPAPI_API_KEY}" > serpapi_scholar_test.json
           
-          # 檢查回傳的 JSON 中是否包含 "error" 這個詞
-          if grep -q "error" serpapi_test_output.json; then
-            echo "❌ SERPAPI API Key 測試失敗！請檢查您的金鑰或帳戶狀態。"
-            cat serpapi_test_output.json
+          echo "🔍 檢查回傳的結果中是否有錯誤..."
+          # 檢查回傳的 JSON 檔案中是否包含 "error" 這個字
+          if grep -q "error" serpapi_scholar_test.json; then
+            echo "❌ SERPAPI 的 Scholar 作者搜尋功能測試失敗！"
+            cat serpapi_scholar_test.json
             exit 1
           else
-            echo "✅ SERPAPI API Key 測試成功！"
-            # 為了安全，只顯示部分無關緊要的回傳內容
-            cat serpapi_test_output.json | head -n 10
+            echo "✅ SERPAPI 的 Scholar 作者搜尋功能測試成功！"
+            # 為了安全，只顯示部分成功回傳的內容
+            cat serpapi_scholar_test.json | head -n 20
           fi
 
 
