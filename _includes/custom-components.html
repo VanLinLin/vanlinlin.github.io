@@ -1,14 +1,32 @@
 <h1 id="visitor-map"><span class="anchor" id="visitor-map"></span>🗺️ Visitor Map</h1>
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+<div id="revolvermaps-container"></div>
 
 <h1 id="global-collaborations"><span class="anchor" id="global-collaborations"></span>🌍 Global Collaborations</h1>
 <div id="globe-wrapper" style="display: flex; justify-content: center; align-items: center; overflow: hidden; height: 300px; max-width: 600px; margin: 0 auto; border-radius: 10px; position: relative;">
   <div id="globeViz" style="width: 100%; height: 100%;"></div>
 </div>
 
-<script src="https://unpkg.com/globe.gl"></script>
 <script>
-  window.addEventListener('load', () => {
+function loadScript(src, callback) {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = src;
+  script.async = true;
+  if (callback) {
+    script.onload = callback;
+  }
+  document.body.appendChild(script);
+}
+
+// 在頁面完全載入後，才開始執行我們的地圖和地球儀腳本
+window.addEventListener('load', function() {
+
+  // 載入 RevolverMaps
+  loadScript('//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80');
+
+  // 載入 Globe.gl
+  loadScript('https://unpkg.com/globe.gl', function() {
+    // 這個函數會在 globe.gl 載入完成後才執行
     const globeContainer = document.getElementById('globeViz');
     if (globeContainer) {
       const globe = Globe()
@@ -28,4 +46,6 @@
       globe.controls().autoRotateSpeed = 0.5;
     }
   });
+
+});
 </script>
