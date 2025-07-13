@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6872de58e3e176194b9e3584",
+    "id": "68742fe87d6e70f0a05ee948",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6872de58e3e176194b9e3584.json",
-    "created_at": "2025-07-12 22:14:48 UTC",
-    "processed_at": "2025-07-12 22:14:48 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68742fe87d6e70f0a05ee948.json",
+    "created_at": "2025-07-13 22:15:04 UTC",
+    "processed_at": "2025-07-13 22:15:04 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6872de58e3e176194b9e3584.html",
-    "total_time_taken": 0.9
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68742fe87d6e70f0a05ee948.html",
+    "total_time_taken": 0.96
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 83,
+        "value": 82,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -61,7 +61,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 24,
+        "value": 28,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -75,10 +75,10 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 8,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250",
-        "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250&engine=google_scholar&hl=en",
-        "cites_id": "3658394587071482250"
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
+        "cites_id": "3658394587071482250,14065050833808040817"
       },
       "year": "2025"
     },
@@ -89,7 +89,7 @@
       "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
       "publication": "arXiv preprint arXiv:2411.15922, 2024",
       "cited_by": {
-        "value": 3,
+        "value": 4,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119"
@@ -133,6 +133,20 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
         "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
         "cites_id": "6911928956960792046"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2409.00395, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
+        "cites_id": "17786288074730119246"
       },
       "year": "2024"
     },
@@ -221,17 +235,6 @@
       "year": "2024"
     },
     {
-      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2409.00395, 2024",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2024"
-    },
-    {
       "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
       "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
@@ -246,14 +249,14 @@
     "table": [
       {
         "citations": {
-          "all": 122,
-          "since_2020": 122
+          "all": 128,
+          "since_2020": 128
         }
       },
       {
         "h_index": {
-          "all": 3,
-          "since_2020": 3
+          "all": 4,
+          "since_2020": 4
         }
       },
       {
@@ -270,7 +273,7 @@
       },
       {
         "year": 2024,
-        "citations": 38
+        "citations": 43
       },
       {
         "year": 2025,
