@@ -34,8 +34,9 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
-- *2025/07/07*: &nbsp;🎉🎉 I received 1st place in the ICCV 2025 Multi-Source Covid-19 Detection Challenge!
-- *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Ireland!
+- *2025/07/15*: &nbsp;🎉🎉 I receive the 1st performance in ACMMM 2025, SoccerTrack Challenge@MMSports. See you in Dublin, Ireland!
+- *2025/07/06*: &nbsp;🎉🎉 I receive the 1st performance in ICCV 2025, Multi-source COV19 Detection Challenge. See you in Honolulu, Hawai!
+- *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Dublin, Ireland!
 - *2025/06/09*: &nbsp;🎉🎉 I received 1st place in the ICRA 2025 TreeScope Tree Diameter Estimation Challenge!
 - *2025/03/24*: &nbsp;🎉🎉 I received 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
 - *2025/03/24*: &nbsp;🎉🎉 I received 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
@@ -269,6 +270,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 # 🎖 Honors and Awards
+- *2025.07*: **Winner**, SoccerTrack Challenge, Multimedia Content Analysis in Sports, ACM International Conference on Multimedia (ACMMM).
 - *2025.07*: **Winner**, Multi-Source Covid-19 Detection Challenge, International Conference on Computer Vision (ICCV).
 - *2025.06*: **Winner**, TreeScope Tree Diameter Estimation Challenge, IEEE International Conference on Robotics and Automation (ICRA).
 - *2025.03*: **3rd place** (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
