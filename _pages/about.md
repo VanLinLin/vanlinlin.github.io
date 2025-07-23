@@ -67,7 +67,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 * Single Image Shadow Removal
 
 <div style="margin-top: 10px;">
-  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
+  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
     <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
       arXiv
     </button>
