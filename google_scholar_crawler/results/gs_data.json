@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68800da15c9301287055f1ad",
+    "id": "68815f42e6cb303acc0361d5",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68800da15c9301287055f1ad.json",
-    "created_at": "2025-07-22 22:16:01 UTC",
-    "processed_at": "2025-07-22 22:16:01 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68815f42e6cb303acc0361d5.json",
+    "created_at": "2025-07-23 22:16:34 UTC",
+    "processed_at": "2025-07-23 22:16:34 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68800da15c9301287055f1ad.html",
-    "total_time_taken": 0.54
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68815f42e6cb303acc0361d5.html",
+    "total_time_taken": 0.86
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -151,11 +151,43 @@
       "year": "2024"
     },
     {
+      "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Tackling Irregular Motion and Identity Switching in Fisheye Camera for Soccer Multi-Object Tracking",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
+      "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
+      "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
+      "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
+      "authors": "CM Lee, BC Qiu, YH Wu, CJ Kang, JL Chen, YF Lin, YS Chou, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
       "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
       "authors": "YF Lin, CM Lee, CC Hsu",
-      "publication": "ACMMM, 2025",
+      "publication": "ACMMM 2025, 2025",
       "cited_by": {
         "value": null
       },
@@ -350,5 +382,8 @@
       "email": "Verified email at ntu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HSGvdtoAAAAJ&citpid=7"
     }
-  ]
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?author_id=ook-p6wAAAAJ&engine=google_scholar_author&hl=en&start=20&view_op=list_works"
+  }
 }
