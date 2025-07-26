@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "688402234707f1f71386c8dc",
+    "id": "6885537ffda6071461aca241",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/688402234707f1f71386c8dc.json",
-    "created_at": "2025-07-25 22:16:03 UTC",
-    "processed_at": "2025-07-25 22:16:03 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6885537ffda6071461aca241.json",
+    "created_at": "2025-07-26 22:15:27 UTC",
+    "processed_at": "2025-07-26 22:15:27 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/688402234707f1f71386c8dc.html",
-    "total_time_taken": 0.78
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6885537ffda6071461aca241.html",
+    "total_time_taken": 1.73
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 83,
+        "value": 84,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -103,7 +103,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
       "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
       "cited_by": {
-        "value": 2,
+        "value": 3,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
@@ -282,8 +282,8 @@
     "table": [
       {
         "citations": {
-          "all": 129,
-          "since_2020": 129
+          "all": 131,
+          "since_2020": 131
         }
       },
       {
@@ -310,7 +310,7 @@
       },
       {
         "year": 2025,
-        "citations": 67
+        "citations": 69
       }
     ]
   },
