@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68800da15c9301287055f1ad",
+    "id": "689bbceddc74d07be4bf259b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68800da15c9301287055f1ad.json",
-    "created_at": "2025-07-22 22:16:01 UTC",
-    "processed_at": "2025-07-22 22:16:01 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/689bbceddc74d07be4bf259b.json",
+    "created_at": "2025-08-12 22:15:09 UTC",
+    "processed_at": "2025-08-12 22:15:09 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68800da15c9301287055f1ad.html",
-    "total_time_taken": 0.54
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/689bbceddc74d07be4bf259b.html",
+    "total_time_taken": 0.38
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 83,
+        "value": 84,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -83,6 +83,20 @@
       "year": "2025"
     },
     {
+      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
+      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
+        "cites_id": "18307115968291267381"
+      },
+      "year": "2024"
+    },
+    {
       "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
       "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
@@ -97,18 +111,18 @@
       "year": "2024"
     },
     {
-      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
-      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
-      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
-      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
+      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "authors": "YF Lin, CM Lee, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 2,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
-        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
-        "cites_id": "18307115968291267381"
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
+        "cites_id": "12099199047212617245"
       },
-      "year": "2024"
+      "year": "2025"
     },
     {
       "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
@@ -151,11 +165,33 @@
       "year": "2024"
     },
     {
-      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
-      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
-      "authors": "YF Lin, CM Lee, CC Hsu",
-      "publication": "ACMMM, 2025",
+      "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
+      "publication": "ICCVW 2025, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Tackling Irregular Motion and Identity Switching in Fisheye Camera for Soccer Multi-Object Tracking",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
+      "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
+      "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
+      "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
+      "authors": "CM Lee, BC Qiu, YH Wu, CJ Kang, JL Chen, YF Lin, YS Chou, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
       "cited_by": {
         "value": null
       },
@@ -249,8 +285,8 @@
     "table": [
       {
         "citations": {
-          "all": 129,
-          "since_2020": 129
+          "all": 134,
+          "since_2020": 134
         }
       },
       {
@@ -277,7 +313,7 @@
       },
       {
         "year": 2025,
-        "citations": 67
+        "citations": 72
       }
     ]
   },
@@ -294,7 +330,7 @@
       "author_id": "koBVaaUAAAAJ",
       "affiliations": "National Cheng Kung University",
       "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=9"
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=13"
     },
     {
       "name": "Chih-Chung Hsu",
@@ -315,6 +351,15 @@
       "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
+      "name": "Yi-Shiuan Chou",
+      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "iGX8FBcAAAAJ",
+      "affiliations": "Institute of Data Science, National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
+    },
+    {
       "name": "Fu-En Yang",
       "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
@@ -333,15 +378,6 @@
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HFImtzUAAAAJ&citpid=7"
     },
     {
-      "name": "Yi-Shiuan Chou",
-      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "iGX8FBcAAAAJ",
-      "affiliations": "Institute of Data Science, National Cheng Kung University",
-      "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
-    },
-    {
       "name": "Yu-Chiang Frank Wang",
       "link": "https://scholar.google.com/citations?user=HSGvdtoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=HSGvdtoAAAAJ&engine=google_scholar_author&hl=en",
@@ -350,5 +386,8 @@
       "email": "Verified email at ntu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HSGvdtoAAAAJ&citpid=7"
     }
-  ]
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?author_id=ook-p6wAAAAJ&engine=google_scholar_author&hl=en&start=20&view_op=list_works"
+  }
 }
