@@ -34,6 +34,8 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
+- *2025/07/24*: &nbsp;🎉🎉 One paper is accepted by ICCVW 2025. See you in Honolulu, Hawaii!
+- *2025/07/19*: &nbsp;🎉🎉 Three paper is accepted by ACMMM 2025. See you in Dublin, Ireland!
 - *2025/07/15*: &nbsp;🎉🎉 I receive the 1st performance in ACMMM 2025, SoccerTrack Challenge@MMSports. See you in Dublin, Ireland!
 - *2025/07/06*: &nbsp;🎉🎉 I receive the 1st performance in ICCV 2025, Multi-source COV19 Detection Challenge. See you in Honolulu, Hawai!
 - *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Dublin, Ireland!
