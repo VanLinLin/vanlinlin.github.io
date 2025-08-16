@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "689fb1719df9dd948effe9a5",
+    "id": "68a102bbb9dbc431cd33739c",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/689fb1719df9dd948effe9a5.json",
-    "created_at": "2025-08-15 22:15:13 UTC",
-    "processed_at": "2025-08-15 22:15:13 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a102bbb9dbc431cd33739c.json",
+    "created_at": "2025-08-16 22:14:19 UTC",
+    "processed_at": "2025-08-16 22:14:19 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/689fb1719df9dd948effe9a5.html",
-    "total_time_taken": 0.47
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a102bbb9dbc431cd33739c.html",
+    "total_time_taken": 1.36
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -75,7 +75,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 9,
+        "value": 10,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -176,7 +176,7 @@
       "year": "2025"
     },
     {
-      "title": "Tackling Irregular Motion and Identity Switching in Fisheye Camera for Soccer Multi-Object Tracking",
+      "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
       "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
       "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
@@ -250,6 +250,16 @@
       "year": "2025"
     },
     {
+      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
+      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
+      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
       "title": "NTIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
       "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
@@ -269,24 +279,14 @@
         "value": null
       },
       "year": "2024"
-    },
-    {
-      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
-      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
-      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": ""
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 134,
-          "since_2020": 134
+          "all": 135,
+          "since_2020": 135
         }
       },
       {
@@ -297,8 +297,8 @@
       },
       {
         "i10_index": {
-          "all": 2,
-          "since_2020": 2
+          "all": 3,
+          "since_2020": 3
         }
       }
     ],
@@ -313,7 +313,7 @@
       },
       {
         "year": 2025,
-        "citations": 72
+        "citations": 73
       }
     ]
   },
@@ -376,6 +376,15 @@
       "affiliations": "Institute of Data Science, National Cheng Kung University",
       "email": "Verified email at gs.ncku.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HFImtzUAAAAJ&citpid=7"
+    },
+    {
+      "name": "Li-Wei Kang (康立威)",
+      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "QwSzhgEAAAAJ",
+      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
+      "email": "Verified email at ntnu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
     },
     {
       "name": "Yu-Chiang Frank Wang",
