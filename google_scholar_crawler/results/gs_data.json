@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68a2545f4fa3bacb9caa3505",
+    "id": "68a3a5a686818052ab9f2e7a",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a2545f4fa3bacb9caa3505.json",
-    "created_at": "2025-08-17 22:14:55 UTC",
-    "processed_at": "2025-08-17 22:14:55 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a3a5a686818052ab9f2e7a.json",
+    "created_at": "2025-08-18 22:13:58 UTC",
+    "processed_at": "2025-08-18 22:13:58 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a2545f4fa3bacb9caa3505.html",
-    "total_time_taken": 0.74
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a3a5a686818052ab9f2e7a.html",
+    "total_time_taken": 2.02
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -101,7 +101,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
       "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
       "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
-      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "publication": "arXiv preprint arXiv:2412.16723, 2024",
       "cited_by": {
         "value": 4,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
@@ -129,6 +129,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
       "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2024",
       "cited_by": {
         "value": 1,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
@@ -243,7 +244,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
       "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
       "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
-      "publication": "arXiv preprint arXiv:2501.07953, 2025",
+      "publication": "IGRASS 2025, 2025",
       "cited_by": {
         "value": null
       },
