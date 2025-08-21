@@ -248,7 +248,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 **Developing an Automatic Prohibited Items Detection Model for Airport Luggage X ray Images Based on the Integration of Convolutional Neural Networks and Visual Transformers**
 
-**Yu-Fan Lin**
+**Yu-Fan Lin**, Chih-En Kuo
 
 **Keywords**
 - Deformable convolutions
@@ -262,7 +262,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 **Human Factors Biomedical System for Shooting Training**
 
-**Yu-Fan Lin**, Chih-En Kuo
+**Yu-Fan Lin**
 
 **Keywords**
 - System integration
