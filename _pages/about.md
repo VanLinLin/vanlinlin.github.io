@@ -34,16 +34,16 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
-- *2025/07/24*: &nbsp;🎉🎉 One paper is accepted by ICCVW 2025. See you in Honolulu, Hawaii!
-- *2025/07/19*: &nbsp;🎉🎉 Three paper is accepted by ACMMM 2025. See you in Dublin, Ireland!
+- *2025/07/24*: &nbsp;🎉🎉 One paper was accepted by ICCVW 2025. See you in Honolulu, Hawaii!
+- *2025/07/19*: &nbsp;🎉🎉 Three papers were accepted by ACMMM 2025. See you in Dublin, Ireland!
 - *2025/07/15*: &nbsp;🎉🎉 I receive the 1st performance in ACMMM 2025, SoccerTrack Challenge@MMSports. See you in Dublin, Ireland!
 - *2025/07/06*: &nbsp;🎉🎉 I receive the 1st performance in ICCV 2025, Multi-source COV19 Detection Challenge. See you in Honolulu, Hawaii!
-- *2025/07/05*: &nbsp;🎉🎉 One paper is accepted by ACMMM 2025, see you in Dublin, Ireland!
+- *2025/07/05*: &nbsp;🎉🎉 One paper was accepted by ACMMM 2025, see you in Dublin, Ireland!
 - *2025/06/09*: &nbsp;🎉🎉 I received 1st place in the ICRA 2025 TreeScope Tree Diameter Estimation Challenge!
 - *2025/03/24*: &nbsp;🎉🎉 I received 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
 - *2025/03/24*: &nbsp;🎉🎉 I received 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
-- *2025/03/15*: &nbsp;🎉🎉 Two paper are accepted by IGARSS 2025, see you in Brisbane!
-- *2025/01/21*: &nbsp;🎉🎉 One paper is accepted by ICCT-Pacific 2025.
+- *2025/03/15*: &nbsp;🎉🎉 Two paper were accepted by IGARSS 2025, see you in Brisbane!
+- *2025/01/21*: &nbsp;🎉🎉 One paper was accepted by ICCT-Pacific 2025.
 - *2024/12/10*: &nbsp;🎉🎉 I received the 8th Foxconn Scholarship!
 - *2024/12/02*: &nbsp;🎉🎉 I received the Scholarship Nan Shan Life Insurance Company!
 - *2024/07/21*: &nbsp;🎉🎉 I received the 1st performance in ICPR 2024 (Beyond Visible Spectrum: AI for Agriculture)!
