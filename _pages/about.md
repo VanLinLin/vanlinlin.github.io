@@ -253,6 +253,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 **Keywords**
 - Deformable convolutions
 - Contraband
+- Object detection
 </div>
 </div>
 
