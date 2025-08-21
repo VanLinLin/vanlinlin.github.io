@@ -261,7 +261,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 **Human Factors Biomedical System for Shooting Training**
 
-**Yu-Fan Lin**
+**Yu-Fan Lin**, Chih-En Kuo
 
 **Keywords**
 - System integration
