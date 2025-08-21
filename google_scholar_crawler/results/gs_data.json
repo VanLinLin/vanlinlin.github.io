@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "689bbceddc74d07be4bf259b",
+    "id": "68a648b43f79e8466a3748ff",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/689bbceddc74d07be4bf259b.json",
-    "created_at": "2025-08-12 22:15:09 UTC",
-    "processed_at": "2025-08-12 22:15:09 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a648b43f79e8466a3748ff.json",
+    "created_at": "2025-08-20 22:14:12 UTC",
+    "processed_at": "2025-08-20 22:14:12 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/689bbceddc74d07be4bf259b.html",
-    "total_time_taken": 0.38
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a648b43f79e8466a3748ff.html",
+    "total_time_taken": 2.18
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -75,7 +75,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 9,
+        "value": 10,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -101,7 +101,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
       "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
       "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
-      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "publication": "arXiv preprint arXiv:2412.16723, 2024",
       "cited_by": {
         "value": 4,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
@@ -129,6 +129,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
       "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2024",
       "cited_by": {
         "value": 1,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
@@ -176,7 +177,7 @@
       "year": "2025"
     },
     {
-      "title": "Tackling Irregular Motion and Identity Switching in Fisheye Camera for Soccer Multi-Object Tracking",
+      "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
       "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
       "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
@@ -243,7 +244,17 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
       "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
       "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
-      "publication": "arXiv preprint arXiv:2501.07953, 2025",
+      "publication": "IGRASS 2025, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
+      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
+      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "cited_by": {
         "value": null
       },
@@ -269,24 +280,14 @@
         "value": null
       },
       "year": "2024"
-    },
-    {
-      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
-      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
-      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": ""
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 134,
-          "since_2020": 134
+          "all": 135,
+          "since_2020": 135
         }
       },
       {
@@ -297,8 +298,8 @@
       },
       {
         "i10_index": {
-          "all": 2,
-          "since_2020": 2
+          "all": 3,
+          "since_2020": 3
         }
       }
     ],
@@ -309,11 +310,11 @@
       },
       {
         "year": 2024,
-        "citations": 43
+        "citations": 42
       },
       {
         "year": 2025,
-        "citations": 72
+        "citations": 74
       }
     ]
   },
@@ -376,6 +377,15 @@
       "affiliations": "Institute of Data Science, National Cheng Kung University",
       "email": "Verified email at gs.ncku.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HFImtzUAAAAJ&citpid=7"
+    },
+    {
+      "name": "Li-Wei Kang (康立威)",
+      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "QwSzhgEAAAAJ",
+      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
+      "email": "Verified email at ntnu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
     },
     {
       "name": "Yu-Chiang Frank Wang",
