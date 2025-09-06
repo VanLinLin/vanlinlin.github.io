@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68bb608e69a322c51eb327f0",
+    "id": "68bcb1d85fda0b6d4f9114e1",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68bb608e69a322c51eb327f0.json",
-    "created_at": "2025-09-05 22:13:34 UTC",
-    "processed_at": "2025-09-05 22:13:34 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68bcb1d85fda0b6d4f9114e1.json",
+    "created_at": "2025-09-06 22:12:40 UTC",
+    "processed_at": "2025-09-06 22:12:40 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68bb608e69a322c51eb327f0.html",
-    "total_time_taken": 1.57
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68bcb1d85fda0b6d4f9114e1.html",
+    "total_time_taken": 1.95
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -111,6 +111,20 @@
       "year": "2024"
     },
     {
+      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2409.00395, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
+        "cites_id": "17786288074730119246"
+      },
+      "year": "2024"
+    },
+    {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
       "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
@@ -148,20 +162,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
         "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
         "cites_id": "6911928956960792046"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2409.00395, 2024",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
-        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
-        "cites_id": "17786288074730119246"
       },
       "year": "2024"
     },
@@ -286,8 +286,8 @@
     "table": [
       {
         "citations": {
-          "all": 140,
-          "since_2020": 140
+          "all": 141,
+          "since_2020": 141
         }
       },
       {
@@ -314,7 +314,7 @@
       },
       {
         "year": 2025,
-        "citations": 79
+        "citations": 80
       }
     ]
   },
