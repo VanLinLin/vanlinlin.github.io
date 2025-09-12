@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68c3499627c2b0c5880c4a53",
+    "id": "68c49af0e9639b18109ac602",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68c3499627c2b0c5880c4a53.json",
-    "created_at": "2025-09-11 22:13:42 UTC",
-    "processed_at": "2025-09-11 22:13:42 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68c49af0e9639b18109ac602.json",
+    "created_at": "2025-09-12 22:13:04 UTC",
+    "processed_at": "2025-09-12 22:13:04 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68c3499627c2b0c5880c4a53.html",
-    "total_time_taken": 0.93
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68c49af0e9639b18109ac602.html",
+    "total_time_taken": 0.79
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -125,6 +125,19 @@
       "year": "2024"
     },
     {
+      "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
+      "authors": "YF Lin, BC Qiu, CM Lee, CC Hsu",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
+        "cites_id": "6911928956960792046"
+      },
+      "year": "2024"
+    },
+    {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
       "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
@@ -149,19 +162,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
-      "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
-      "authors": "YF Lin, BC Qiu, CM Lee, CC Hsu",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
-        "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
-        "cites_id": "6911928956960792046"
       },
       "year": "2024"
     },
@@ -286,8 +286,8 @@
     "table": [
       {
         "citations": {
-          "all": 142,
-          "since_2020": 142
+          "all": 143,
+          "since_2020": 143
         }
       },
       {
@@ -314,7 +314,7 @@
       },
       {
         "year": 2025,
-        "citations": 81
+        "citations": 82
       }
     ]
   },
