@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68a648b43f79e8466a3748ff",
+    "id": "68d31b8eeb55a35b96346e1d",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a648b43f79e8466a3748ff.json",
-    "created_at": "2025-08-20 22:14:12 UTC",
-    "processed_at": "2025-08-20 22:14:12 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68d31b8eeb55a35b96346e1d.json",
+    "created_at": "2025-09-23 22:13:34 UTC",
+    "processed_at": "2025-09-23 22:13:34 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68a648b43f79e8466a3748ff.html",
-    "total_time_taken": 2.18
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68d31b8eeb55a35b96346e1d.html",
+    "total_time_taken": 0.88
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 84,
+        "value": 87,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -61,7 +61,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 28,
+        "value": 30,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -111,18 +111,45 @@
       "year": "2024"
     },
     {
+      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2409.00395, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
+        "cites_id": "17786288074730119246"
+      },
+      "year": "2024"
+    },
+    {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
       "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
       "authors": "YF Lin, CM Lee, CC Hsu",
       "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 1,
+        "value": 2,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
         "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
         "cites_id": "12099199047212617245"
       },
       "year": "2025"
+    },
+    {
+      "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
+      "authors": "YF Lin, BC Qiu, CM Lee, CC Hsu",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
+        "cites_id": "6911928956960792046"
+      },
+      "year": "2024"
     },
     {
       "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
@@ -135,33 +162,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
-      "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
-      "authors": "YF Lin, BC Qiu, CM Lee, CC Hsu",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
-        "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
-        "cites_id": "6911928956960792046"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2409.00395, 2024",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
-        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
-        "cites_id": "17786288074730119246"
       },
       "year": "2024"
     },
@@ -286,8 +286,8 @@
     "table": [
       {
         "citations": {
-          "all": 135,
-          "since_2020": 135
+          "all": 144,
+          "since_2020": 144
         }
       },
       {
@@ -314,7 +314,7 @@
       },
       {
         "year": 2025,
-        "citations": 74
+        "citations": 83
       }
     ]
   },
@@ -329,8 +329,8 @@
       "link": "https://scholar.google.com/citations?user=koBVaaUAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=koBVaaUAAAAJ&engine=google_scholar_author&hl=en",
       "author_id": "koBVaaUAAAAJ",
-      "affiliations": "National Cheng Kung University",
-      "email": "Verified email at gs.ncku.edu.tw",
+      "affiliations": "National Yang Ming Chiao Tung University",
+      "email": "Verified email at nycu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=13"
     },
     {
