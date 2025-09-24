@@ -34,6 +34,8 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
+- *2025/08/24*: &nbsp;🎉🎉 I won the CVGIP 2025 best paper award!
+- *2025/07/25*: &nbsp;🎉🎉 Three papers were accepted by CVGIP 2025!
 - *2025/07/24*: &nbsp;🎉🎉 One paper was accepted by ICCVW 2025. See you in Honolulu, Hawaii!
 - *2025/07/19*: &nbsp;🎉🎉 Three papers were accepted by ACMMM 2025. See you in Dublin, Ireland!
 - *2025/07/15*: &nbsp;🎉🎉 I receive the 1st performance in ACMMM 2025, SoccerTrack Challenge@MMSports. See you in Dublin, Ireland!
