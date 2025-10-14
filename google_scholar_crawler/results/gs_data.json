@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68ed79b0c83b3f056c4c7867",
+    "id": "68eecb35c203487f112289e3",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68ed79b0c83b3f056c4c7867.json",
-    "created_at": "2025-10-13 22:14:08 UTC",
-    "processed_at": "2025-10-13 22:14:08 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68eecb35c203487f112289e3.json",
+    "created_at": "2025-10-14 22:14:13 UTC",
+    "processed_at": "2025-10-14 22:14:13 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68ed79b0c83b3f056c4c7867.html",
-    "total_time_taken": 0.96
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68eecb35c203487f112289e3.html",
+    "total_time_taken": 1.26
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -139,6 +139,20 @@
       "year": "2025"
     },
     {
+      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
+      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
+      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
+        "cites_id": "2163386554197043219"
+      },
+      "year": "2024"
+    },
+    {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
       "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
@@ -148,20 +162,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
         "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
         "cites_id": "6911928956960792046"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
-      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
-      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
-      "publication": "IGRASS 2025, 2024",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
-        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
-        "cites_id": "2163386554197043219"
       },
       "year": "2024"
     },
@@ -286,8 +286,8 @@
     "table": [
       {
         "citations": {
-          "all": 147,
-          "since_2020": 147
+          "all": 148,
+          "since_2020": 148
         }
       },
       {
@@ -314,7 +314,7 @@
       },
       {
         "year": 2025,
-        "citations": 86
+        "citations": 87
       }
     ]
   },
@@ -361,6 +361,15 @@
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
     },
     {
+      "name": "Li-Wei Kang (康立威)",
+      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "QwSzhgEAAAAJ",
+      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
+      "email": "Verified email at ntnu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
+    },
+    {
       "name": "Fu-En Yang",
       "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
@@ -377,15 +386,6 @@
       "affiliations": "Institute of Data Science, National Cheng Kung University",
       "email": "Verified email at gs.ncku.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=HFImtzUAAAAJ&citpid=7"
-    },
-    {
-      "name": "Li-Wei Kang (康立威)",
-      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "QwSzhgEAAAAJ",
-      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
-      "email": "Verified email at ntnu.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
     },
     {
       "name": "Yu-Chiang Frank Wang",
