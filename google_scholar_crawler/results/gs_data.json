@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "68faa8bb822c5f2405ecdd6d",
+    "id": "68fbfa544707f1744f0c4794",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68faa8bb822c5f2405ecdd6d.json",
-    "created_at": "2025-10-23 22:14:19 UTC",
-    "processed_at": "2025-10-23 22:14:19 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/68fbfa544707f1744f0c4794.json",
+    "created_at": "2025-10-24 22:14:44 UTC",
+    "processed_at": "2025-10-24 22:14:44 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68faa8bb822c5f2405ecdd6d.html",
-    "total_time_taken": 0.52
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/68fbfa544707f1744f0c4794.html",
+    "total_time_taken": 0.83
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -103,7 +103,7 @@
       "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
       "publication": "arXiv preprint arXiv:2412.16723, 2024",
       "cited_by": {
-        "value": 4,
+        "value": 5,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119"
@@ -286,14 +286,14 @@
     "table": [
       {
         "citations": {
-          "all": 149,
-          "since_2020": 149
+          "all": 150,
+          "since_2020": 150
         }
       },
       {
         "h_index": {
-          "all": 4,
-          "since_2020": 4
+          "all": 5,
+          "since_2020": 5
         }
       },
       {
@@ -314,7 +314,7 @@
       },
       {
         "year": 2025,
-        "citations": 88
+        "citations": 89
       }
     ]
   },
