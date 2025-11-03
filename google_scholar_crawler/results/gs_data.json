@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6907d79a10b5cfd7184e098d",
+    "id": "690929782f5ea0fbe64ec7ea",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6907d79a10b5cfd7184e098d.json",
-    "created_at": "2025-11-02 22:13:46 UTC",
-    "processed_at": "2025-11-02 22:13:46 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/690929782f5ea0fbe64ec7ea.json",
+    "created_at": "2025-11-03 22:15:20 UTC",
+    "processed_at": "2025-11-03 22:15:20 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6907d79a10b5cfd7184e098d.html",
-    "total_time_taken": 2.68
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/690929782f5ea0fbe64ec7ea.html",
+    "total_time_taken": 1.59
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -331,7 +331,7 @@
       "author_id": "koBVaaUAAAAJ",
       "affiliations": "National Yang Ming Chiao Tung University",
       "email": "Verified email at nycu.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=13"
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=22"
     },
     {
       "name": "Chih-Chung Hsu",
