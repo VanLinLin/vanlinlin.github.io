@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69335993cf88702916199e1b",
+    "id": "6934aacbb13aa7ea3175f878",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/69335993cf88702916199e1b.json",
-    "created_at": "2025-12-05 22:15:47 UTC",
-    "processed_at": "2025-12-05 22:15:47 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6934aacbb13aa7ea3175f878.json",
+    "created_at": "2025-12-06 22:14:35 UTC",
+    "processed_at": "2025-12-06 22:14:35 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/69335993cf88702916199e1b.html",
-    "total_time_taken": 0.75
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6934aacbb13aa7ea3175f878.html",
+    "total_time_taken": 0.76
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -131,7 +131,7 @@
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
       "publication": "IGRASS 2025, 2024",
       "cited_by": {
-        "value": 3,
+        "value": 4,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
@@ -164,6 +164,20 @@
         "cites_id": "6911928956960792046"
       },
       "year": "2024"
+    },
+    {
+      "title": "Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8212239710552032345",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8212239710552032345&engine=google_scholar&hl=en",
+        "cites_id": "8212239710552032345"
+      },
+      "year": "2025"
     },
     {
       "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
@@ -240,17 +254,6 @@
       "year": "2025"
     },
     {
-      "title": "Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
-      "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
-      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
-      "publication": "IGRASS 2025, 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
       "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
       "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
@@ -286,8 +289,8 @@
     "table": [
       {
         "citations": {
-          "all": 163,
-          "since_2020": 163
+          "all": 165,
+          "since_2020": 165
         }
       },
       {
@@ -314,7 +317,7 @@
       },
       {
         "year": 2025,
-        "citations": 101
+        "citations": 103
       }
     ]
   },
