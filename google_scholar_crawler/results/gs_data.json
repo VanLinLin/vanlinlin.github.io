@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6939f17d3d06ea0bb4c95f9b",
+    "id": "693b42caf6d5ee0fcd8d0d6d",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6939f17d3d06ea0bb4c95f9b.json",
-    "created_at": "2025-12-10 22:17:33 UTC",
-    "processed_at": "2025-12-10 22:17:33 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/693b42caf6d5ee0fcd8d0d6d.json",
+    "created_at": "2025-12-11 22:16:42 UTC",
+    "processed_at": "2025-12-11 22:16:42 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6939f17d3d06ea0bb4c95f9b.html",
-    "total_time_taken": 1.0
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/693b42caf6d5ee0fcd8d0d6d.html",
+    "total_time_taken": 2.51
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 93,
+        "value": 94,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -61,7 +61,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 32,
+        "value": 33,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -289,8 +289,8 @@
     "table": [
       {
         "citations": {
-          "all": 166,
-          "since_2020": 166
+          "all": 168,
+          "since_2020": 168
         }
       },
       {
@@ -317,7 +317,7 @@
       },
       {
         "year": 2025,
-        "citations": 104
+        "citations": 106
       }
     ]
   },
