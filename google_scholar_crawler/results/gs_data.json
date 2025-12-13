@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "693c9438a39c287714dd4bd1",
+    "id": "693de5544fa3ba3233ebd640",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/693c9438a39c287714dd4bd1.json",
-    "created_at": "2025-12-12 22:16:24 UTC",
-    "processed_at": "2025-12-12 22:16:24 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/693de5544fa3ba3233ebd640.json",
+    "created_at": "2025-12-13 22:14:44 UTC",
+    "processed_at": "2025-12-13 22:14:44 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/693c9438a39c287714dd4bd1.html",
-    "total_time_taken": 4.22
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/693de5544fa3ba3233ebd640.html",
+    "total_time_taken": 0.46
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -153,6 +153,20 @@
       "year": "2025"
     },
     {
+      "title": "Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2025",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8212239710552032345",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8212239710552032345&engine=google_scholar&hl=en",
+        "cites_id": "8212239710552032345"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
       "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
@@ -164,20 +178,6 @@
         "cites_id": "6911928956960792046"
       },
       "year": "2024"
-    },
-    {
-      "title": "Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
-      "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
-      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
-      "publication": "IGRASS 2025, 2025",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8212239710552032345",
-        "serpapi_link": "https://serpapi.com/search.json?cites=8212239710552032345&engine=google_scholar&hl=en",
-        "cites_id": "8212239710552032345"
-      },
-      "year": "2025"
     },
     {
       "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
@@ -289,8 +289,8 @@
     "table": [
       {
         "citations": {
-          "all": 168,
-          "since_2020": 168
+          "all": 169,
+          "since_2020": 169
         }
       },
       {
@@ -313,7 +313,7 @@
       },
       {
         "year": 2024,
-        "citations": 43
+        "citations": 44
       },
       {
         "year": 2025,
@@ -355,15 +355,6 @@
       "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
-      "name": "Li-Wei Kang (康立威)",
-      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "QwSzhgEAAAAJ",
-      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
-      "email": "Verified email at ntnu.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
-    },
-    {
       "name": "Yi-Shiuan Chou",
       "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
@@ -371,6 +362,15 @@
       "affiliations": "Institute of Data Science, National Cheng Kung University",
       "email": "Verified email at gs.ncku.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
+    },
+    {
+      "name": "Li-Wei Kang (康立威)",
+      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "QwSzhgEAAAAJ",
+      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
+      "email": "Verified email at ntnu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
     },
     {
       "name": "Fu-En Yang",
