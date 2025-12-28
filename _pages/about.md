@@ -34,6 +34,9 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
+- *2025/12/17*: &nbsp;🎉🎉 I receive the 1st performance in WACV 2026, SkiTB Visual Tracking Challenge.
+- *2025/12/03*: &nbsp;🎉🎉 I receive the 3rd performance in ICASSP 2026, Hyper-Object Challenge. See you in Barcelona.
+- *2025/11/24*: &nbsp;🎉🎉 I receive the top 2% performance in BMVC 2025, Data-Centric Land Cover Classification Challenge.
 - *2025/08/24*: &nbsp;🎉🎉 I won the CVGIP 2025 best paper award!
 - *2025/07/25*: &nbsp;🎉🎉 Three papers were accepted by CVGIP 2025!
 - *2025/07/24*: &nbsp;🎉🎉 One paper was accepted by ICCVW 2025. See you in Honolulu, Hawaii!
@@ -275,11 +278,15 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 # 🎖 Honors and Awards
+- *2025.12*: **Winner** (1/16), SkiTB Visual Tracking Challenge, Winter Conference on Computer Vision (WACV).
+- *2025.12*: **3rd place** (3/136), Hyper-Object Challenge, Spectral Reconstruction from Mosaic Images, IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP).
+- *2025.12*: **3rd place** (3/274), Hyper-Object Challenge, Joint Spatial and Spectral Super-Resolution, IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP).
+- *2025.11*: **4th place** (4/418), Data-Centric Land Cover Classification Challenge, British Machine Vision Conference (BMVC).
 - *2025.07*: **Winner**, SoccerTrack Challenge, Multimedia Content Analysis in Sports, ACM International Conference on Multimedia (ACMMM).
 - *2025.07*: **Winner**, Multi-Source Covid-19 Detection Challenge, International Conference on Computer Vision (ICCV).
 - *2025.06*: **Winner**, TreeScope Tree Diameter Estimation Challenge, IEEE International Conference on Robotics and Automation (ICRA).
 - *2025.03*: **3rd place** (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
-- *2025.03*: **6rd place** (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
+- *2025.03*: **6th place** (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
 - *2024.12*: 8th Foxconn Scholarship recipient.
 - *2024.12*: Nan Shan Life Insurance Company Scholarship.
 - *2024.07*: **Winner**, Beyond Visible Spectrum: AI for Agriculture Challenge, International Conference on Pattern Recognition (ICPR).
@@ -293,8 +300,8 @@ ACM International Conference on Multimedia (ACMMM2024)
 - *2018.06*: **Winner (1/1500+)**, Asian Robotic Athletic Competition.
 
 # 💼 Projects
-- *2024.7~*: Brake system Defect Detection, Taiwan High Speed Rail.
 - *2024.4~*: Cybersecurity in distributed computing for remote sensing, NVIDIA Taiwan Research.
+- *2024.7~2025.6*: Brake system Defect Detection, Taiwan High Speed Rail.
 - *2024.3~2025.4*: Scenario understanding and augmented intelligence, Industrial Technology Research Institute (ITRI).
 - *2023.2~2024.3*: Developing an Automatic Prohibited Items Detection Model for Airport Luggage X ray Images Based on the Integration of Convolutional Neural Networks and Visual Transformers, National Science and Technology Council (NSTC).
 - *2023.2~2024.3*: Plant Disease Analysis System, National Chung Hsing University. (Joint-project with Institute of Agronomy, National Chung Hsing University)
@@ -306,7 +313,8 @@ ACM International Conference on Multimedia (ACMMM2024)
   
 # 💼 Academic Services
 - 🔎 Reviewer
-  - International Journal of Pattern Recognition and Artificial Intelligence (IJPRAI)
+  - Conference: AAAI'25
+  - Journal: TCSVT, TMM, IJPRAI
 
 <!-- <iframe src="/widgets/" width="100%" height="650" style="border:none;"></iframe> -->
 # 🌍 Global Collaborations
