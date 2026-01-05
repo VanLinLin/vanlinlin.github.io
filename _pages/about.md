@@ -316,32 +316,13 @@ ACM International Conference on Multimedia (ACMMM2024)
   - Conference: AAAI'25
   - Journal: TCSVT, TMM, IJPRAI
 
-<!-- <iframe src="/widgets/" width="100%" height="650" style="border:none;"></iframe> -->
+
 # 🌍 Global Collaborations
-<style>
-  /* 這是用來包裹 iframe 的神奇容器 */
-  .globe-container {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;  /* 您可以在這裡控制地球的最大尺寸 */
-    margin: 30px auto; /* 水平置中，並和上方內容保留一些間距 */
 
-    /* 關鍵：利用 padding-top 創造一個完美的 1:1 正方形 */
-    /* 這會讓容器的高度永遠等於其寬度的 100% */
-    padding-top: 100%;
-  }
-
-  /* 讓 iframe 填滿整個容器 */
-  .globe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none; /* 移除邊框 */
-  }
-</style>
-
-<div class="globe-container">
-  <iframe src="/widgets/"></iframe>
+<div style="width:100%; max-width:1000px; margin: 30px auto; text-align:center;">
+  <script
+    type="text/javascript"
+    id="mmvst_globe"
+    src="//mapmyvisitors.com/globe.js?d=W6UvshLmVbDwyYS5a7bbLzrKWXGx9pQ2siC2EHEInU8">
+  </script>
 </div>
