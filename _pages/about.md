@@ -320,9 +320,5 @@ ACM International Conference on Multimedia (ACMMM2024)
 # 🌍 Global Collaborations
 
 <div style="width:100%; max-width:1000px; margin: 30px auto; text-align:center;">
-  <script
-    type="text/javascript"
-    id="mmvst_globe"
-    src="//mapmyvisitors.com/globe.js?d=W6UvshLmVbDwyYS5a7bbLzrKWXGx9pQ2siC2EHEInU8">
-  </script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=8ADnNsCiMHFDsAXXuNSPeDLnFpxr3cBBct0zxB4WkaQ&cl=ffffff&w=a"></script>
 </div>
