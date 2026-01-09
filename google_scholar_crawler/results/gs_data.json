@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69602d0697c19fcd4df3ed3a",
+    "id": "69617e75079a2bde942fa876",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/69602d0697c19fcd4df3ed3a.json",
-    "created_at": "2026-01-08 22:17:42 UTC",
-    "processed_at": "2026-01-08 22:17:42 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/69617e75079a2bde942fa876.json",
+    "created_at": "2026-01-09 22:17:25 UTC",
+    "processed_at": "2026-01-09 22:17:25 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/69602d0697c19fcd4df3ed3a.html",
-    "total_time_taken": 1.18
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/69617e75079a2bde942fa876.html",
+    "total_time_taken": 1.48
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -180,22 +180,25 @@
       "year": "2025"
     },
     {
-      "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
-      "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
-      "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
-      "publication": "ICCVW 2025, 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
       "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
       "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
       "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
       "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10309457544719769368",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10309457544719769368&engine=google_scholar&hl=en",
+        "cites_id": "10309457544719769368"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
+      "publication": "ICCVW 2025, 2025",
       "cited_by": {
         "value": null
       },
@@ -289,8 +292,8 @@
     "table": [
       {
         "citations": {
-          "all": 172,
-          "since_2021": 172
+          "all": 173,
+          "since_2021": 173
         }
       },
       {
@@ -317,7 +320,7 @@
       },
       {
         "year": 2025,
-        "citations": 109
+        "citations": 110
       },
       {
         "year": 2026,
