@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6973f2de3d06ea08e22f6982",
+    "id": "697544b4410cda4bae2bd3f7",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6973f2de3d06ea08e22f6982.json",
-    "created_at": "2026-01-23 22:14:54 UTC",
-    "processed_at": "2026-01-23 22:14:54 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/697544b4410cda4bae2bd3f7.json",
+    "created_at": "2026-01-24 22:16:20 UTC",
+    "processed_at": "2026-01-24 22:16:20 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6973f2de3d06ea08e22f6982.html",
-    "total_time_taken": 1.23
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/697544b4410cda4bae2bd3f7.html",
+    "total_time_taken": 1.08
   },
   "search_parameters": {
     "engine": "google_scholar_author",
