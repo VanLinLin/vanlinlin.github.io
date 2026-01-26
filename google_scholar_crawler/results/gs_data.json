@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69769649550cc49633da646e",
+    "id": "6977e81fb24c5d42a9e8c3ce",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/69769649550cc49633da646e.json",
-    "created_at": "2026-01-25 22:16:41 UTC",
-    "processed_at": "2026-01-25 22:16:41 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/6977e81fb24c5d42a9e8c3ce.json",
+    "created_at": "2026-01-26 22:18:07 UTC",
+    "processed_at": "2026-01-26 22:18:07 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/69769649550cc49633da646e.html",
-    "total_time_taken": 0.72
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/6977e81fb24c5d42a9e8c3ce.html",
+    "total_time_taken": 1.25
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -75,12 +75,26 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 14,
+        "value": 16,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
       },
       "year": "2025"
+    },
+    {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
+      "publication": "arXiv preprint arXiv:2412.16723, 2024",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
+        "cites_id": "4649120131747553119"
+      },
+      "year": "2024"
     },
     {
       "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
@@ -93,20 +107,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
-      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
-      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
-      "publication": "arXiv preprint arXiv:2412.16723, 2024",
-      "cited_by": {
-        "value": 6,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
-        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
-        "cites_id": "4649120131747553119"
       },
       "year": "2024"
     },
@@ -166,7 +166,7 @@
       "year": "2024"
     },
     {
-      "title": "Robust Hyperspectral Image Pansharpening via Sparse Spatial-Spectral Representation",
+      "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
       "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
       "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
@@ -296,8 +296,8 @@
     "table": [
       {
         "citations": {
-          "all": 177,
-          "since_2021": 177
+          "all": 180,
+          "since_2021": 180
         }
       },
       {
@@ -324,11 +324,11 @@
       },
       {
         "year": 2025,
-        "citations": 114
+        "citations": 116
       },
       {
         "year": 2026,
-        "citations": 1
+        "citations": 2
       }
     ]
   },
@@ -366,15 +366,6 @@
       "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
-      "name": "Yi-Shiuan Chou",
-      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "iGX8FBcAAAAJ",
-      "affiliations": "Institute of Data Science, National Cheng Kung University",
-      "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
-    },
-    {
       "name": "Li-Wei Kang (康立威)",
       "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
@@ -382,6 +373,15 @@
       "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
       "email": "Verified email at ntnu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
+    },
+    {
+      "name": "Yi-Shiuan Chou",
+      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "iGX8FBcAAAAJ",
+      "affiliations": "Institute of Data Science, National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
     },
     {
       "name": "Fu-En Yang",
