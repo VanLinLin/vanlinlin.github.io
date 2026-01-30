@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "697bdde4a204ab08e4b18552",
+    "id": "697d2eb406ca7f2e250a5061",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/697bdde4a204ab08e4b18552.json",
-    "created_at": "2026-01-29 22:23:32 UTC",
-    "processed_at": "2026-01-29 22:23:32 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/697d2eb406ca7f2e250a5061.json",
+    "created_at": "2026-01-30 22:20:36 UTC",
+    "processed_at": "2026-01-30 22:20:36 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/697bdde4a204ab08e4b18552.html",
-    "total_time_taken": 4.77
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/697d2eb406ca7f2e250a5061.html",
+    "total_time_taken": 1.96
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 96,
+        "value": 97,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -145,7 +145,7 @@
       "authors": "YF Lin, CM Lee, CC Hsu",
       "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 3,
+        "value": 4,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
         "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
         "cites_id": "12099199047212617245"
@@ -162,6 +162,20 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
         "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
         "cites_id": "6911928956960792046"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, FE Yang, YCF Wang, ...",
+      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18054841875686507267",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18054841875686507267&engine=google_scholar&hl=en",
+        "cites_id": "18054841875686507267"
       },
       "year": "2024"
     },
@@ -194,6 +208,20 @@
       "year": "2025"
     },
     {
+      "title": "Multi Source COVID-19 Detection via Kernel-Density-based Slice Sampling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:5nxA0vEk-isC",
+      "citation_id": "ook-p6wAAAAJ:5nxA0vEk-isC",
+      "authors": "CM Lee, BC Qiu, TY Chen, MH Sun, FY Lin, JT Tsai, IA Tsai, YF Lin, ...",
+      "publication": "arXiv preprint arXiv:2507.01564, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1982240719688971802",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1982240719688971802&engine=google_scholar&hl=en",
+        "cites_id": "1982240719688971802"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Tyk-4Ss8FVUC",
       "citation_id": "ook-p6wAAAAJ:Tyk-4Ss8FVUC",
@@ -206,6 +234,28 @@
         "cites_id": "8212239710552032345"
       },
       "year": "2025"
+    },
+    {
+      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jung, YL Liu, CC Hsu",
+      "publication": "arXiv preprint arXiv:2601.17470, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026"
+    },
+    {
+      "title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:8k81kl-MbHgC",
+      "citation_id": "ook-p6wAAAAJ:8k81kl-MbHgC",
+      "authors": "CM Lee, YF Lin, JH Jung, YJ Hsiao, CC Hsu, YL Liu",
+      "publication": "arXiv preprint arXiv:2601.17468, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026"
     },
     {
       "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
@@ -248,56 +298,14 @@
         "value": null
       },
       "year": "2025"
-    },
-    {
-      "title": "AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Y0pCki6q_DkC",
-      "citation_id": "ook-p6wAAAAJ:Y0pCki6q_DkC",
-      "authors": "CM Lee, CJ Kang, CH Cheng, YF Lin, YS Chou, CC Hsu, FE Yang, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "A Multi-Stage Deep Learning Pipeline for Crack Detection and Segmentation in High-Speed Rail Brake Discs",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:zYLM7Y9cAGgC",
-      "citation_id": "ook-p6wAAAAJ:zYLM7Y9cAGgC",
-      "authors": "CH Cheng, YF Lin, CM Lee, CC Hsu, YL Shih, C Ting",
-      "publication": "IEEE International Conference on Consumer Technology (ICCT-Pacific), 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
-      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
-      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "NTIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
-      "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
-      "authors": "S Han, H Fan, F Kong, W Liao, C Guo, C Li, R Timofte, L Li, T Li, J Cui, ...",
-      "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1104-1125, 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 180,
-          "since_2021": 180
+          "all": 186,
+          "since_2021": 186
         }
       },
       {
@@ -324,11 +332,11 @@
       },
       {
         "year": 2025,
-        "citations": 116
+        "citations": 120
       },
       {
         "year": 2026,
-        "citations": 2
+        "citations": 4
       }
     ]
   },
