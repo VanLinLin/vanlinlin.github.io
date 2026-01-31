@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "697d2eb406ca7f2e250a5061",
+    "id": "697e7fc17d6e70a229d3b70c",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/697d2eb406ca7f2e250a5061.json",
-    "created_at": "2026-01-30 22:20:36 UTC",
-    "processed_at": "2026-01-30 22:20:36 UTC",
+    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/697e7fc17d6e70a229d3b70c.json",
+    "created_at": "2026-01-31 22:18:41 UTC",
+    "processed_at": "2026-01-31 22:18:41 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/697d2eb406ca7f2e250a5061.html",
-    "total_time_taken": 1.96
+    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/697e7fc17d6e70a229d3b70c.html",
+    "total_time_taken": 1.82
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -89,7 +89,7 @@
       "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
       "publication": "arXiv preprint arXiv:2412.16723, 2024",
       "cited_by": {
-        "value": 7,
+        "value": 8,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119"
@@ -304,8 +304,8 @@
     "table": [
       {
         "citations": {
-          "all": 186,
-          "since_2021": 186
+          "all": 187,
+          "since_2021": 187
         }
       },
       {
@@ -336,7 +336,7 @@
       },
       {
         "year": 2026,
-        "citations": 4
+        "citations": 5
       }
     ]
   },
@@ -383,15 +383,6 @@
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
     },
     {
-      "name": "Yi-Shiuan Chou",
-      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "iGX8FBcAAAAJ",
-      "affiliations": "Institute of Data Science, National Cheng Kung University",
-      "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
-    },
-    {
       "name": "Fu-En Yang",
       "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
@@ -399,6 +390,15 @@
       "affiliations": "Research Scientist, NVIDIA Research",
       "email": "Verified email at nvidia.com",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
+    },
+    {
+      "name": "Yi-Shiuan Chou",
+      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "iGX8FBcAAAAJ",
+      "affiliations": "Institute of Data Science, National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
     },
     {
       "name": "Yi-Ching Cheng",
