@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "698668d518dc93f0f9d576c1",
+    "id": "6987bab78681809c32888e93",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/698668d518dc93f0f9d576c1.json",
-    "created_at": "2026-02-06 22:19:01 UTC",
-    "processed_at": "2026-02-06 22:19:01 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6987bab78681809c32888e93.json",
+    "created_at": "2026-02-07 22:20:39 UTC",
+    "processed_at": "2026-02-07 22:20:39 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/698668d518dc93f0f9d576c1.html",
-    "total_time_taken": 1.73
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6987bab78681809c32888e93.html",
+    "total_time_taken": 0.79
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 97,
+        "value": 96,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -111,6 +111,20 @@
       "year": "2024"
     },
     {
+      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
+      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
+      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2024",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
+        "cites_id": "2163386554197043219"
+      },
+      "year": "2024"
+    },
+    {
       "title": "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
       "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
@@ -121,20 +135,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
         "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
         "cites_id": "17786288074730119246"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
-      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
-      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
-      "publication": "IGRASS 2025, 2024",
-      "cited_by": {
-        "value": 5,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
-        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
-        "cites_id": "2163386554197043219"
       },
       "year": "2024"
     },
@@ -153,6 +153,20 @@
       "year": "2025"
     },
     {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, FE Yang, YCF Wang, ...",
+      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18054841875686507267",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18054841875686507267&engine=google_scholar&hl=en",
+        "cites_id": "18054841875686507267"
+      },
+      "year": "2024"
+    },
+    {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
       "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
@@ -166,27 +180,13 @@
       "year": "2024"
     },
     {
-      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:3fE2CSJIrl8C",
-      "citation_id": "ook-p6wAAAAJ:3fE2CSJIrl8C",
-      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, FE Yang, YCF Wang, ...",
-      "publication": "arXiv preprint arXiv:2411.15922, 2024",
-      "cited_by": {
-        "value": 3,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18054841875686507267",
-        "serpapi_link": "https://serpapi.com/search.json?cites=18054841875686507267&engine=google_scholar&hl=en",
-        "cites_id": "18054841875686507267"
-      },
-      "year": "2024"
-    },
-    {
       "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
       "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
       "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
       "cited_by": {
-        "value": 1,
+        "value": 2,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034",
         "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034&engine=google_scholar&hl=en",
         "cites_id": "3178425287188456034"
@@ -304,8 +304,8 @@
     "table": [
       {
         "citations": {
-          "all": 187,
-          "since_2021": 187
+          "all": 189,
+          "since_2021": 189
         }
       },
       {
@@ -336,7 +336,7 @@
       },
       {
         "year": 2026,
-        "citations": 5
+        "citations": 7
       }
     ]
   },
