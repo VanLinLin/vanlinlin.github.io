@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "695ae6b5a39c2855779e6293",
+    "id": "69890ca3ab28c684e17e1e75",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/af5a2a0ff7544fa8/695ae6b5a39c2855779e6293.json",
-    "created_at": "2026-01-04 22:16:21 UTC",
-    "processed_at": "2026-01-04 22:16:21 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69890ca3ab28c684e17e1e75.json",
+    "created_at": "2026-02-08 22:22:27 UTC",
+    "processed_at": "2026-02-08 22:22:27 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/af5a2a0ff7544fa8/695ae6b5a39c2855779e6293.html",
-    "total_time_taken": 0.4
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69890ca3ab28c684e17e1e75.html",
+    "total_time_taken": 0.44
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 95,
+        "value": 96,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -61,7 +61,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 33,
+        "value": 34,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -75,12 +75,26 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 14,
+        "value": 16,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
       },
       "year": "2025"
+    },
+    {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
+      "publication": "arXiv preprint arXiv:2412.16723, 2024",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
+        "cites_id": "4649120131747553119"
+      },
+      "year": "2024"
     },
     {
       "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
@@ -97,16 +111,16 @@
       "year": "2024"
     },
     {
-      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
-      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
-      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
-      "publication": "arXiv preprint arXiv:2412.16723, 2024",
+      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
+      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
+      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGRASS 2025, 2024",
       "cited_by": {
         "value": 6,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
-        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
-        "cites_id": "4649120131747553119"
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
+        "cites_id": "2163386554197043219"
       },
       "year": "2024"
     },
@@ -117,7 +131,7 @@
       "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
       "publication": "arXiv preprint arXiv:2409.00395, 2024",
       "cited_by": {
-        "value": 5,
+        "value": 6,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
         "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
         "cites_id": "17786288074730119246"
@@ -125,16 +139,30 @@
       "year": "2024"
     },
     {
-      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
-      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
-      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
-      "publication": "IGRASS 2025, 2024",
+      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "authors": "YF Lin, CM Lee, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
       "cited_by": {
         "value": 4,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
-        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
-        "cites_id": "2163386554197043219"
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
+        "cites_id": "12099199047212617245"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, FE Yang, YCF Wang, ...",
+      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18054841875686507267",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18054841875686507267&engine=google_scholar&hl=en",
+        "cites_id": "18054841875686507267"
       },
       "year": "2024"
     },
@@ -152,16 +180,44 @@
       "year": "2024"
     },
     {
-      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
-      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
-      "authors": "YF Lin, CM Lee, CC Hsu",
-      "publication": "ACMMM 2025, 2025",
+      "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
+      "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
       "cited_by": {
         "value": 2,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
-        "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
-        "cites_id": "12099199047212617245"
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034&engine=google_scholar&hl=en",
+        "cites_id": "3178425287188456034"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
+      "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
+      "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10309457544719769368",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10309457544719769368&engine=google_scholar&hl=en",
+        "cites_id": "10309457544719769368"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Multi Source COVID-19 Detection via Kernel-Density-based Slice Sampling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:5nxA0vEk-isC",
+      "citation_id": "ook-p6wAAAAJ:5nxA0vEk-isC",
+      "authors": "CM Lee, BC Qiu, TY Chen, MH Sun, FY Lin, JT Tsai, IA Tsai, YF Lin, ...",
+      "publication": "arXiv preprint arXiv:2507.01564, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1982240719688971802",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1982240719688971802&engine=google_scholar&hl=en",
+        "cites_id": "1982240719688971802"
       },
       "year": "2025"
     },
@@ -172,7 +228,7 @@
       "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
       "publication": "IGRASS 2025, 2025",
       "cited_by": {
-        "value": 2,
+        "value": 1,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8212239710552032345",
         "serpapi_link": "https://serpapi.com/search.json?cites=8212239710552032345&engine=google_scholar&hl=en",
         "cites_id": "8212239710552032345"
@@ -180,22 +236,33 @@
       "year": "2025"
     },
     {
+      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jung, YL Liu, CC Hsu",
+      "publication": "arXiv preprint arXiv:2601.17470, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026"
+    },
+    {
+      "title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:8k81kl-MbHgC",
+      "citation_id": "ook-p6wAAAAJ:8k81kl-MbHgC",
+      "authors": "CM Lee, YF Lin, JH Jung, YJ Hsiao, CC Hsu, YL Liu",
+      "publication": "arXiv preprint arXiv:2601.17468, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026"
+    },
+    {
       "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
       "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
       "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
       "publication": "ICCVW 2025, 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
-      "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
-      "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
-      "publication": "ACMMM 2025, 2025",
       "cited_by": {
         "value": null
       },
@@ -231,72 +298,20 @@
         "value": null
       },
       "year": "2025"
-    },
-    {
-      "title": "AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Y0pCki6q_DkC",
-      "citation_id": "ook-p6wAAAAJ:Y0pCki6q_DkC",
-      "authors": "CM Lee, CJ Kang, CH Cheng, YF Lin, YS Chou, CC Hsu, FE Yang, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "A Multi-Stage Deep Learning Pipeline for Crack Detection and Segmentation in High-Speed Rail Brake Discs",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:zYLM7Y9cAGgC",
-      "citation_id": "ook-p6wAAAAJ:zYLM7Y9cAGgC",
-      "authors": "CH Cheng, YF Lin, CM Lee, CC Hsu, YL Shih, C Ting",
-      "publication": "IEEE International Conference on Consumer Technology (ICCT-Pacific), 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Supplementary Material",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ufrVoPGSRksC",
-      "citation_id": "ook-p6wAAAAJ:ufrVoPGSRksC",
-      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "NTIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
-      "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
-      "authors": "S Han, H Fan, F Kong, W Liao, C Guo, C Li, R Timofte, L Li, T Li, J Cui, ...",
-      "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1104-1125, 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
-      "title": "RobustDGA: Generalized Hyperspectral Image Fusion via High Frequency Information Sharing and Compensation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:d1gkVwhDpl0C",
-      "citation_id": "ook-p6wAAAAJ:d1gkVwhDpl0C",
-      "authors": "CM Lee, CJ Kang, CH Cheng, YF Lin, YS Chou, CC Hsu, FE Yang, ...",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2024"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 171,
-          "since_2021": 171
+          "all": 189,
+          "since_2021": 189
         }
       },
       {
         "h_index": {
-          "all": 5,
-          "since_2021": 5
+          "all": 6,
+          "since_2021": 6
         }
       },
       {
@@ -317,7 +332,11 @@
       },
       {
         "year": 2025,
-        "citations": 109
+        "citations": 120
+      },
+      {
+        "year": 2026,
+        "citations": 7
       }
     ]
   },
@@ -355,15 +374,6 @@
       "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
-      "name": "Yi-Shiuan Chou",
-      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "iGX8FBcAAAAJ",
-      "affiliations": "Institute of Data Science, National Cheng Kung University",
-      "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
-    },
-    {
       "name": "Li-Wei Kang (康立威)",
       "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
@@ -380,6 +390,15 @@
       "affiliations": "Research Scientist, NVIDIA Research",
       "email": "Verified email at nvidia.com",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
+    },
+    {
+      "name": "Yi-Shiuan Chou",
+      "link": "https://scholar.google.com/citations?user=iGX8FBcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=iGX8FBcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "iGX8FBcAAAAJ",
+      "affiliations": "Institute of Data Science, National Cheng Kung University",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=iGX8FBcAAAAJ&citpid=1"
     },
     {
       "name": "Yi-Ching Cheng",
