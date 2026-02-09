@@ -87,10 +87,10 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 
 <!-- SSCNet -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS25</div><img src='images/SSCNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/SSCNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**SSCNet: Factorized Spatial-Spectral Correlation for Efficient Hyperspectral Image Fusion**
+**HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion**
 
 [Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en) [Chih-Chung Hsu](https://cchsu.info/)
 
