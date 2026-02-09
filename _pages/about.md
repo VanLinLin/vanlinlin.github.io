@@ -111,7 +111,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 <!-- SSCNet -->
 
 <!-- S^3RNET -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to JSTARS</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S$^3$RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening**
