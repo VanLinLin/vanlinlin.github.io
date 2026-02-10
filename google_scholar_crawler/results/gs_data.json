@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "698a60593a92061a80b1f5b2",
+    "id": "698bb2a0f7e99670b9dd9da9",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/698a60593a92061a80b1f5b2.json",
-    "created_at": "2026-02-09 22:31:53 UTC",
-    "processed_at": "2026-02-09 22:31:53 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/698bb2a0f7e99670b9dd9da9.json",
+    "created_at": "2026-02-10 22:35:12 UTC",
+    "processed_at": "2026-02-10 22:35:12 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/698a60593a92061a80b1f5b2.html",
-    "total_time_taken": 5.43
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/698bb2a0f7e99670b9dd9da9.html",
+    "total_time_taken": 0.56
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -103,7 +103,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
       "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
       "cited_by": {
-        "value": 7,
+        "value": 8,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
@@ -304,8 +304,8 @@
     "table": [
       {
         "citations": {
-          "all": 189,
-          "since_2021": 189
+          "all": 190,
+          "since_2021": 190
         }
       },
       {
@@ -332,7 +332,7 @@
       },
       {
         "year": 2025,
-        "citations": 120
+        "citations": 121
       },
       {
         "year": 2026,
