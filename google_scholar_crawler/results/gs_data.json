@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "699398d96e2237138670911c",
+    "id": "6994eb2bb463f3d1d863687b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/699398d96e2237138670911c.json",
-    "created_at": "2026-02-16 22:23:21 UTC",
-    "processed_at": "2026-02-16 22:23:21 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6994eb2bb463f3d1d863687b.json",
+    "created_at": "2026-02-17 22:26:51 UTC",
+    "processed_at": "2026-02-17 22:26:51 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/699398d96e2237138670911c.html",
-    "total_time_taken": 6.26
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6994eb2bb463f3d1d863687b.html",
+    "total_time_taken": 3.03
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 96,
+        "value": 97,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -97,6 +97,20 @@
       "year": "2025"
     },
     {
+      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
+      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
+        "cites_id": "18307115968291267381"
+      },
+      "year": "2024"
+    },
+    {
       "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
       "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
@@ -107,20 +121,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
-      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
-      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
-      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
-      "cited_by": {
-        "value": 8,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
-        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
-        "cites_id": "18307115968291267381"
       },
       "year": "2024"
     },
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 214,
-          "since_2021": 214
+          "all": 216,
+          "since_2021": 216
         }
       },
       {
@@ -336,11 +336,11 @@
       },
       {
         "year": 2025,
-        "citations": 141
+        "citations": 142
       },
       {
         "year": 2026,
-        "citations": 8
+        "citations": 9
       }
     ]
   },
