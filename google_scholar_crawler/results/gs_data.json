@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6994eb2bb463f3d1d863687b",
+    "id": "69963cf595e9507ddf959b3f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6994eb2bb463f3d1d863687b.json",
-    "created_at": "2026-02-17 22:26:51 UTC",
-    "processed_at": "2026-02-17 22:26:51 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69963cf595e9507ddf959b3f.json",
+    "created_at": "2026-02-18 22:28:05 UTC",
+    "processed_at": "2026-02-18 22:28:05 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6994eb2bb463f3d1d863687b.html",
-    "total_time_taken": 3.03
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69963cf595e9507ddf959b3f.html",
+    "total_time_taken": 0.77
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -125,6 +125,20 @@
       "year": "2024"
     },
     {
+      "title": "Self-supervised fusarium head blight detection with hyperspectral image and feature mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
+      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2409.00395, 2024",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
+        "cites_id": "17786288074730119246"
+      },
+      "year": "2024"
+    },
+    {
       "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
       "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
@@ -135,20 +149,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "Self-supervised fusarium head blight detection with hyperspectral image and feature mining",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
-      "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2409.00395, 2024",
-      "cited_by": {
-        "value": 6,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
-        "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
-        "cites_id": "17786288074730119246"
       },
       "year": "2024"
     },
@@ -308,14 +308,14 @@
     "table": [
       {
         "citations": {
-          "all": 216,
-          "since_2021": 216
+          "all": 217,
+          "since_2021": 217
         }
       },
       {
         "h_index": {
-          "all": 6,
-          "since_2021": 6
+          "all": 7,
+          "since_2021": 7
         }
       },
       {
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 9
+        "citations": 10
       }
     ]
   },
