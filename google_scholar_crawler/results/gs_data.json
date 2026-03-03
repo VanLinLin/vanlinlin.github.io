@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69a60dd25c018f8371fc6414",
+    "id": "69a75f9b333617a07e270e58",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69a60dd25c018f8371fc6414.json",
-    "created_at": "2026-03-02 22:23:14 UTC",
-    "processed_at": "2026-03-02 22:23:14 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69a75f9b333617a07e270e58.json",
+    "created_at": "2026-03-03 22:24:27 UTC",
+    "processed_at": "2026-03-03 22:24:27 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69a60dd25c018f8371fc6414.html",
-    "total_time_taken": 2.92
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69a75f9b333617a07e270e58.html",
+    "total_time_taken": 0.73
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -97,6 +97,20 @@
       "year": "2025"
     },
     {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
+      "publication": "arXiv preprint arXiv:2412.16723, 2024",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
+        "cites_id": "4649120131747553119"
+      },
+      "year": "2024"
+    },
+    {
       "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
       "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
@@ -107,20 +121,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
-      },
-      "year": "2024"
-    },
-    {
-      "title": "PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u-x6o8ySG0sC",
-      "citation_id": "ook-p6wAAAAJ:u-x6o8ySG0sC",
-      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
-      "publication": "arXiv preprint arXiv:2412.16723, 2024",
-      "cited_by": {
-        "value": 8,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
-        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
-        "cites_id": "4649120131747553119"
       },
       "year": "2024"
     },
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 219,
-          "since_2021": 219
+          "all": 220,
+          "since_2021": 220
         }
       },
       {
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 11
+        "citations": 12
       }
     ]
   },
