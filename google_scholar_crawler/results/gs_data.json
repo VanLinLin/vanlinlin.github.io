@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69aa032a7bf2f94e7f1b1af2",
+    "id": "69ab53d632f11d24f6433fde",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69aa032a7bf2f94e7f1b1af2.json",
-    "created_at": "2026-03-05 22:26:50 UTC",
-    "processed_at": "2026-03-05 22:26:50 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ab53d632f11d24f6433fde.json",
+    "created_at": "2026-03-06 22:23:18 UTC",
+    "processed_at": "2026-03-06 22:23:18 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69aa032a7bf2f94e7f1b1af2.html",
-    "total_time_taken": 1.25
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ab53d632f11d24f6433fde.html",
+    "total_time_taken": 1.89
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -153,6 +153,20 @@
       "year": "2024"
     },
     {
+      "title": "Prompthsi: Universal hyperspectral image restoration with vision-language modulated frequency adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "ook-p6wAAAAJ:3fE2CSJIrl8C",
+      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, FE Yang, YCF Wang, ...",
+      "publication": "arXiv preprint arXiv:2411.15922, 2024",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18054841875686507267",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18054841875686507267&engine=google_scholar&hl=en",
+        "cites_id": "18054841875686507267"
+      },
+      "year": "2024"
+    },
+    {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
       "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
@@ -165,20 +179,6 @@
         "cites_id": "12099199047212617245"
       },
       "year": "2025"
-    },
-    {
-      "title": "Prompthsi: Universal hyperspectral image restoration with vision-language modulated frequency adaptation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:3fE2CSJIrl8C",
-      "citation_id": "ook-p6wAAAAJ:3fE2CSJIrl8C",
-      "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, FE Yang, YCF Wang, ...",
-      "publication": "arXiv preprint arXiv:2411.15922, 2024",
-      "cited_by": {
-        "value": 4,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18054841875686507267",
-        "serpapi_link": "https://serpapi.com/search.json?cites=18054841875686507267&engine=google_scholar&hl=en",
-        "cites_id": "18054841875686507267"
-      },
-      "year": "2024"
     },
     {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 220,
-          "since_2021": 220
+          "all": 221,
+          "since_2021": 221
         }
       },
       {
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 12
+        "citations": 13
       }
     ]
   },
