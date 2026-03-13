@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69b33c5197c19f2deed56499",
+    "id": "69b48e8a7dcfbe0c31676913",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b33c5197c19f2deed56499.json",
-    "created_at": "2026-03-12 22:21:05 UTC",
-    "processed_at": "2026-03-12 22:21:05 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b48e8a7dcfbe0c31676913.json",
+    "created_at": "2026-03-13 22:24:10 UTC",
+    "processed_at": "2026-03-13 22:24:10 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b33c5197c19f2deed56499.html",
-    "total_time_taken": 0.28
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b48e8a7dcfbe0c31676913.html",
+    "total_time_taken": 5.82
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -89,7 +89,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 16,
+        "value": 17,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -103,7 +103,7 @@
       "authors": "CM Lee, CH Cheng, YF Lin, YC Cheng, WT Liao, CC Hsu, FE Yang, ...",
       "publication": "arXiv preprint arXiv:2412.16723, 2024",
       "cited_by": {
-        "value": 9,
+        "value": 10,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119"
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 222,
-          "since_2021": 222
+          "all": 224,
+          "since_2021": 224
         }
       },
       {
@@ -320,8 +320,8 @@
       },
       {
         "i10_index": {
-          "all": 4,
-          "since_2021": 4
+          "all": 5,
+          "since_2021": 5
         }
       }
     ],
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 14
+        "citations": 16
       }
     ]
   },
