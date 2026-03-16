@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69b7312a054e5f86ce2ebf2a",
+    "id": "69b884036c3283c43802eab2",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b7312a054e5f86ce2ebf2a.json",
-    "created_at": "2026-03-15 22:22:34 UTC",
-    "processed_at": "2026-03-15 22:22:34 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b884036c3283c43802eab2.json",
+    "created_at": "2026-03-16 22:28:19 UTC",
+    "processed_at": "2026-03-16 22:28:19 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b7312a054e5f86ce2ebf2a.html",
-    "total_time_taken": 0.57
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69b884036c3283c43802eab2.html",
+    "total_time_taken": 5.25
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 99,
+        "value": 100,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -61,7 +61,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 35,
+        "value": 36,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -253,7 +253,7 @@
       "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
       "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jung, YL Liu, CC Hsu",
+      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
       "publication": "arXiv preprint arXiv:2601.17470, 2026",
       "cited_by": {
         "value": null
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 224,
-          "since_2021": 224
+          "all": 226,
+          "since_2021": 226
         }
       },
       {
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 16
+        "citations": 18
       }
     ]
   },
