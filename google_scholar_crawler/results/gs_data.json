@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69bdc904ae39f31a19627540",
+    "id": "69c06b4f17bdbf850d2c7701",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69bdc904ae39f31a19627540.json",
-    "created_at": "2026-03-20 22:24:04 UTC",
-    "processed_at": "2026-03-20 22:24:04 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69c06b4f17bdbf850d2c7701.json",
+    "created_at": "2026-03-22 22:21:03 UTC",
+    "processed_at": "2026-03-22 22:21:03 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69bdc904ae39f31a19627540.html",
-    "total_time_taken": 0.82
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69c06b4f17bdbf850d2c7701.html",
+    "total_time_taken": 0.81
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -117,7 +117,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
       "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
       "cited_by": {
-        "value": 9,
+        "value": 10,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 227,
-          "since_2021": 227
+          "all": 228,
+          "since_2021": 228
         }
       },
       {
@@ -320,8 +320,8 @@
       },
       {
         "i10_index": {
-          "all": 5,
-          "since_2021": 5
+          "all": 6,
+          "since_2021": 6
         }
       }
     ],
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 19
+        "citations": 20
       }
     ]
   },
@@ -355,7 +355,7 @@
       "link": "https://scholar.google.com/citations?user=koBVaaUAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=koBVaaUAAAAJ&engine=google_scholar_author&hl=en",
       "author_id": "koBVaaUAAAAJ",
-      "affiliations": "National Yang Ming Chiao Tung University",
+      "affiliations": "University at Albany, State University of New York (SUNY)",
       "email": "Verified email at nycu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=22"
     },
