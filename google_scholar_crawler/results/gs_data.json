@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69c462385922f4fa0cc75dec",
+    "id": "69c5b24355ba653594da8237",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69c462385922f4fa0cc75dec.json",
-    "created_at": "2026-03-25 22:31:20 UTC",
-    "processed_at": "2026-03-25 22:31:20 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69c5b24355ba653594da8237.json",
+    "created_at": "2026-03-26 22:25:07 UTC",
+    "processed_at": "2026-03-26 22:25:07 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69c462385922f4fa0cc75dec.html",
-    "total_time_taken": 2.14
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69c5b24355ba653594da8237.html",
+    "total_time_taken": 0.88
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -89,7 +89,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 17,
+        "value": 18,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -308,8 +308,8 @@
     "table": [
       {
         "citations": {
-          "all": 228,
-          "since_2021": 228
+          "all": 229,
+          "since_2021": 229
         }
       },
       {
@@ -340,7 +340,7 @@
       },
       {
         "year": 2026,
-        "citations": 20
+        "citations": 21
       }
     ]
   },
