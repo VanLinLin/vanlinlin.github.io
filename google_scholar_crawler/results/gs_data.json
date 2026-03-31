@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69caf99d13f4b6f54d64a95d",
+    "id": "69cc4aff95a6949ed690f3a4",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69caf99d13f4b6f54d64a95d.json",
-    "created_at": "2026-03-30 22:30:53 UTC",
-    "processed_at": "2026-03-30 22:30:53 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69cc4aff95a6949ed690f3a4.json",
+    "created_at": "2026-03-31 22:30:23 UTC",
+    "processed_at": "2026-03-31 22:30:23 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69caf99d13f4b6f54d64a95d.html",
-    "total_time_taken": 1.21
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69cc4aff95a6949ed690f3a4.html",
+    "total_time_taken": 1.0
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -186,7 +186,7 @@
       "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
       "authors": "YF Lin, BC Qiu, CM Lee, CC Hsu",
       "cited_by": {
-        "value": 3,
+        "value": 4,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6911928956960792046",
         "serpapi_link": "https://serpapi.com/search.json?cites=6911928956960792046&engine=google_scholar&hl=en",
         "cites_id": "6911928956960792046"
@@ -208,6 +208,34 @@
       "year": "2025"
     },
     {
+      "title": "Multi source covid-19 detection via kernel-density-based slice sampling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:5nxA0vEk-isC",
+      "citation_id": "ook-p6wAAAAJ:5nxA0vEk-isC",
+      "authors": "CM Lee, BC Qiu, TY Chen, MH Sun, FY Lin, JT Tsai, IA Tsai, YF Lin, ...",
+      "publication": "arXiv preprint arXiv:2507.01564, 2025",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1982240719688971802",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1982240719688971802&engine=google_scholar&hl=en",
+        "cites_id": "1982240719688971802"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
+      "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
+      "publication": "ICCVW 2025, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5363872418333020411",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5363872418333020411&engine=google_scholar&hl=en",
+        "cites_id": "5363872418333020411"
+      },
+      "year": "2025"
+    },
+    {
       "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
       "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
@@ -218,20 +246,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10309457544719769368",
         "serpapi_link": "https://serpapi.com/search.json?cites=10309457544719769368&engine=google_scholar&hl=en",
         "cites_id": "10309457544719769368"
-      },
-      "year": "2025"
-    },
-    {
-      "title": "Multi source covid-19 detection via kernel-density-based slice sampling",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:5nxA0vEk-isC",
-      "citation_id": "ook-p6wAAAAJ:5nxA0vEk-isC",
-      "authors": "CM Lee, BC Qiu, TY Chen, MH Sun, FY Lin, JT Tsai, IA Tsai, YF Lin, ...",
-      "publication": "arXiv preprint arXiv:2507.01564, 2025",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1982240719688971802",
-        "serpapi_link": "https://serpapi.com/search.json?cites=1982240719688971802&engine=google_scholar&hl=en",
-        "cites_id": "1982240719688971802"
       },
       "year": "2025"
     },
@@ -272,17 +286,6 @@
       "year": "2026"
     },
     {
-      "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:hqOjcs7Dif8C",
-      "citation_id": "ook-p6wAAAAJ:hqOjcs7Dif8C",
-      "authors": "CM Lee, BC Qiu, TY Chen, YF Lin, FY Lin, JT Tsai, IA Tsai, CC Hsu",
-      "publication": "ICCVW 2025, 2025",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2025"
-    },
-    {
       "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
       "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
@@ -308,8 +311,8 @@
     "table": [
       {
         "citations": {
-          "all": 231,
-          "since_2021": 231
+          "all": 234,
+          "since_2021": 234
         }
       },
       {
@@ -340,7 +343,7 @@
       },
       {
         "year": 2026,
-        "citations": 23
+        "citations": 27
       }
     ]
   },
