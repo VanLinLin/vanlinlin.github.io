@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69dd70966adf278c1887593d",
+    "id": "69dec26f86e9fa133bc4fd15",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69dd70966adf278c1887593d.json",
-    "created_at": "2026-04-13 22:39:18 UTC",
-    "processed_at": "2026-04-13 22:39:18 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69dec26f86e9fa133bc4fd15.json",
+    "created_at": "2026-04-14 22:40:47 UTC",
+    "processed_at": "2026-04-14 22:40:47 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69dd70966adf278c1887593d.html",
-    "total_time_taken": 1.66
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69dec26f86e9fa133bc4fd15.html",
+    "total_time_taken": 0.47
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 102,
+        "value": 101,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -306,8 +306,8 @@
     "table": [
       {
         "citations": {
-          "all": 234,
-          "since_2021": 234
+          "all": 233,
+          "since_2021": 233
         }
       },
       {
@@ -338,7 +338,7 @@
       },
       {
         "year": 2026,
-        "citations": 27
+        "citations": 26
       }
     ]
   },
@@ -376,15 +376,6 @@
       "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
-      "name": "Li-Wei Kang (康立威)",
-      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "QwSzhgEAAAAJ",
-      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
-      "email": "Verified email at ntnu.edu.tw",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
-    },
-    {
       "name": "Fu-En Yang",
       "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
@@ -392,6 +383,15 @@
       "affiliations": "Research Scientist, NVIDIA Research",
       "email": "Verified email at nvidia.com",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
+    },
+    {
+      "name": "Li-Wei Kang (康立威)",
+      "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "QwSzhgEAAAAJ",
+      "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
+      "email": "Verified email at ntnu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
     },
     {
       "name": "Yi-Shiuan Chou",
