@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69e5578a919dfaabe68c3773",
+    "id": "69e6ab100a91565ab3bfd9ed",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69e5578a919dfaabe68c3773.json",
-    "created_at": "2026-04-19 22:30:34 UTC",
-    "processed_at": "2026-04-19 22:30:34 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69e6ab100a91565ab3bfd9ed.json",
+    "created_at": "2026-04-20 22:39:12 UTC",
+    "processed_at": "2026-04-20 22:39:12 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69e5578a919dfaabe68c3773.html",
-    "total_time_taken": 1.15
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69e6ab100a91565ab3bfd9ed.html",
+    "total_time_taken": 0.81
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -103,7 +103,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 15,
+        "value": 16,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
@@ -145,7 +145,7 @@
       "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
       "publication": "arXiv preprint arXiv:2409.00395, 2024",
       "cited_by": {
-        "value": 7,
+        "value": 8,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
         "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
         "cites_id": "17786288074730119246"
@@ -309,14 +309,14 @@
     "table": [
       {
         "citations": {
-          "all": 246,
-          "since_2021": 246
+          "all": 248,
+          "since_2021": 248
         }
       },
       {
         "h_index": {
-          "all": 7,
-          "since_2021": 7
+          "all": 8,
+          "since_2021": 8
         }
       },
       {
@@ -337,11 +337,11 @@
       },
       {
         "year": 2025,
-        "citations": 142
+        "citations": 143
       },
       {
         "year": 2026,
-        "citations": 39
+        "citations": 40
       }
     ]
   },
