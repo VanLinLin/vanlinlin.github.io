@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69e94ed6822c5f9c008382ed",
+    "id": "69ea9fac634a63e964f291cd",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69e94ed6822c5f9c008382ed.json",
-    "created_at": "2026-04-22 22:42:30 UTC",
-    "processed_at": "2026-04-22 22:42:30 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ea9fac634a63e964f291cd.json",
+    "created_at": "2026-04-23 22:39:40 UTC",
+    "processed_at": "2026-04-23 22:39:40 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69e94ed6822c5f9c008382ed.html",
-    "total_time_taken": 1.47
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ea9fac634a63e964f291cd.html",
+    "total_time_taken": 1.03
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 102,
+        "value": 103,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -75,7 +75,7 @@
       "authors": "S Han, H Fan, F Kong, W Liao, C Guo, C Li, R Timofte, L Li, T Li, J Cui, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1104-1125, 2025",
       "cited_by": {
-        "value": 24,
+        "value": 25,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17038750736132258583",
         "serpapi_link": "https://serpapi.com/search.json?cites=17038750736132258583&engine=google_scholar&hl=en",
         "cites_id": "17038750736132258583"
@@ -309,8 +309,8 @@
     "table": [
       {
         "citations": {
-          "all": 248,
-          "since_2021": 248
+          "all": 250,
+          "since_2021": 250
         }
       },
       {
@@ -341,7 +341,7 @@
       },
       {
         "year": 2026,
-        "citations": 40
+        "citations": 42
       }
     ]
   },
