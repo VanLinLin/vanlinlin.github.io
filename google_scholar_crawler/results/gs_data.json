@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69ea9fac634a63e964f291cd",
+    "id": "69ebf02e410cdabf4d1c4170",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ea9fac634a63e964f291cd.json",
-    "created_at": "2026-04-23 22:39:40 UTC",
-    "processed_at": "2026-04-23 22:39:40 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ebf02e410cdabf4d1c4170.json",
+    "created_at": "2026-04-24 22:35:26 UTC",
+    "processed_at": "2026-04-24 22:35:26 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ea9fac634a63e964f291cd.html",
-    "total_time_taken": 1.03
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ebf02e410cdabf4d1c4170.html",
+    "total_time_taken": 1.08
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 103,
+        "value": 104,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -117,7 +117,7 @@
       "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
       "publication": "arXiv preprint arXiv:2604.10321, 2026",
       "cited_by": {
-        "value": 11,
+        "value": 14,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
         "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
         "cites_id": "6238387059932871582"
@@ -173,7 +173,7 @@
       "authors": "YF Lin, CM Lee, CC Hsu",
       "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 4,
+        "value": 5,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
         "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
         "cites_id": "12099199047212617245"
@@ -220,6 +220,20 @@
         "cites_id": "1982240719688971802"
       },
       "year": "2025"
+    },
+    {
+      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
+      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919147532466870372",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11919147532466870372&engine=google_scholar&hl=en",
+        "cites_id": "11919147532466870372"
+      },
+      "year": "2026"
     },
     {
       "title": "Taming Domain Shift in Multi-source CT-Scan Classification via Input-Space Standardization",
@@ -283,17 +297,6 @@
       "year": "2026"
     },
     {
-      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
-      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
-    },
-    {
       "title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:8k81kl-MbHgC",
       "citation_id": "ook-p6wAAAAJ:8k81kl-MbHgC",
@@ -309,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 250,
-          "since_2021": 250
+          "all": 256,
+          "since_2021": 256
         }
       },
       {
@@ -341,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 42
+        "citations": 48
       }
     ]
   },
