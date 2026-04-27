@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69ee92c4d355ccd09d288161",
+    "id": "69efe79e6feec4f2feb6a0b2",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ee92c4d355ccd09d288161.json",
-    "created_at": "2026-04-26 22:33:40 UTC",
-    "processed_at": "2026-04-26 22:33:40 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69efe79e6feec4f2feb6a0b2.json",
+    "created_at": "2026-04-27 22:47:58 UTC",
+    "processed_at": "2026-04-27 22:47:58 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69ee92c4d355ccd09d288161.html",
-    "total_time_taken": 1.21
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69efe79e6feec4f2feb6a0b2.html",
+    "total_time_taken": 2.42
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 104,
+        "value": 105,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -117,7 +117,7 @@
       "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
       "publication": "arXiv preprint arXiv:2604.10321, 2026",
       "cited_by": {
-        "value": 14,
+        "value": 15,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
         "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
         "cites_id": "6238387059932871582"
@@ -312,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 257,
-          "since_2021": 257
+          "all": 259,
+          "since_2021": 259
         }
       },
       {
@@ -344,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 49
+        "citations": 51
       }
     ]
   },
@@ -373,15 +373,6 @@
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mIWRYc4AAAAJ&citpid=7"
     },
     {
-      "name": "Ching-Heng Cheng",
-      "link": "https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=2UmoEfcAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "2UmoEfcAAAAJ",
-      "affiliations": "National Cheng Kung University, M.S. student",
-      "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
-    },
-    {
       "name": "Fu-En Yang",
       "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
@@ -389,6 +380,15 @@
       "affiliations": "Research Scientist, NVIDIA Research",
       "email": "Verified email at nvidia.com",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
+    },
+    {
+      "name": "Ching-Heng Cheng",
+      "link": "https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=2UmoEfcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "2UmoEfcAAAAJ",
+      "affiliations": "National Cheng Kung University, M.S. student",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
       "name": "Li-Wei Kang (康立威)",
