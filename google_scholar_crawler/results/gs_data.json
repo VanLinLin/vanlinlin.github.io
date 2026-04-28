@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69efe79e6feec4f2feb6a0b2",
+    "id": "69f13a52f357f615a996d551",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69efe79e6feec4f2feb6a0b2.json",
-    "created_at": "2026-04-27 22:47:58 UTC",
-    "processed_at": "2026-04-27 22:47:58 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f13a52f357f615a996d551.json",
+    "created_at": "2026-04-28 22:53:06 UTC",
+    "processed_at": "2026-04-28 22:53:06 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69efe79e6feec4f2feb6a0b2.html",
-    "total_time_taken": 2.42
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f13a52f357f615a996d551.html",
+    "total_time_taken": 0.57
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -264,6 +264,17 @@
       "year": "2025"
     },
     {
+      "title": "S³RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "ook-p6wAAAAJ:W7OEmFMy1HYC",
+      "authors": "CC Hsu, CM Lee, YF Lin, LW Kang",
+      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026"
+    },
+    {
       "title": "The Fourth Challenge on Image Super-Resolution (4) at NTIRE 2026: Benchmark Results and Method Overview",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:4TOpqqG69KYC",
       "citation_id": "ook-p6wAAAAJ:4TOpqqG69KYC",
@@ -291,17 +302,6 @@
       "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
       "authors": "BC Qiu, YF Lin, YZ Pien, CM Lee, FE Yang, YCF Wang, CC Hsu",
       "publication": "arXiv preprint arXiv:2603.18343, 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
-    },
-    {
-      "title": "ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:8k81kl-MbHgC",
-      "citation_id": "ook-p6wAAAAJ:8k81kl-MbHgC",
-      "authors": "CM Lee, YF Lin, JH Jung, YJ Hsiao, CC Hsu, YL Liu",
-      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
       "cited_by": {
         "value": null
       },
