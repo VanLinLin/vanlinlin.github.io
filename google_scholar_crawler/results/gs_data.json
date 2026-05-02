@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69f52cb5217ade0ae8b5f37e",
+    "id": "69f67c49eb55a3070a693646",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f52cb5217ade0ae8b5f37e.json",
-    "created_at": "2026-05-01 22:44:05 UTC",
-    "processed_at": "2026-05-01 22:44:05 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f67c49eb55a3070a693646.json",
+    "created_at": "2026-05-02 22:35:53 UTC",
+    "processed_at": "2026-05-02 22:35:53 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f52cb5217ade0ae8b5f37e.html",
-    "total_time_taken": 1.23
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f67c49eb55a3070a693646.html",
+    "total_time_taken": 1.53
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -97,6 +97,20 @@
       "year": "2025"
     },
     {
+      "title": "NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_kc_bZDykSQC",
+      "citation_id": "ook-p6wAAAAJ:_kc_bZDykSQC",
+      "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
+      "publication": "arXiv preprint arXiv:2604.10321, 2026",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
+        "cites_id": "6238387059932871582"
+      },
+      "year": "2026"
+    },
+    {
       "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:kNdYIx-mwKoC",
       "citation_id": "ook-p6wAAAAJ:kNdYIx-mwKoC",
@@ -107,20 +121,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
-      },
-      "year": "2026"
-    },
-    {
-      "title": "NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_kc_bZDykSQC",
-      "citation_id": "ook-p6wAAAAJ:_kc_bZDykSQC",
-      "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
-      "publication": "arXiv preprint arXiv:2604.10321, 2026",
-      "cited_by": {
-        "value": 15,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
-        "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
-        "cites_id": "6238387059932871582"
       },
       "year": "2026"
     },
@@ -312,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 259,
-          "since_2021": 259
+          "all": 260,
+          "since_2021": 260
         }
       },
       {
@@ -344,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 51
+        "citations": 52
       }
     ]
   },
