@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69f9238a03b1367f6e249bcd",
+    "id": "69fa7478f5d5ac9f1bd7b2f4",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f9238a03b1367f6e249bcd.json",
-    "created_at": "2026-05-04 22:54:02 UTC",
-    "processed_at": "2026-05-04 22:54:02 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69fa7478f5d5ac9f1bd7b2f4.json",
+    "created_at": "2026-05-05 22:51:36 UTC",
+    "processed_at": "2026-05-05 22:51:36 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69f9238a03b1367f6e249bcd.html",
-    "total_time_taken": 0.88
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69fa7478f5d5ac9f1bd7b2f4.html",
+    "total_time_taken": 0.55
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 105,
+        "value": 104,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -312,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 262,
-          "since_2021": 262
+          "all": 261,
+          "since_2021": 261
         }
       },
       {
@@ -336,7 +336,7 @@
       },
       {
         "year": 2024,
-        "citations": 43
+        "citations": 42
       },
       {
         "year": 2025,
