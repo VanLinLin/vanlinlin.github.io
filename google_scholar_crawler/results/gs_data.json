@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "69fd18fb408027555b9bde8d",
+    "id": "69fe691869a322778021738a",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69fd18fb408027555b9bde8d.json",
-    "created_at": "2026-05-07 22:58:03 UTC",
-    "processed_at": "2026-05-07 22:58:03 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69fe691869a322778021738a.json",
+    "created_at": "2026-05-08 22:52:08 UTC",
+    "processed_at": "2026-05-08 22:52:08 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69fd18fb408027555b9bde8d.html",
-    "total_time_taken": 0.88
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/69fe691869a322778021738a.html",
+    "total_time_taken": 0.59
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -103,7 +103,7 @@
       "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
       "publication": "arXiv preprint arXiv:2604.10321, 2026",
       "cited_by": {
-        "value": 16,
+        "value": 17,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
         "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
         "cites_id": "6238387059932871582"
@@ -159,7 +159,7 @@
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
       "cited_by": {
-        "value": 6,
+        "value": 7,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
@@ -312,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 261,
-          "since_2021": 261
+          "all": 263,
+          "since_2021": 263
         }
       },
       {
@@ -344,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 53
+        "citations": 55
       }
     ]
   },
