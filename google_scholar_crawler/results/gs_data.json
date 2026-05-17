@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a08f257e6590e61c310ad4e",
+    "id": "6a0a46146561a6fd4894f4e5",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a08f257e6590e61c310ad4e.json",
-    "created_at": "2026-05-16 22:40:23 UTC",
-    "processed_at": "2026-05-16 22:40:23 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a0a46146561a6fd4894f4e5.json",
+    "created_at": "2026-05-17 22:49:56 UTC",
+    "processed_at": "2026-05-17 22:49:56 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a08f257e6590e61c310ad4e.html",
-    "total_time_taken": 0.43
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a0a46146561a6fd4894f4e5.html",
+    "total_time_taken": 1.65
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -145,7 +145,7 @@
       "authors": "YF Lin, CH Cheng, BC Qiu, CJ Kang, CM Lee, CC Hsu",
       "publication": "arXiv preprint arXiv:2409.00395, 2024",
       "cited_by": {
-        "value": 8,
+        "value": 9,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17786288074730119246",
         "serpapi_link": "https://serpapi.com/search.json?cites=17786288074730119246&engine=google_scholar&hl=en",
         "cites_id": "17786288074730119246"
@@ -159,7 +159,7 @@
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
       "cited_by": {
-        "value": 7,
+        "value": 8,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
@@ -181,6 +181,20 @@
       "year": "2025"
     },
     {
+      "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
+      "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034,8212239710552032345",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034%2C8212239710552032345&engine=google_scholar&hl=en",
+        "cites_id": "3178425287188456034,8212239710552032345"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
       "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
@@ -192,20 +206,6 @@
         "cites_id": "6911928956960792046"
       },
       "year": "2024"
-    },
-    {
-      "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
-      "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
-      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
-      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
-      "cited_by": {
-        "value": 3,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034,8212239710552032345",
-        "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034%2C8212239710552032345&engine=google_scholar&hl=en",
-        "cites_id": "3178425287188456034,8212239710552032345"
-      },
-      "year": "2025"
     },
     {
       "title": "Multi source covid-19 detection via kernel-density-based slice sampling",
@@ -312,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 265,
-          "since_2021": 265
+          "all": 268,
+          "since_2021": 268
         }
       },
       {
@@ -344,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 57
+        "citations": 60
       }
     ]
   },
