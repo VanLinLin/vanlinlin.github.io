@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a138187e6cb30dcedb4e77a",
+    "id": "6a14d3a18da5ea7405c994a7",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a138187e6cb30dcedb4e77a.json",
-    "created_at": "2026-05-24 22:53:59 UTC",
-    "processed_at": "2026-05-24 22:53:59 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a14d3a18da5ea7405c994a7.json",
+    "created_at": "2026-05-25 22:56:33 UTC",
+    "processed_at": "2026-05-25 22:56:33 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a138187e6cb30dcedb4e77a.html",
-    "total_time_taken": 2.09
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a14d3a18da5ea7405c994a7.html",
+    "total_time_taken": 0.24
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -83,6 +83,20 @@
       "year": "2025"
     },
     {
+      "title": "NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_kc_bZDykSQC",
+      "citation_id": "ook-p6wAAAAJ:_kc_bZDykSQC",
+      "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
+      "publication": "arXiv preprint arXiv:2604.10321, 2026",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
+        "cites_id": "6238387059932871582"
+      },
+      "year": "2026"
+    },
+    {
       "title": "3rd Workshop on Maritime Computer Vision (MaCVi) 2025: Challenge Results",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:IjCSPb-OGe4C",
       "citation_id": "ook-p6wAAAAJ:IjCSPb-OGe4C",
@@ -95,20 +109,6 @@
         "cites_id": "3658394587071482250,14065050833808040817"
       },
       "year": "2025"
-    },
-    {
-      "title": "NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_kc_bZDykSQC",
-      "citation_id": "ook-p6wAAAAJ:_kc_bZDykSQC",
-      "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
-      "publication": "arXiv preprint arXiv:2604.10321, 2026",
-      "cited_by": {
-        "value": 18,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
-        "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
-        "cites_id": "6238387059932871582"
-      },
-      "year": "2026"
     },
     {
       "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
@@ -264,6 +264,17 @@
       "year": "2025"
     },
     {
+      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
+      "authors": "BC Qiu, FY Lin, MH Sun, YF Lin, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2605.22096, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026"
+    },
+    {
       "title": "S³RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:W7OEmFMy1HYC",
       "citation_id": "ook-p6wAAAAJ:W7OEmFMy1HYC",
@@ -295,25 +306,14 @@
         "value": null
       },
       "year": "2026"
-    },
-    {
-      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "authors": "BC Qiu, YF Lin, YZ Pien, CM Lee, FE Yang, YCF Wang, CC Hsu",
-      "publication": "arXiv preprint arXiv:2603.18343, 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 270,
-          "since_2021": 270
+          "all": 271,
+          "since_2021": 271
         }
       },
       {
@@ -344,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 62
+        "citations": 63
       }
     ]
   },
@@ -373,15 +373,6 @@
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mIWRYc4AAAAJ&citpid=7"
     },
     {
-      "name": "Fu-En Yang",
-      "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "k6Iz9VoAAAAJ",
-      "affiliations": "Research Scientist, NVIDIA Research",
-      "email": "Verified email at nvidia.com",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
-    },
-    {
       "name": "Ching-Heng Cheng",
       "link": "https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=2UmoEfcAAAAJ&engine=google_scholar_author&hl=en",
@@ -398,6 +389,15 @@
       "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
       "email": "Verified email at ntnu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
+    },
+    {
+      "name": "Fu-En Yang",
+      "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "k6Iz9VoAAAAJ",
+      "affiliations": "Research Scientist, NVIDIA Research",
+      "email": "Verified email at nvidia.com",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
     },
     {
       "name": "Yi-Shiuan Chou",
