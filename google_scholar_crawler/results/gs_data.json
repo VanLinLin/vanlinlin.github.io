@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a14d3a18da5ea7405c994a7",
+    "id": "6a162734b2c613dd93de3a6b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a14d3a18da5ea7405c994a7.json",
-    "created_at": "2026-05-25 22:56:33 UTC",
-    "processed_at": "2026-05-25 22:56:33 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a162734b2c613dd93de3a6b.json",
+    "created_at": "2026-05-26 23:05:24 UTC",
+    "processed_at": "2026-05-26 23:05:24 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a14d3a18da5ea7405c994a7.html",
-    "total_time_taken": 0.24
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a162734b2c613dd93de3a6b.html",
+    "total_time_taken": 3.22
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -61,7 +61,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 40,
+        "value": 41,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -117,7 +117,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 17,
+        "value": 18,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
@@ -139,6 +139,20 @@
       "year": "2024"
     },
     {
+      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
+      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
+      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
+        "cites_id": "2163386554197043219"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Self-supervised fusarium head blight detection with hyperspectral image and feature mining",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
       "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
@@ -151,20 +165,6 @@
         "cites_id": "17786288074730119246"
       },
       "year": "2024"
-    },
-    {
-      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
-      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
-      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
-      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
-      "cited_by": {
-        "value": 8,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
-        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
-        "cites_id": "2163386554197043219"
-      },
-      "year": "2025"
     },
     {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
@@ -312,14 +312,14 @@
     "table": [
       {
         "citations": {
-          "all": 271,
-          "since_2021": 271
+          "all": 274,
+          "since_2021": 274
         }
       },
       {
         "h_index": {
-          "all": 8,
-          "since_2021": 8
+          "all": 9,
+          "since_2021": 9
         }
       },
       {
@@ -340,11 +340,11 @@
       },
       {
         "year": 2025,
-        "citations": 144
+        "citations": 146
       },
       {
         "year": 2026,
-        "citations": 63
+        "citations": 64
       }
     ]
   },
