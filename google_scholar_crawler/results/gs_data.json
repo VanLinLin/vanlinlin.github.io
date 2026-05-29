@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a18cb8c95a6943281dcc773",
+    "id": "6a1a1c6f895d9037caa291b1",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a18cb8c95a6943281dcc773.json",
-    "created_at": "2026-05-28 23:11:08 UTC",
-    "processed_at": "2026-05-28 23:11:08 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a1a1c6f895d9037caa291b1.json",
+    "created_at": "2026-05-29 23:08:31 UTC",
+    "processed_at": "2026-05-29 23:08:31 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a18cb8c95a6943281dcc773.html",
-    "total_time_taken": 1.52
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a1a1c6f895d9037caa291b1.html",
+    "total_time_taken": 6.48
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -89,7 +89,7 @@
       "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
       "publication": "arXiv preprint arXiv:2604.10321, 2026",
       "cited_by": {
-        "value": 19,
+        "value": 20,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
         "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
         "cites_id": "6238387059932871582"
@@ -173,7 +173,7 @@
       "authors": "YF Lin, CM Lee, CC Hsu",
       "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 5,
+        "value": 6,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
         "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
         "cites_id": "12099199047212617245"
@@ -214,7 +214,7 @@
       "authors": "CM Lee, BC Qiu, TY Chen, MH Sun, FY Lin, JT Tsai, IA Tsai, YF Lin, ...",
       "publication": "arXiv preprint arXiv:2507.01564, 2025",
       "cited_by": {
-        "value": 2,
+        "value": 3,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1982240719688971802",
         "serpapi_link": "https://serpapi.com/search.json?cites=1982240719688971802&engine=google_scholar&hl=en",
         "cites_id": "1982240719688971802"
@@ -312,8 +312,8 @@
     "table": [
       {
         "citations": {
-          "all": 274,
-          "since_2021": 274
+          "all": 277,
+          "since_2021": 277
         }
       },
       {
@@ -344,7 +344,7 @@
       },
       {
         "year": 2026,
-        "citations": 64
+        "citations": 67
       }
     ]
   },
