@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a20b894b4ab72c833d1c7f1",
+    "id": "6a2204bdc4f20f931d544d2a",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a20b894b4ab72c833d1c7f1.json",
-    "created_at": "2026-06-03 23:28:20 UTC",
-    "processed_at": "2026-06-03 23:28:20 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a2204bdc4f20f931d544d2a.json",
+    "created_at": "2026-06-04 23:05:33 UTC",
+    "processed_at": "2026-06-04 23:05:33 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a20b894b4ab72c833d1c7f1.html",
-    "total_time_taken": 0.41
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a2204bdc4f20f931d544d2a.html",
+    "total_time_taken": 7.18
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,12 +47,26 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 105,
+        "value": 106,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
       },
       "year": "2025"
+    },
+    {
+      "title": "The Fourth Challenge on Image Super-Resolution (x4) at NTIRE 2026: Benchmark Results and Method Overview",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:M3ejUd6NZC8C",
+      "citation_id": "ook-p6wAAAAJ:M3ejUd6NZC8C",
+      "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
+      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
+      "cited_by": {
+        "value": 42,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2563308900532835670",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2563308900532835670&engine=google_scholar&hl=en",
+        "cites_id": "2563308900532835670"
+      },
+      "year": "2026"
     },
     {
       "title": "NTIRE 2025 challenge on single image reflection removal in the wild: Datasets, methods and results",
@@ -69,6 +83,34 @@
       "year": "2025"
     },
     {
+      "title": "Learning-Based Ambient Lighting Normalization: NTIRE 2026 Challenge Results and Findings",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qxL8FJ1GzNcC",
+      "citation_id": "ook-p6wAAAAJ:qxL8FJ1GzNcC",
+      "authors": "FA Vasluianu, T Seizinger, J Chen, Z Zhou, Z Wu, R Timofte, Y Oh, J Park, ...",
+      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
+      "cited_by": {
+        "value": 39,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7772604663048680347",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7772604663048680347&engine=google_scholar&hl=en",
+        "cites_id": "7772604663048680347"
+      },
+      "year": "2026"
+    },
+    {
+      "title": "NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_kc_bZDykSQC",
+      "citation_id": "ook-p6wAAAAJ:_kc_bZDykSQC",
+      "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
+      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
+        "cites_id": "6238387059932871582"
+      },
+      "year": "2026"
+    },
+    {
       "title": "NTIRE 2025 challenge on text to image generation model quality assessment",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
       "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
@@ -81,20 +123,6 @@
         "cites_id": "17038750736132258583"
       },
       "year": "2025"
-    },
-    {
-      "title": "NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:_kc_bZDykSQC",
-      "citation_id": "ook-p6wAAAAJ:_kc_bZDykSQC",
-      "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
-      "publication": "arXiv preprint arXiv:2604.10321, 2026",
-      "cited_by": {
-        "value": 20,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
-        "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
-        "cites_id": "6238387059932871582"
-      },
-      "year": "2026"
     },
     {
       "title": "3rd Workshop on Maritime Computer Vision (MaCVi) 2025: Challenge Results",
@@ -153,6 +181,20 @@
       "year": "2025"
     },
     {
+      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
+      "authors": "YF Lin, CM Lee, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
+        "cites_id": "12099199047212617245"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Self-supervised fusarium head blight detection with hyperspectral image and feature mining",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:9yKSN-GCB0IC",
       "citation_id": "ook-p6wAAAAJ:9yKSN-GCB0IC",
@@ -165,20 +207,6 @@
         "cites_id": "17786288074730119246"
       },
       "year": "2024"
-    },
-    {
-      "title": "DenseSR: Image Shadow Removal as Dense Prediction",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YsMSGLbcyi4C",
-      "citation_id": "ook-p6wAAAAJ:YsMSGLbcyi4C",
-      "authors": "YF Lin, CM Lee, CC Hsu",
-      "publication": "ACMMM 2025, 2025",
-      "cited_by": {
-        "value": 7,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
-        "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
-        "cites_id": "12099199047212617245"
-      },
-      "year": "2025"
     },
     {
       "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
@@ -284,48 +312,26 @@
         "value": null
       },
       "year": "2026"
-    },
-    {
-      "title": "The Fourth Challenge on Image Super-Resolution (4) at NTIRE 2026: Benchmark Results and Method Overview",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:4TOpqqG69KYC",
-      "citation_id": "ook-p6wAAAAJ:4TOpqqG69KYC",
-      "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
-      "publication": "arXiv preprint arXiv:2604.14558, 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
-    },
-    {
-      "title": "CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:ULOm3_A8WrAC",
-      "citation_id": "ook-p6wAAAAJ:ULOm3_A8WrAC",
-      "authors": "RL Jian, TY Chen, YF Lin, CM Lee, FE Yang, YCF Wang, CC Hsu",
-      "publication": "arXiv preprint arXiv:2604.02785, 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 280,
-          "since_2021": 280
+          "all": 382,
+          "since_2021": 382
         }
       },
       {
         "h_index": {
-          "all": 9,
-          "since_2021": 9
+          "all": 10,
+          "since_2021": 10
         }
       },
       {
         "i10_index": {
-          "all": 8,
-          "since_2021": 8
+          "all": 10,
+          "since_2021": 10
         }
       }
     ],
@@ -340,11 +346,11 @@
       },
       {
         "year": 2025,
-        "citations": 145
+        "citations": 139
       },
       {
         "year": 2026,
-        "citations": 71
+        "citations": 179
       }
     ]
   },
