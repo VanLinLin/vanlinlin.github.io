@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a2355c36561a69207e41751",
+    "id": "6a24a62e6feec45c8122bd1f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a2355c36561a69207e41751.json",
-    "created_at": "2026-06-05 23:03:31 UTC",
-    "processed_at": "2026-06-05 23:03:31 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a24a62e6feec45c8122bd1f.json",
+    "created_at": "2026-06-06 22:58:54 UTC",
+    "processed_at": "2026-06-06 22:58:54 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a2355c36561a69207e41751.html",
-    "total_time_taken": 3.1
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a24a62e6feec45c8122bd1f.html",
+    "total_time_taken": 0.68
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -17,7 +17,7 @@
   },
   "author": {
     "name": "Yu-Fan Lin",
-    "affiliations": "Institute of Data Science, National Cheng Kung University, Taiwan",
+    "affiliations": "University at Albany, State University of New York",
     "email": "Verified email at gs.ncku.edu.tw",
     "website": "https://vanlinlin.github.io/",
     "interests": [
@@ -209,6 +209,20 @@
       "year": "2024"
     },
     {
+      "title": "S³RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "ook-p6wAAAAJ:W7OEmFMy1HYC",
+      "authors": "CC Hsu, CM Lee, YF Lin, LW Kang",
+      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16769234913081667924,3102822500283588834",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16769234913081667924%2C3102822500283588834&engine=google_scholar&hl=en",
+        "cites_id": "16769234913081667924,3102822500283588834"
+      },
+      "year": "2026"
+    },
+    {
       "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
       "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
@@ -301,25 +315,14 @@
         "value": null
       },
       "year": "2026"
-    },
-    {
-      "title": "S³RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:W7OEmFMy1HYC",
-      "citation_id": "ook-p6wAAAAJ:W7OEmFMy1HYC",
-      "authors": "CC Hsu, CM Lee, YF Lin, LW Kang",
-      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 382,
-          "since_2021": 382
+          "all": 390,
+          "since_2021": 390
         }
       },
       {
@@ -342,15 +345,15 @@
       },
       {
         "year": 2024,
-        "citations": 42
+        "citations": 44
       },
       {
         "year": 2025,
-        "citations": 139
+        "citations": 143
       },
       {
         "year": 2026,
-        "citations": 179
+        "citations": 181
       }
     ]
   },
