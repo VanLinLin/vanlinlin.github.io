@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a24a62e6feec45c8122bd1f",
+    "id": "6a25f809a3ce8404f9e50605",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a24a62e6feec45c8122bd1f.json",
-    "created_at": "2026-06-06 22:58:54 UTC",
-    "processed_at": "2026-06-06 22:58:54 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a25f809a3ce8404f9e50605.json",
+    "created_at": "2026-06-07 23:00:25 UTC",
+    "processed_at": "2026-06-07 23:00:25 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a24a62e6feec45c8122bd1f.html",
-    "total_time_taken": 0.68
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a25f809a3ce8404f9e50605.html",
+    "total_time_taken": 2.02
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -382,15 +382,6 @@
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mIWRYc4AAAAJ&citpid=7"
     },
     {
-      "name": "Ching-Heng Cheng",
-      "link": "https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=2UmoEfcAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "2UmoEfcAAAAJ",
-      "affiliations": "National Cheng Kung University, M.S. student",
-      "email": "Verified email at gs.ncku.edu.tw",
-      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
-    },
-    {
       "name": "Li-Wei Kang (康立威)",
       "link": "https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=QwSzhgEAAAAJ&engine=google_scholar_author&hl=en",
@@ -398,6 +389,15 @@
       "affiliations": "Professor, Dept. Electrical Engineering, National Taiwan Normal University, Taipei, Taiwan",
       "email": "Verified email at ntnu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QwSzhgEAAAAJ&citpid=2"
+    },
+    {
+      "name": "Ching-Heng Cheng",
+      "link": "https://scholar.google.com/citations?user=2UmoEfcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=2UmoEfcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "2UmoEfcAAAAJ",
+      "affiliations": "National Cheng Kung University, M.S. student",
+      "email": "Verified email at gs.ncku.edu.tw",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
       "name": "Fu-En Yang",
