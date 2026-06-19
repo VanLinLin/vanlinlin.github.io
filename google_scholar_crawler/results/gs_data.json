@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a34822e50d43e4d7d4af9a4",
+    "id": "6a35c803919dfa113a1eb5f9",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a34822e50d43e4d7d4af9a4.json",
-    "created_at": "2026-06-18 23:41:34 UTC",
-    "processed_at": "2026-06-18 23:41:34 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a35c803919dfa113a1eb5f9.json",
+    "created_at": "2026-06-19 22:51:47 UTC",
+    "processed_at": "2026-06-19 22:51:47 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a34822e50d43e4d7d4af9a4.html",
-    "total_time_taken": 4.24
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a35c803919dfa113a1eb5f9.html",
+    "total_time_taken": 1.43
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -61,7 +61,7 @@
       "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
       "cited_by": {
-        "value": 42,
+        "value": 43,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2563308900532835670",
         "serpapi_link": "https://serpapi.com/search.json?cites=2563308900532835670&engine=google_scholar&hl=en",
         "cites_id": "2563308900532835670"
@@ -89,7 +89,7 @@
       "authors": "FA Vasluianu, T Seizinger, J Chen, Z Zhou, Z Wu, R Timofte, Y Oh, J Park, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
       "cited_by": {
-        "value": 39,
+        "value": 40,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7772604663048680347",
         "serpapi_link": "https://serpapi.com/search.json?cites=7772604663048680347&engine=google_scholar&hl=en",
         "cites_id": "7772604663048680347"
@@ -103,7 +103,7 @@
       "authors": "J Cai, K Yang, Z Li, FA Vasluianu, R Timofte, J Li, J Shen, Z Meng, J Cao, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
       "cited_by": {
-        "value": 38,
+        "value": 39,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238387059932871582",
         "serpapi_link": "https://serpapi.com/search.json?cites=6238387059932871582&engine=google_scholar&hl=en",
         "cites_id": "6238387059932871582"
@@ -145,7 +145,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 18,
+        "value": 19,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
@@ -321,8 +321,8 @@
     "table": [
       {
         "citations": {
-          "all": 392,
-          "since_2021": 392
+          "all": 396,
+          "since_2021": 396
         }
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "year": 2026,
-        "citations": 183
+        "citations": 187
       }
     ]
   },
@@ -404,7 +404,7 @@
       "link": "https://scholar.google.com/citations?user=k6Iz9VoAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=k6Iz9VoAAAAJ&engine=google_scholar_author&hl=en",
       "author_id": "k6Iz9VoAAAAJ",
-      "affiliations": "Research Scientist, NVIDIA Research",
+      "affiliations": "Research Scientist, NVIDIA",
       "email": "Verified email at nvidia.com",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=k6Iz9VoAAAAJ&citpid=4"
     },
