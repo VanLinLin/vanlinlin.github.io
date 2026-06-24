@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a3b111f31aafe15b6170ab3",
+    "id": "6a3c61a01cff1959b823832d",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a3b111f31aafe15b6170ab3.json",
-    "created_at": "2026-06-23 23:05:03 UTC",
-    "processed_at": "2026-06-23 23:05:03 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a3c61a01cff1959b823832d.json",
+    "created_at": "2026-06-24 23:00:48 UTC",
+    "processed_at": "2026-06-24 23:00:48 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a3b111f31aafe15b6170ab3.html",
-    "total_time_taken": 0.31
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a3c61a01cff1959b823832d.html",
+    "total_time_taken": 0.57
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -75,7 +75,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the Computer Vision and Pattern Recognition Conference, 1301-1311, 2025",
       "cited_by": {
-        "value": 42,
+        "value": 43,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -321,8 +321,8 @@
     "table": [
       {
         "citations": {
-          "all": 397,
-          "since_2021": 397
+          "all": 398,
+          "since_2021": 398
         }
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "year": 2026,
-        "citations": 188
+        "citations": 189
       }
     ]
   },
