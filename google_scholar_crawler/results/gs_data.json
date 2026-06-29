@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a41a70eff3b7a8b5d3f8663",
+    "id": "6a42f71c2713328d91873e46",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a41a70eff3b7a8b5d3f8663.json",
-    "created_at": "2026-06-28 22:58:22 UTC",
-    "processed_at": "2026-06-28 22:58:22 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a42f71c2713328d91873e46.json",
+    "created_at": "2026-06-29 22:52:12 UTC",
+    "processed_at": "2026-06-29 22:52:12 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a41a70eff3b7a8b5d3f8663.html",
-    "total_time_taken": 4.6
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a42f71c2713328d91873e46.html",
+    "total_time_taken": 5.25
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -47,7 +47,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 108,
+        "value": 107,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -125,6 +125,20 @@
       "year": "2025"
     },
     {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "ook-p6wAAAAJ:kNdYIx-mwKoC",
+      "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
+      "cited_by": {
+        "value": 20,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
+        "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
+      },
+      "year": "2026"
+    },
+    {
       "title": "3rd Workshop on Maritime Computer Vision (MaCVi) 2025: Challenge Results",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:IjCSPb-OGe4C",
       "citation_id": "ook-p6wAAAAJ:IjCSPb-OGe4C",
@@ -137,20 +151,6 @@
         "cites_id": "3658394587071482250,14065050833808040817"
       },
       "year": "2025"
-    },
-    {
-      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:kNdYIx-mwKoC",
-      "citation_id": "ook-p6wAAAAJ:kNdYIx-mwKoC",
-      "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
-      "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
-      "cited_by": {
-        "value": 19,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
-        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
-        "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
-      },
-      "year": "2026"
     },
     {
       "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
@@ -229,7 +229,7 @@
       "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
       "cited_by": {
-        "value": 4,
+        "value": 5,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034,8212239710552032345",
         "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034%2C8212239710552032345&engine=google_scholar&hl=en",
         "cites_id": "3178425287188456034,8212239710552032345"
@@ -321,8 +321,8 @@
     "table": [
       {
         "citations": {
-          "all": 398,
-          "since_2021": 398
+          "all": 399,
+          "since_2021": 399
         }
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "year": 2026,
-        "citations": 189
+        "citations": 190
       }
     ]
   },
