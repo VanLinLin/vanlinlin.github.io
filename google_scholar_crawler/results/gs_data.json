@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a42f71c2713328d91873e46",
+    "id": "6a444c0504e10adedfd0b312",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a42f71c2713328d91873e46.json",
-    "created_at": "2026-06-29 22:52:12 UTC",
-    "processed_at": "2026-06-29 22:52:12 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a444c0504e10adedfd0b312.json",
+    "created_at": "2026-06-30 23:06:45 UTC",
+    "processed_at": "2026-06-30 23:06:45 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a42f71c2713328d91873e46.html",
-    "total_time_taken": 5.25
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a444c0504e10adedfd0b312.html",
+    "total_time_taken": 2.52
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -153,6 +153,20 @@
       "year": "2025"
     },
     {
+      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
+      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
+      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
+      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
+        "cites_id": "2163386554197043219"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
       "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
@@ -165,20 +179,6 @@
         "cites_id": "18307115968291267381"
       },
       "year": "2024"
-    },
-    {
-      "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
-      "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
-      "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
-      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
-      "cited_by": {
-        "value": 10,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
-        "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
-        "cites_id": "2163386554197043219"
-      },
-      "year": "2025"
     },
     {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
@@ -321,8 +321,8 @@
     "table": [
       {
         "citations": {
-          "all": 399,
-          "since_2021": 399
+          "all": 400,
+          "since_2021": 400
         }
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "year": 2026,
-        "citations": 190
+        "citations": 191
       }
     ]
   },
