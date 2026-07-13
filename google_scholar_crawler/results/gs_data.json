@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a54183513258371fda2bf4e",
+    "id": "6a556c14fbbebb56da707ba7",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a54183513258371fda2bf4e.json",
-    "created_at": "2026-07-12 22:41:57 UTC",
-    "processed_at": "2026-07-12 22:41:57 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a556c14fbbebb56da707ba7.json",
+    "created_at": "2026-07-13 22:52:04 UTC",
+    "processed_at": "2026-07-13 22:52:04 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a54183513258371fda2bf4e.html",
-    "total_time_taken": 0.49
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a556c14fbbebb56da707ba7.html",
+    "total_time_taken": 11.19
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -159,7 +159,7 @@
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
       "cited_by": {
-        "value": 11,
+        "value": 12,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
@@ -321,8 +321,8 @@
     "table": [
       {
         "citations": {
-          "all": 400,
-          "since_2021": 400
+          "all": 401,
+          "since_2021": 401
         }
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "year": 2026,
-        "citations": 191
+        "citations": 192
       }
     ]
   },
