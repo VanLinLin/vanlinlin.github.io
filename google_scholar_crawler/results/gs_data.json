@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6a5d539d73d2241046d83ac9",
+    "id": "6a5ea73d09a51accfc8a3b7f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a5d539d73d2241046d83ac9.json",
-    "created_at": "2026-07-19 22:45:49 UTC",
-    "processed_at": "2026-07-19 22:45:49 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a5ea73d09a51accfc8a3b7f.json",
+    "created_at": "2026-07-20 22:54:53 UTC",
+    "processed_at": "2026-07-20 22:54:53 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a5d539d73d2241046d83ac9.html",
-    "total_time_taken": 2.09
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a5ea73d09a51accfc8a3b7f.html",
+    "total_time_taken": 0.5
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -131,7 +131,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 20,
+        "value": 21,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C12608264280383273224%2C293946418635235173&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,18054841875686507267,12608264280383273224,293946418635235173"
@@ -321,8 +321,8 @@
     "table": [
       {
         "citations": {
-          "all": 403,
-          "since_2021": 403
+          "all": 404,
+          "since_2021": 404
         }
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "year": 2026,
-        "citations": 194
+        "citations": 195
       }
     ]
   },
