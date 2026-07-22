@@ -116,7 +116,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 <!-- ReflexSplit -->
 
 <!-- Hyfusion -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/Hyfusionhpe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/HyFusionhpe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion**
@@ -265,7 +265,7 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 <!-- S^3RNET -->
 
 <!-- Robust -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS 2025</div><img src='images/robust.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS 2025</div><img src='images/Robust.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Robust Hyperspectral Image Pansharpening via Sparse Spatial-Spectral Representation**
