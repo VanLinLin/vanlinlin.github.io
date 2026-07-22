@@ -34,3 +34,15 @@ gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-feed"
+
+# Stdlib gems no longer bundled by default in Ruby 3.4+ (needed for local Jekyll 3.x)
+gem "csv"
+gem "logger"
+gem "base64"
+gem "bigdecimal"
+gem "rexml"
+gem "webrick"
+
+# Timezone data (Windows has no system zoneinfo database)
+gem "tzinfo", ">= 1", "< 3"
+gem "tzinfo-data"

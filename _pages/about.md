@@ -34,12 +34,12 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
--*2026.05.27*: One paper accepted by ICML CoLoRAI Workshop.
--*2026.04.30*: One paper accepted by ICIP.
--*2026.04.28*: One paper accepted by JSTARS.
--*2026.03.24*: One paper accepted by CVPR NTIRE Workshop.
--*2026.03.18*: 3rd in CVPR 2026, NTIRE Ambient Lighening Normalization Challenge.
--*2026.03.14*: Top 2% performance in CVPR 2026, PBVS Mars Landslide Segmentation Challenge.
+- *2026.05.27*: &nbsp;🎉🎉 One paper accepted by ICML CoLoRAI Workshop.
+- *2026.04.30*: &nbsp;🎉🎉 One paper accepted by ICIP.
+- *2026.04.28*: &nbsp;🎉🎉 One paper accepted by JSTARS.
+- *2026.03.24*: &nbsp;🎉🎉 One paper accepted by CVPR NTIRE Workshop.
+- *2026.03.18*: &nbsp;🎉🎉 3rd place in CVPR 2026, NTIRE Ambient Lighting Normalization Challenge.
+- *2026.03.14*: &nbsp;🎉🎉 Top 2% performance in CVPR 2026, PBVS Mars Landslide Segmentation Challenge.
 - *2026/02/21*: &nbsp;🎉🎉 Two papers were accepted by CVPR.
 - *2025/12/17*: &nbsp;🎉🎉 I receive the 1st performance in WACV 2026, SkiTB Visual Tracking Challenge.
 - *2025/12/03*: &nbsp;🎉🎉 I receive the 3rd performance in ICASSP 2026, Hyper-Object Challenge. See you in Barcelona.
@@ -69,7 +69,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 # 📝 Selected Publications
 <!-- PhaSR -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR25</div><img src='images/ReflexSplit_demo.mp4' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR26</div><video src='images/PhaSR_demo.mp4' alt="sym" width="100%" autoplay loop muted playsinline></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors**
@@ -80,9 +80,19 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 * Single Image Shadow Removal
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Lee_PhaSR_Generalized_Image_Shadow_Removal_with_Physically_Aligned_Priors_CVPR_2026_paper.html" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
+  <a href="https://arxiv.org/abs/2601.17470" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
+    </button>
+  </a>
+  <a href="https://ming053l.github.io/PhaSR_github/" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
+      Project Page
     </button>
   </a>
 </div>
@@ -93,7 +103,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 
 <!-- ReflexSplit -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR25</div><img src='images/ReflexSplit_demo.mp4' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR26</div><video src='images/ReflexSplit_demo.mp4' alt="sym" width="100%" autoplay loop muted playsinline></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ReflexSplit: Single Image Reflection Separation via Layer Fusion–Separation**
@@ -104,9 +114,19 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 * Single Image Reflection Removal
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Lee_ReflexSplit_Single_Image_Reflection_Separation_via_Layer_Fusion-Separation_CVPR_2026_paper.html" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
+  <a href="https://arxiv.org/abs/2601.17468" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
+    </button>
+  </a>
+  <a href="https://github.com/wuw2135/ReflexSplit" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
+      Project Page
     </button>
   </a>
 </div>
@@ -129,8 +149,13 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 * Hyperspectral Image, Image Fusion
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="https://ieeexplore.ieee.org/document/11243145" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
+  <a href="https://arxiv.org/abs/2501.04665" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
     </button>
   </a>
@@ -150,11 +175,16 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 **Keywords**
 
-* Medical Image, Image Classification
+* Social Media Popularity Prediction
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="https://dl.acm.org/doi/10.1145/3746027.3763763" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
+  <a href="https://arxiv.org/abs/2507.19863" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
     </button>
   </a>
@@ -177,8 +207,13 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 * Object tracking
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="https://dl.acm.org/doi/10.1145/3728423.3759416" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
+  <a href="https://arxiv.org/abs/2602.00484" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
     </button>
   </a>
@@ -202,9 +237,19 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 * Single Image Shadow Removal
 
 <div style="margin-top: 10px;">
+  <a href="https://dl.acm.org/doi/10.1145/3746027.3755664" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
   <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
+    </button>
+  </a>
+  <a href="https://github.com/VanLinLin/DenseSR" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #24292e; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
+      Code
     </button>
   </a>
 </div>
@@ -220,14 +265,14 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 
 **HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion**
 
-[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en) [Chih-Chung Hsu](https://cchsu.info/)
+[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
 
 **Keywords**
 
 * Efficient Hyperspectral Image Pansharpening
 
 <div style="margin-top: 10px;">
-  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
+  <a href="https://arxiv.org/abs/2602.00490" target="_blank" style="text-decoration: none;">
     <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
       arXiv
     </button>
@@ -239,7 +284,7 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 <!-- HSSDCT -->
 
 <!-- S^3RNET -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to JSTARS</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2026</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S$^3$RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening**
@@ -252,13 +297,6 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 * Robustness and Sparse Representation
 * Network Compression and Knowledge Distillation
 
-<div style="margin-top: 10px;">
-  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      arXiv
-    </button>
-  </a>
-</div>
 
 </div>
 </div>
@@ -279,8 +317,13 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 * Image Pansharpening
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <a href="https://ieeexplore.ieee.org/document/11243541" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
+  <a href="https://arxiv.org/abs/2501.07953" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
     </button>
   </a>
@@ -292,10 +335,10 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 
 
 <!-- promptHSI -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICCV25</div><img src='images/promptHSI5.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TGRS 2026</div><img src='images/promptHSI5.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**PromptHSI: Universal Hyperspectral Image Restoration Framework for Composite Degradation**
+**PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation**
 
 [Chia-Ming Lee](https://ming053l.github.io/), Ching-Heng Cheng, **Yu-Fan Lin**, Yi-Ching Cheng, Wo-Ting Liao, [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)
 
@@ -306,9 +349,19 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 * Text-Prompt Learning
 
 <div style="margin-top: 10px;">
+  <a href="https://ieeexplore.ieee.org/document/11371358" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
   <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
+    </button>
+  </a>
+  <a href="https://github.com/chingheng0808/PromptHSI" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #24292e; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
+      Code
     </button>
   </a>
 </div>
@@ -332,14 +385,6 @@ Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.g
 * Robust Hyperspectral Image Fusion
 * Graph Neural Network
 
-<div style="margin-top: 10px;">
-  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      arXiv
-    </button>
-  </a>
-</div> -->
-
 
 </div>
 </div>
@@ -361,8 +406,13 @@ ACM International Conference on Multimedia (ACMMM2024)
 - Social Media Analysis
 
 <div style="margin-top: 10px;">
+  <a href="https://dl.acm.org/doi/10.1145/3664647.3689000" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Paper
+    </button>
+  </a>
   <a href="https://arxiv.org/abs/2407.00556" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
       arXiv
     </button>
   </a>
@@ -390,7 +440,7 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 <div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2407.00556" target="_blank" style="text-decoration: none;">
+  <a href="https://arxiv.org/abs/2412.16723" target="_blank" style="text-decoration: none;">
     <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
       arXiv
     </button>
