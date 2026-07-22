@@ -34,6 +34,13 @@ My primary research interests include:
 I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
 
 # 🔥 News
+-*2026.05.27*: One paper accepted by ICML CoLoRAI Workshop.
+-*2026.04.30*: One paper accepted by ICIP.
+-*2026.04.28*: One paper accepted by JSTARS.
+-*2026.03.24*: One paper accepted by CVPR NTIRE Workshop.
+-*2026.03.18*: 3rd in CVPR 2026, NTIRE Ambient Lighening Normalization Challenge.
+-*2026.03.14*: Top 2% performance in CVPR 2026, PBVS Mars Landslide Segmentation Challenge.
+- *2026/02/21*: &nbsp;🎉🎉 Two papers were accepted by CVPR.
 - *2025/12/17*: &nbsp;🎉🎉 I receive the 1st performance in WACV 2026, SkiTB Visual Tracking Challenge.
 - *2025/12/03*: &nbsp;🎉🎉 I receive the 3rd performance in ICASSP 2026, Hyper-Object Challenge. See you in Barcelona.
 - *2025/11/24*: &nbsp;🎉🎉 I receive the top 2% performance in BMVC 2025, Data-Centric Land Cover Classification Challenge.
@@ -61,6 +68,127 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 - *2018/06/02*: &nbsp;🎉🎉 I received the 1st place in the Asian Robotic Athletic Competition!
 
 # 📝 Selected Publications
+<!-- PhaSR -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR25</div><img src='images/ReflexSplit_demo.mp4' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors**
+[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Jou Hsiao, Jin-Hui Jiang, [Yu-Lun Liu](https://yulunalexliu.github.io/), [Chih-Chung Hsu](https://cchsu.info/)
+
+**Keywords**
+
+* Single Image Shadow Removal
+
+<div style="margin-top: 10px;">
+  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- PhaSR -->
+
+
+<!-- ReflexSplit -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR25</div><img src='images/ReflexSplit_demo.mp4' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**ReflexSplit: Single Image Reflection Separation via Layer Fusion–Separation**
+[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Jin-Hui Jiang, Yu-Jou Hsiao, [Chih-Chung Hsu](https://cchsu.info/), [Yu-Lun Liu](https://yulunalexliu.github.io/)
+
+**Keywords**
+
+* Single Image Reflection Removal
+
+<div style="margin-top: 10px;">
+  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- ReflexSplit -->
+
+<!-- Hyfusion -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/Hyfusionhpe.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion**
+
+
+[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Hao Ho, [Chih-Chung Hsu](https://cchsu.info/), [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)
+
+**Keywords**
+
+* Hyperspectral Image, Image Fusion
+
+<div style="margin-top: 10px;">
+  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- Hyfusion -->
+
+<!-- Anchoring Trends -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/Anchoring_trend.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion**
+
+[Chia-Ming Lee](https://ming053l.github.io/), Bo-Cheng Qiu, Cheng-Jun Kang, Yi-Hsuan Wu, Jun-Lin Chen, **Yu-Fan Lin**, Yi-Shiuan Chou, [Chih-Chung Hsu](https://cchsu.info/)
+
+**Keywords**
+
+* Medical Image, Image Classification
+
+<div style="margin-top: 10px;">
+  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- Anchoring Trends -->
+
+<!-- GTATrack -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/GTATrack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association**
+
+Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/)
+
+**Keywords**
+
+* Object tracking
+
+<div style="margin-top: 10px;">
+  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+</div>
+</div>
+<!-- GTATrack -->
+
+
 <!-- DenseSR -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/DenseSR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -86,7 +214,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 <!-- DenseSR -->
 
 
-<!-- SSCNet -->
+<!-- HSSDCT -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/SSCNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -108,7 +236,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 </div>
 </div>
-<!-- SSCNet -->
+<!-- HSSDCT -->
 
 <!-- S^3RNET -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to JSTARS</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
@@ -136,22 +264,22 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 </div>
 <!-- S^3RNET -->
 
-
-<!-- S^3RNET -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/S3RNet.png' alt="sym" width="100%"></div></div>
+<!-- Robust -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS 2025</div><img src='images/robust.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Robust Hyperspectral Image Panshapring via Sparse Spatial-Spectral Representation**
+**Robust Hyperspectral Image Pansharpening via Sparse Spatial-Spectral Representation**
+
 
 [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
 
 **Keywords**
 
-* Hyperspectral Image Fusion
-* Sparse Representation
+* Hyperspectral Image
+* Image Pansharpening
 
 <div style="margin-top: 10px;">
-  <a href="https://vanlinlin.github.io/" target="_blank" style="text-decoration: none;">
+  <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
     <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
       arXiv
     </button>
@@ -160,7 +288,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 </div>
 </div>
-<!-- S^3RNET -->
+<!-- Robust -->
 
 
 <!-- promptHSI -->
@@ -191,7 +319,7 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 
 <!-- AuroraHSI -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to ICCV25</div><img src='images/DGA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS25</div><img src='images/DGA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation**
@@ -245,6 +373,35 @@ ACM International Conference on Multimedia (ACMMM2024)
 </div>
 </div>
 <!-- SMPD2024 -->
+
+
+<!-- Divide and Conquer -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/SMPD24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model**
+
+
+**Yu-Fan Lin**, Bo-Cheng Qiu, [Chia-Ming Lee](https://ming053l.github.io/),[Chih-Chung Hsu](https://cchsu.info/)
+
+**Keywords**
+- Instance Segmentation
+- Medical Image
+
+
+<div style="margin-top: 10px;">
+  <a href="https://arxiv.org/abs/2407.00556" target="_blank" style="text-decoration: none;">
+    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      arXiv
+    </button>
+  </a>
+</div>
+
+
+
+</div>
+</div>
+<!-- Divide and Conquer -->
 
 
 # 🔨 Projects
