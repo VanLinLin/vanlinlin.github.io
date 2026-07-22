@@ -21,7 +21,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '3.4' # 與本機開發環境一致 (Gemfile.lock 由 bundler 2.6.7 產生)
           bundler-cache: true # 自動快取 Gems
 
       - name: Setup Pages
