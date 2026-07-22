@@ -376,13 +376,13 @@ ACM International Conference on Multimedia (ACMMM2024)
 
 
 <!-- Divide and Conquer -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/SMPD24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/ICIP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model**
 
 
-**Yu-Fan Lin**, Bo-Cheng Qiu, [Chia-Ming Lee](https://ming053l.github.io/),[Chih-Chung Hsu](https://cchsu.info/)
+**Yu-Fan Lin**, Bo-Cheng Qiu, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)
 
 **Keywords**
 - Instance Segmentation
