@@ -1,0 +1,155 @@
+# ============================================================
+# Selected Publications
+# ------------------------------------------------------------
+# 新增一篇論文 = 複製一段條目貼到「最上面」(新的放前面) 並改內容。
+#
+# 欄位說明:
+#   title:    論文標題 (可用 <sup>3</sup> 等 HTML)
+#   badge:    左上角的徽章文字 (例: CVPR26, ACMMM 2025, Submitted to XXX)
+#   media:    圖片或影片路徑;.mp4 結尾會自動變成靜音循環自動播放的影片
+#   authors:  作者列表 (Markdown;自己用 **Yu-Fan Lin**,別人可加連結)
+#   venue:    (選填) 顯示在標題下的會議/期刊全名
+#   keywords: 關鍵字清單
+#   links:    有哪個就填哪個,沒有就整個省略
+#     paper:   正式出版連結 (CVF / IEEE Xplore / ACM DL)
+#     arxiv:   arXiv 連結
+#     project: Project Page 連結
+#     code:    GitHub Code 連結
+# ============================================================
+
+- title: "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors"
+  badge: "CVPR 2026"
+  media: images/PhaSR_demo.mp4
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Jou Hsiao, Jin-Hui Jiang, [Yu-Lun Liu](https://yulunalexliu.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Single Image Shadow Removal
+  links:
+    paper: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_PhaSR_Generalized_Image_Shadow_Removal_with_Physically_Aligned_Priors_CVPR_2026_paper.html
+    arxiv: https://arxiv.org/abs/2601.17470
+    project: https://ming053l.github.io/PhaSR_github/
+
+- title: "ReflexSplit: Single Image Reflection Separation via Layer Fusion–Separation"
+  badge: "CVPR 2026"
+  media: images/ReflexSplit_demo.mp4
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Jin-Hui Jiang, Yu-Jou Hsiao, [Chih-Chung Hsu](https://cchsu.info/), [Yu-Lun Liu](https://yulunalexliu.github.io/)"
+  keywords:
+    - Single Image Reflection Removal
+  links:
+    paper: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_ReflexSplit_Single_Image_Reflection_Separation_via_Layer_Fusion-Separation_CVPR_2026_paper.html
+    arxiv: https://arxiv.org/abs/2601.17468
+    project: https://github.com/wuw2135/ReflexSplit
+
+- title: "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion"
+  badge: "IGARSS 2025"
+  media: images/HyFusionhpe.png
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Hao Ho, [Chih-Chung Hsu](https://cchsu.info/), [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
+  keywords:
+    - Hyperspectral Image
+    - Image Fusion
+  links:
+    paper: https://ieeexplore.ieee.org/document/11243145
+    arxiv: https://arxiv.org/abs/2501.04665
+
+- title: "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion"
+  badge: "ACMMM 2025"
+  media: images/Anchoring_trend.png
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), Bo-Cheng Qiu, Cheng-Jun Kang, Yi-Hsuan Wu, Jun-Lin Chen, **Yu-Fan Lin**, Yi-Shiuan Chou, [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Social Media Popularity Prediction
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3746027.3763763
+    arxiv: https://arxiv.org/abs/2507.19863
+
+- title: "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association"
+  badge: "ACMMM 2025"
+  media: images/GTATrack.png
+  authors: "Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Object Tracking
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3728423.3759416
+    arxiv: https://arxiv.org/abs/2602.00484
+
+- title: "DenseSR: Image Shadow Removal as Dense Prediction"
+  badge: "ACMMM 2025"
+  media: images/DenseSR.png
+  authors: "**Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Single Image Shadow Removal
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3746027.3755664
+    arxiv: https://arxiv.org/abs/2507.16472
+    code: https://github.com/VanLinLin/DenseSR
+
+- title: "HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion"
+  badge: "ICASSP 2026"
+  media: images/SSCNet.png
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Efficient Hyperspectral Image Pansharpening
+  links:
+    arxiv: https://arxiv.org/abs/2602.00490
+
+- title: "S<sup>3</sup>RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening"
+  badge: "JSTARS 2026"
+  media: images/S3RNET_second.png
+  authors: "[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
+  keywords:
+    - Efficient Hyperspectral Image Pansharpening
+    - Robustness and Sparse Representation
+    - Network Compression and Knowledge Distillation
+
+- title: "Robust Hyperspectral Image Pansharpening via Sparse Spatial-Spectral Representation"
+  badge: "IGARSS 2025"
+  media: images/Robust.png
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Hyperspectral Image
+    - Image Pansharpening
+  links:
+    paper: https://ieeexplore.ieee.org/document/11243541
+    arxiv: https://arxiv.org/abs/2501.07953
+
+- title: "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation"
+  badge: "TGRS 2026"
+  media: images/promptHSI5.png
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), Ching-Heng Cheng, **Yu-Fan Lin**, Yi-Ching Cheng, Wo-Ting Liao, [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)"
+  keywords:
+    - Hyperspectral Image Restoration
+    - All-in-One Image Restoration
+    - Text-Prompt Learning
+  links:
+    paper: https://ieeexplore.ieee.org/document/11371358
+    arxiv: https://arxiv.org/abs/2411.15922
+    code: https://github.com/chingheng0808/PromptHSI
+
+- title: "AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation"
+  badge: "Submitted to TGRS"
+  media: images/DGA.png
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), Cheng-Jun Kang, Ching-Heng Cheng, **Yu-Fan Lin**, [Yi-Shiuan Chou](https://nelly0421.github.io/), [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)"
+  keywords:
+    - Hyperspectral Image Restoration
+    - Robust Hyperspectral Image Fusion
+    - Graph Neural Network
+
+- title: "Revisiting CLIP-Features for Learning Multi-Modal Representations from Social Posts"
+  badge: "ACMMM 2024"
+  media: images/SMPD24.png
+  venue: "ACM International Conference on Multimedia (ACMMM 2024)"
+  authors: "[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Yi-Shiuan Chou](https://nelly0421.github.io/), Chih-Yu Jiang, Chi-Han Tsai"
+  keywords:
+    - Vision-Language Model
+    - Social Media Analysis
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3664647.3689000
+    arxiv: https://arxiv.org/abs/2407.00556
+
+- title: "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model"
+  badge: "arXiv 2024"
+  media: images/ICIP.png
+  authors: "**Yu-Fan Lin**, Bo-Cheng Qiu, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Instance Segmentation
+    - Medical Image
+  links:
+    arxiv: https://arxiv.org/abs/2412.16723

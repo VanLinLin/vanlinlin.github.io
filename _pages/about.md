@@ -8,524 +8,67 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-
-
 <span class='anchor' id='about-me'></span>
 
-# 🧍‍♂️ Biography
+<div class="hero">
+  <span class="hero__blob hero__blob--1" aria-hidden="true"></span>
+  <span class="hero__blob hero__blob--2" aria-hidden="true"></span>
+  <p class="hero__greet">Hi there 👋 I'm</p>
+  <h1 class="hero__name">Yu-Fan (Van) Lin</h1>
+  <p class="hero__typing-line"><span id="hero-typing" data-roles='["Computer Vision Researcher","M.S. Student @ NCKU ACVLAB","Challenge Winner × 7 🏆","Multimodal Learning Enthusiast"]'></span><span class="hero__cursor" aria-hidden="true"></span></p>
 
+  <div class="hero__intro" markdown="1">
+I am a master's student with the [Advanced Computer Vision Laboratory (ACVLAB)](https://sites.google.com/view/acvlab/) at the Institute of Data Science, National Cheng Kung University (NCKU), Tainan, Taiwan. I actively participate in various competitions and research projects as part of the ACVLAB team.
 
-Hello,
-My name is Yu-Fan (Van) Lin. I am a master's student with the <a href="https://sites.google.com/view/acvlab/">Advanced Computer Vision Laboratory (ACVLAB)</a> at the Institute of Data Science, National Cheng Kung University (NCKU), Tainan, Taiwan. I actively participate in various competitions and research projects as part of the ACVLAB team.
+Previously, I earned my bachelor's degree from the Department of Applied Mathematics at National Chung Hsing University (NCHU), where I engaged in multiple projects during my undergraduate studies.
 
-Previously, I earned my bachelor's degree from the Department of Applied Mathematics at National Chung Hsing University (NCHU), where I engaged in multiple projects during my undergraduate studies. You can find my resume [here](https://drive.google.com/file/d/1CUPKXi3Q4WWr_Gbj3hpmXSwG03fYPyzs/view?usp=sharing) (last updated January 04, 2026).
+I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration — let's connect and share ideas to push boundaries together!
+  </div>
 
-My primary research interests include:
-* Multimodal Learning
-* Image/Video Processing
+  <div class="hero__interests">
+    <span class="tag-chip">Multimodal Learning</span>
+    <span class="tag-chip">Image / Video Processing</span>
+    <span class="tag-chip">Image Restoration</span>
+  </div>
 
-I am also enthusiastic about exploring other cutting-edge fields in artificial intelligence and data science. I actively seek opportunities for collaboration—let’s connect and share ideas to push boundaries together!
+  <div style="margin-top: 0.8em;">
+    <a class="btn-pill btn-pill--paper" href="https://drive.google.com/file/d/1CUPKXi3Q4WWr_Gbj3hpmXSwG03fYPyzs/view?usp=sharing" target="_blank" rel="noopener"><i class="fas fa-file-download" aria-hidden="true"></i> Resume / CV</a>
+    <span style="font-size: 0.8em; color: var(--ink-3);">last updated Jan 04, 2026</span>
+  </div>
+</div>
+
+{% include stats-row.html %}
 
 # 🔥 News
-- *2026.05.27*: &nbsp;🎉🎉 One paper accepted by ICML CoLoRAI Workshop.
-- *2026.04.30*: &nbsp;🎉🎉 One paper accepted by ICIP.
-- *2026.04.28*: &nbsp;🎉🎉 One paper accepted by JSTARS.
-- *2026.03.24*: &nbsp;🎉🎉 One paper accepted by CVPR NTIRE Workshop.
-- *2026.03.18*: &nbsp;🎉🎉 3rd place in CVPR 2026, NTIRE Ambient Lighting Normalization Challenge.
-- *2026.03.14*: &nbsp;🎉🎉 Top 2% performance in CVPR 2026, PBVS Mars Landslide Segmentation Challenge.
-- *2026/02/21*: &nbsp;🎉🎉 Two papers were accepted by CVPR.
-- *2025/12/17*: &nbsp;🎉🎉 I receive the 1st performance in WACV 2026, SkiTB Visual Tracking Challenge.
-- *2025/12/03*: &nbsp;🎉🎉 I receive the 3rd performance in ICASSP 2026, Hyper-Object Challenge. See you in Barcelona.
-- *2025/11/24*: &nbsp;🎉🎉 I receive the top 2% performance in BMVC 2025, Data-Centric Land Cover Classification Challenge.
-- *2025/08/24*: &nbsp;🎉🎉 I won the CVGIP 2025 best paper award!
-- *2025/07/25*: &nbsp;🎉🎉 Three papers were accepted by CVGIP 2025!
-- *2025/07/24*: &nbsp;🎉🎉 One paper was accepted by ICCVW 2025. See you in Honolulu, Hawaii!
-- *2025/07/19*: &nbsp;🎉🎉 Three papers were accepted by ACMMM 2025. See you in Dublin, Ireland!
-- *2025/07/15*: &nbsp;🎉🎉 I receive the 1st performance in ACMMM 2025, SoccerTrack Challenge@MMSports. See you in Dublin, Ireland!
-- *2025/07/06*: &nbsp;🎉🎉 I receive the 1st performance in ICCV 2025, Multi-source COV19 Detection Challenge. See you in Honolulu, Hawaii!
-- *2025/07/05*: &nbsp;🎉🎉 One paper was accepted by ACMMM 2025, see you in Dublin, Ireland!
-- *2025/06/09*: &nbsp;🎉🎉 I received 1st place in the ICRA 2025 TreeScope Tree Diameter Estimation Challenge!
-- *2025/03/24*: &nbsp;🎉🎉 I received 3rd place in the CVPR 2025 NTIRE Workshop – Image Shadow Removal Challenge. See you in Nashville!
-- *2025/03/24*: &nbsp;🎉🎉 I received 6th place in the CVPR 2025 NTIRE Workshop – Image Reflection Removal Challenge.
-- *2025/03/15*: &nbsp;🎉🎉 Two paper were accepted by IGARSS 2025, see you in Brisbane!
-- *2025/01/21*: &nbsp;🎉🎉 One paper was accepted by ICCT-Pacific 2025.
-- *2024/12/10*: &nbsp;🎉🎉 I received the 8th Foxconn Scholarship!
-- *2024/12/02*: &nbsp;🎉🎉 I received the Scholarship Nan Shan Life Insurance Company!
-- *2024/07/21*: &nbsp;🎉🎉 I received the 1st performance in ICPR 2024 (Beyond Visible Spectrum: AI for Agriculture)!
-- *2024/06/06*: &nbsp;🎉🎉 I received the Top Performance Award in ACMMM 2024 (Social Media Prediction Challenge)!
-- *2024/05/15*: &nbsp;🎉🎉 I received the 3rd place in SMP Challenge in ACMMM 2024!
-- *2024/03/06*: &nbsp;🎉🎉 I received the 2nd Position in the Auto-WCEBleedGen Challenge Version V2, in conjunted with ICIP 2024!
-- *2021/10/22*: &nbsp;🎉🎉 I received the 2nd place in the Second XRun! Motion Sensing Technology Innovation Competition!
-- *2021/08/19*: &nbsp;🎉🎉 I received the Titanium Medal Award in Green Idea Invention and Design Fair(best 10% teams)!
-- *2020/12/26*: &nbsp;🎉🎉 I received the 4th Foxconn Scholarship as one of only 30 recipients in Taiwan!
-- *2018/06/02*: &nbsp;🎉🎉 I received the 1st place in the Asian Robotic Athletic Competition!
+
+{% include news-timeline.html limit=8 %}
 
 # 📝 Selected Publications
-<!-- PhaSR -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR26</div><video src='images/PhaSR_demo.mp4' alt="sym" width="100%" autoplay loop muted playsinline></video></div></div>
-<div class='paper-box-text' markdown="1">
 
-**PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors**
-[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Jou Hsiao, Jin-Hui Jiang, [Yu-Lun Liu](https://yulunalexliu.github.io/), [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Single Image Shadow Removal
-
-<div style="margin-top: 10px;">
-  <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Lee_PhaSR_Generalized_Image_Shadow_Removal_with_Physically_Aligned_Priors_CVPR_2026_paper.html" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2601.17470" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-  <a href="https://ming053l.github.io/PhaSR_github/" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      Project Page
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- PhaSR -->
-
-
-<!-- ReflexSplit -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR26</div><video src='images/ReflexSplit_demo.mp4' alt="sym" width="100%" autoplay loop muted playsinline></video></div></div>
-<div class='paper-box-text' markdown="1">
-
-**ReflexSplit: Single Image Reflection Separation via Layer Fusion–Separation**
-[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Jin-Hui Jiang, Yu-Jou Hsiao, [Chih-Chung Hsu](https://cchsu.info/), [Yu-Lun Liu](https://yulunalexliu.github.io/)
-
-**Keywords**
-
-* Single Image Reflection Removal
-
-<div style="margin-top: 10px;">
-  <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Lee_ReflexSplit_Single_Image_Reflection_Separation_via_Layer_Fusion-Separation_CVPR_2026_paper.html" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2601.17468" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-  <a href="https://github.com/wuw2135/ReflexSplit" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      Project Page
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- ReflexSplit -->
-
-<!-- Hyfusion -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS25</div><img src='images/HyFusionhpe.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion**
-
-
-[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Hao Ho, [Chih-Chung Hsu](https://cchsu.info/), [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)
-
-**Keywords**
-
-* Hyperspectral Image, Image Fusion
-
-<div style="margin-top: 10px;">
-  <a href="https://ieeexplore.ieee.org/document/11243145" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2501.04665" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- Hyfusion -->
-
-<!-- Anchoring Trends -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/Anchoring_trend.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion**
-
-[Chia-Ming Lee](https://ming053l.github.io/), Bo-Cheng Qiu, Cheng-Jun Kang, Yi-Hsuan Wu, Jun-Lin Chen, **Yu-Fan Lin**, Yi-Shiuan Chou, [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Social Media Popularity Prediction
-
-<div style="margin-top: 10px;">
-  <a href="https://dl.acm.org/doi/10.1145/3746027.3763763" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2507.19863" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- Anchoring Trends -->
-
-<!-- GTATrack -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/GTATrack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association**
-
-Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Object tracking
-
-<div style="margin-top: 10px;">
-  <a href="https://dl.acm.org/doi/10.1145/3728423.3759416" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2602.00484" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- GTATrack -->
-
-
-<!-- DenseSR -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM25</div><img src='images/DenseSR.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**DenseSR: Image Shadow Removal as Dense Prediction**
-
-**Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Single Image Shadow Removal
-
-<div style="margin-top: 10px;">
-  <a href="https://dl.acm.org/doi/10.1145/3746027.3755664" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2507.16472" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-  <a href="https://github.com/VanLinLin/DenseSR" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #24292e; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      Code
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- DenseSR -->
-
-
-<!-- HSSDCT -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/SSCNet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion**
-
-[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Efficient Hyperspectral Image Pansharpening
-
-<div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2602.00490" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- HSSDCT -->
-
-<!-- S^3RNET -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2026</div><img src='images/S3RNET_second.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**S$^3$RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening**
-
-[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en) 
-
-**Keywords**
-
-* Efficient Hyperspectral Image Pansharpening
-* Robustness and Sparse Representation
-* Network Compression and Knowledge Distillation
-
-
-</div>
-</div>
-<!-- S^3RNET -->
-
-<!-- Robust -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IGARSS 2025</div><img src='images/Robust.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Robust Hyperspectral Image Pansharpening via Sparse Spatial-Spectral Representation**
-
-
-[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-
-* Hyperspectral Image
-* Image Pansharpening
-
-<div style="margin-top: 10px;">
-  <a href="https://ieeexplore.ieee.org/document/11243541" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2501.07953" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- Robust -->
-
-
-<!-- promptHSI -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TGRS 2026</div><img src='images/promptHSI5.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation**
-
-[Chia-Ming Lee](https://ming053l.github.io/), Ching-Heng Cheng, **Yu-Fan Lin**, Yi-Ching Cheng, Wo-Ting Liao, [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)
-
-**Keywords**
-
-* Hyperspectral Image Restoration
-* All-in-One Image Restoration
-* Text-Prompt Learning
-
-<div style="margin-top: 10px;">
-  <a href="https://ieeexplore.ieee.org/document/11371358" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2411.15922" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-  <a href="https://github.com/chingheng0808/PromptHSI" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #24292e; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      Code
-    </button>
-  </a>
-</div>
-
-</div>
-</div>
-<!-- promptHSI -->
-
-
-<!-- AuroraHSI -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to TGRS25</div><img src='images/DGA.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation**
-
-[Chia-Ming Lee](https://ming053l.github.io/), Cheng-Jun Kang, Ching-Heng Cheng, **Yu-Fan Lin**, [Yi-Shiuan Chou](https://nelly0421.github.io/), [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)
-
-**Keywords**
-
-* Hyperspectral Image Restoration
-* Robust Hyperspectral Image Fusion
-* Graph Neural Network
-
-
-</div>
-</div>
-<!-- AuroraHSI -->
-
-
-<!-- SMPD2024 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM2024</div><img src='images/SMPD24.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Revisiting CLIP-Features for Learning Multi-Modal Representations from Social Posts**
-
-ACM International Conference on Multimedia (ACMMM2024)
-
-[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Yi-Shiuan Chou](https://nelly0421.github.io/), Chih-Yu Jiang, Chi-Han Tsai
-
-**Keywords**
-- Vision-Language Model
-- Social Media Analysis
-
-<div style="margin-top: 10px;">
-  <a href="https://dl.acm.org/doi/10.1145/3664647.3689000" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #6f42c1; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Paper
-    </button>
-  </a>
-  <a href="https://arxiv.org/abs/2407.00556" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 5px;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-
-
-</div>
-</div>
-<!-- SMPD2024 -->
-
-
-<!-- Divide and Conquer -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/ICIP.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model**
-
-
-**Yu-Fan Lin**, Bo-Cheng Qiu, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)
-
-**Keywords**
-- Instance Segmentation
-- Medical Image
-
-
-<div style="margin-top: 10px;">
-  <a href="https://arxiv.org/abs/2412.16723" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 15px; background-color: #007acc; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      arXiv
-    </button>
-  </a>
-</div>
-
-
-
-</div>
-</div>
-<!-- Divide and Conquer -->
-
-
-# 🔨 Projects
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/OPIXray.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Developing an Automatic Prohibited Items Detection Model for Airport Luggage X ray Images Based on the Integration of Convolutional Neural Networks and Visual Transformers**
-
-**Yu-Fan Lin**, Chih-En Kuo
-
-**Keywords**
-- Deformable convolutions
-- Contraband
-- Object detection
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/Shooting_UI.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Human Factors Biomedical System for Shooting Training**
-
-**Yu-Fan Lin**
-
-**Keywords**
-- System integration
-- Microcontroller
-- Shooting analysis
-</div>
-</div>
-
+{% include pub-cards.html data=site.data.publications %}
 
 # 🎖 Honors and Awards
-- *2025.12*: **Winner** (1/16), SkiTB Visual Tracking Challenge, Winter Conference on Computer Vision (WACV).
-- *2025.12*: **3rd place** (3/136), Hyper-Object Challenge, Spectral Reconstruction from Mosaic Images, IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP).
-- *2025.12*: **3rd place** (3/274), Hyper-Object Challenge, Joint Spatial and Spectral Super-Resolution, IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP).
-- *2025.11*: **4th place** (4/418), Data-Centric Land Cover Classification Challenge, British Machine Vision Conference (BMVC).
-- *2025.07*: **Winner**, SoccerTrack Challenge, Multimedia Content Analysis in Sports, ACM International Conference on Multimedia (ACMMM).
-- *2025.07*: **Winner**, Multi-Source Covid-19 Detection Challenge, International Conference on Computer Vision (ICCV).
-- *2025.06*: **Winner**, TreeScope Tree Diameter Estimation Challenge, IEEE International Conference on Robotics and Automation (ICRA).
-- *2025.03*: **3rd place** (3/306, 0.9%), NTIRE 2025 Single Image Shadow Removal Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
-- *2025.03*: **6th place** (6/244, 2.4%), NTIRE 2025 Single Image Reflection Removal in the Wild Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR).
-- *2024.12*: 8th Foxconn Scholarship recipient.
-- *2024.12*: Nan Shan Life Insurance Company Scholarship.
-- *2024.07*: **Winner**, Beyond Visible Spectrum: AI for Agriculture Challenge, International Conference on Pattern Recognition (ICPR).
-- *2024.05*: **Top Performance Award**, Socia Media Popularity Prediction Challenge, ACM International Conference on Multimedia (ACMMM).
-- *2024.03*: **Runner-up (2/1200+)**, Auto-WCEBleedGen Challenge Version V2, IEEE International Conference on Image Processing (ICIP).
-- *2024.03*: **Presidential Award**, Department of Applied Mathematics (Data Science and Computing Program), National Chung Hsing University.
-- *2023.10*: **Presidential Award**, Department of Applied Mathematics (Data Science and Computing Program), National Chung Hsing University.
-- *2021.10*: **Runner-up (2/30+)**, Second XRun! Motion Sensing Technology Innovation Competition.
-- *2021.08*: **Titanium Medal Award (Top 10%)**, Green Idea Invention and Design Fair.
-- *2020.12*: 4th Foxconn Scholarship recipient.
-- *2018.06*: **Winner (1/1500+)**, Asian Robotic Athletic Competition.
 
-# 💼 Projects
-- *2024.4~*: Cybersecurity in distributed computing for remote sensing, NVIDIA Taiwan Research.
-- *2024.7~2025.6*: Brake system Defect Detection, Taiwan High Speed Rail.
-- *2024.3~2025.4*: Scenario understanding and augmented intelligence, Industrial Technology Research Institute (ITRI).
-- *2023.2~2024.3*: Developing an Automatic Prohibited Items Detection Model for Airport Luggage X ray Images Based on the Integration of Convolutional Neural Networks and Visual Transformers, National Science and Technology Council (NSTC).
-- *2023.2~2024.3*: Plant Disease Analysis System, National Chung Hsing University. (Joint-project with Institute of Agronomy, National Chung Hsing University)
+{% include awards-list.html %}
 
-# 📖 Educations
-- *2024.07 - (Now)*, M.S. National Cheng Kung University (NCKU), the Institute of Data Science, Taiwan.
-- *2022.02 - 2024.06*, B.S. National Chung Hsing University (NCHU), the Deparement of Applied Mathematics, Taiwan. 
-- *2020.09 - 2022.02*, B.S. National Kaohsiung University of Science and Technology (NKUST), the Department of Telecommunication Engineering, Taiwan.
-  
+# 🔨 Projects
+
+{% include pub-cards.html data=site.data.research_projects %}
+
+## 💼 Funded & Industry Projects
+
+{% include funded-list.html %}
+
+# 📖 Education
+
+{% include edu-list.html %}
+
 # 💼 Academic Services
-- 🔎 Reviewer
-  - Conference: AAAI'25
-  - Journal: TCSVT, TMM, IJPRAI
 
+{% include services-list.html %}
 
 # 🌍 Global Collaborations
 
-<div style="width:100%; max-width:1000px; margin: 30px auto; text-align:center;">
+<div class="globe-card reveal" style="width:100%; max-width:1000px; margin: 10px auto 30px; text-align:center;">
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=8ADnNsCiMHFDsAXXuNSPeDLnFpxr3cBBct0zxB4WkaQ&cl=ffffff&w=a"></script>
 </div>

@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "About Me"
     url: "/#about-me"
@@ -6,7 +6,7 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Selected Publications"
+  - title: "Publications"
     url: "/#-selected-publications"
 
   - title: "Honors and Awards"
@@ -15,5 +15,5 @@ main:
   - title: "Projects"
     url: "/#-projects"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#-education"
