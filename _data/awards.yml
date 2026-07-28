@@ -5,16 +5,19 @@
 #   tier: (選填) gold / silver / bronze → 決定獎盃圖示顏色;省略則顯示一般徽章
 # ============================================================
 
+- date: "2026.03"
+  text: "**3rd place**, NTIRE Ambient Lighting Normalization Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR)."
+  tier: bronze
+
+- date: "2026.03"
+  text: "**Top 2%**, PBVS Mars Landslide Segmentation Challenge, IEEE/CVF Computer Vision & Pattern Recognition (CVPR)."
+
 - date: "2025.12"
   text: "**Winner** (1/16), SkiTB Visual Tracking Challenge, Winter Conference on Computer Vision (WACV)."
   tier: gold
 
 - date: "2025.12"
-  text: "**3rd place** (3/136), Hyper-Object Challenge, Spectral Reconstruction from Mosaic Images, IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)."
-  tier: bronze
-
-- date: "2025.12"
-  text: "**3rd place** (3/274), Hyper-Object Challenge, Joint Spatial and Spectral Super-Resolution, IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)."
+  text: "**3rd place** (3/136 & 3/274), Hyper-Object Challenge (Spectral Reconstruction & Super-Resolution), IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)."
   tier: bronze
 
 - date: "2025.11"
