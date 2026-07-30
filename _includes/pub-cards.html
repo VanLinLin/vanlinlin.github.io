@@ -7,9 +7,11 @@
   <article class="pub-card reveal" data-cite-title="{{ item.title | strip_html | escape }}">
     <div class="pub-card__media">
       {% if item.media contains ".mp4" %}
-      <video src="{{ item.media }}" autoplay loop muted playsinline preload="metadata"></video>
-      {% else %}
+      <video src="{{ item.media }}" {% if item.poster %}poster="{{ item.poster }}"{% endif %} autoplay loop muted playsinline preload="metadata"></video>
+      {% elsif item.media %}
       <img src="{{ item.media }}" alt="{{ item.title | strip_html | escape }}" loading="lazy">
+      {% else %}
+      <span class="pub-card__media-empty" aria-hidden="true"><i class="fas fa-file-alt"></i></span>
       {% endif %}
       {% if item.badge %}<span class="pub-card__badge">{{ item.badge }}</span>{% endif %}
     </div>

@@ -17,9 +17,18 @@
 #     code:    GitHub Code 連結
 # ============================================================
 
+- title: "CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization"
+  badge: "CVPR 2026"
+  # media: images/CANDLE.png   # ← 補上圖片後把這行的 # 拿掉
+  authors: "Rong-Lin Jian, Tsung-Yu Chen, **Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html), [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Ambient Lighting Normalization
+    - Illumination-Invariant Representation
+
 - title: "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors"
   badge: "CVPR 2026"
   media: images/PhaSR_demo.mp4
+  poster: images/PhaSR_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Jou Hsiao, Jin-Hui Jiang, [Yu-Lun Liu](https://yulunalexliu.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Single Image Shadow Removal
@@ -31,6 +40,7 @@
 - title: "ReflexSplit: Single Image Reflection Separation via Layer Fusion–Separation"
   badge: "CVPR 2026"
   media: images/ReflexSplit_demo.mp4
+  poster: images/ReflexSplit_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Jin-Hui Jiang, Yu-Jou Hsiao, [Chih-Chung Hsu](https://cchsu.info/), [Yu-Lun Liu](https://yulunalexliu.github.io/)"
   keywords:
     - Single Image Reflection Removal
@@ -38,6 +48,22 @@
     paper: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_ReflexSplit_Single_Image_Reflection_Separation_via_Layer_Fusion-Separation_CVPR_2026_paper.html
     arxiv: https://arxiv.org/abs/2601.17468
     project: https://github.com/wuw2135/ReflexSplit
+
+- title: "FracQuant: Rank-Adaptive Image Super-Resolution Network Quantization via Fractal Complexity Assessment"
+  badge: "ICML CoLoRAI Workshop 2026"
+  # media: images/FracQuant.png   # ← 補上圖片後把這行的 # 拿掉
+  authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Wei-Hao Tsai, [Ming-Ching Chang](https://www.albany.edu/faculty/mchang2), Xin Li, [Chih-Chung Hsu](https://cchsu.info/)"
+  keywords:
+    - Network Quantization
+    - Image Super-Resolution
+
+- title: "HMS<sup>3</sup>Former: A Hyperspectral Image Restoration Model Based on Multi-Stage Spatial-Spectral Transformer and Endmember Attention"
+  badge: "ICIP 2026"
+  # media: images/HMS3Former.png   # ← 補上圖片後把這行的 # 拿掉
+  authors: "Zong-Yu Wu, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/), Shih-Yu Chen, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
+  keywords:
+    - Hyperspectral Image Restoration
+    - Endmember Attention
 
 - title: "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion"
   badge: "IGARSS 2025"
