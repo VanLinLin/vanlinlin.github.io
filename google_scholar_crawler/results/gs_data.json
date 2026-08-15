@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a7f93e55e3494ee61c1c042",
+    "id": "6a80e50d5fda0ba2b0ed1123",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a7f93e55e3494ee61c1c042.json",
-    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a7f93e55e3494ee61c1c042.md",
-    "created_at": "2026-08-14 22:17:09 UTC",
-    "processed_at": "2026-08-14 22:17:09 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a80e50d5fda0ba2b0ed1123.json",
+    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a80e50d5fda0ba2b0ed1123.md",
+    "created_at": "2026-08-15 22:15:41 UTC",
+    "processed_at": "2026-08-15 22:15:41 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a7f93e55e3494ee61c1c042.html",
-    "total_time_taken": 2.96
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a80e50d5fda0ba2b0ed1123.html",
+    "total_time_taken": 4.25
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -293,6 +293,20 @@
       "year": "2025"
     },
     {
+      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
+      "authors": "BC Qiu, FY Lin, MH Sun, YF Lin, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2605.22096, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1721132332576153921",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1721132332576153921&engine=google_scholar&hl=en",
+        "cites_id": "1721132332576153921"
+      },
+      "year": "2026"
+    },
+    {
       "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
       "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
@@ -305,25 +319,14 @@
         "cites_id": "10309457544719769368"
       },
       "year": "2025"
-    },
-    {
-      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "authors": "BC Qiu, FY Lin, MH Sun, YF Lin, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2605.22096, 2026",
-      "cited_by": {
-        "value": null
-      },
-      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 408,
-          "since_2021": 408
+          "all": 409,
+          "since_2021": 409
         }
       },
       {
@@ -342,7 +345,7 @@
     "graph": [
       {
         "year": 2023,
-        "citations": 16
+        "citations": 17
       },
       {
         "year": 2024,
@@ -354,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 200
+        "citations": 201
       }
     ]
   },
