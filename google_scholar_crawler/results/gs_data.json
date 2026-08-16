@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a80e50d5fda0ba2b0ed1123",
+    "id": "6a82367df3a0a7632904e7ad",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a80e50d5fda0ba2b0ed1123.json",
-    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a80e50d5fda0ba2b0ed1123.md",
-    "created_at": "2026-08-15 22:15:41 UTC",
-    "processed_at": "2026-08-15 22:15:41 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a82367df3a0a7632904e7ad.json",
+    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a82367df3a0a7632904e7ad.md",
+    "created_at": "2026-08-16 22:15:25 UTC",
+    "processed_at": "2026-08-16 22:15:25 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a80e50d5fda0ba2b0ed1123.html",
-    "total_time_taken": 4.25
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a82367df3a0a7632904e7ad.html",
+    "total_time_taken": 0.29
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -56,6 +56,20 @@
       "year": "2025"
     },
     {
+      "title": "NTIRE 2025 challenge on single image reflection removal in the wild: Datasets, methods and results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "ook-p6wAAAAJ:eQOLeE2rZwMC",
+      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
+      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
+      "cited_by": {
+        "value": 45,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
+        "cites_id": "1148325222184111124"
+      },
+      "year": "2025"
+    },
+    {
       "title": "The Fourth Challenge on Image Super-Resolution (x4) at NTIRE 2026: Benchmark Results and Method Overview",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:dhFuZR0502QC",
       "citation_id": "ook-p6wAAAAJ:dhFuZR0502QC",
@@ -68,20 +82,6 @@
         "cites_id": "2563308900532835670,10028608956788078541"
       },
       "year": "2026"
-    },
-    {
-      "title": "NTIRE 2025 challenge on single image reflection removal in the wild: Datasets, methods and results",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:eQOLeE2rZwMC",
-      "citation_id": "ook-p6wAAAAJ:eQOLeE2rZwMC",
-      "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
-      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
-      "cited_by": {
-        "value": 44,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
-        "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
-        "cites_id": "1148325222184111124"
-      },
-      "year": "2025"
     },
     {
       "title": "Learning-Based Ambient Lighting Normalization: NTIRE 2026 Challenge Results and Findings",
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 409,
-          "since_2021": 409
+          "all": 410,
+          "since_2021": 410
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 201
+        "citations": 202
       }
     ]
   },
