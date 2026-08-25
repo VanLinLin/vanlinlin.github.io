@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a8cc393f30d13b2f5207304",
+    "id": "6a8e153f3f79e8c6e8350eb9",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8cc393f30d13b2f5207304.json",
-    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8cc393f30d13b2f5207304.md",
-    "created_at": "2026-08-24 22:20:03 UTC",
-    "processed_at": "2026-08-24 22:20:03 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8e153f3f79e8c6e8350eb9.json",
+    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8e153f3f79e8c6e8350eb9.md",
+    "created_at": "2026-08-25 22:20:47 UTC",
+    "processed_at": "2026-08-25 22:20:47 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8cc393f30d13b2f5207304.html",
-    "total_time_taken": 1.45
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8e153f3f79e8c6e8350eb9.html",
+    "total_time_taken": 1.76
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -132,7 +132,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 23,
+        "value": 24,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,293946418635235173,12608264280383273224",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C293946418635235173%2C12608264280383273224&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,18054841875686507267,293946418635235173,12608264280383273224"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 412,
-          "since_2021": 412
+          "all": 413,
+          "since_2021": 413
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 204
+        "citations": 205
       }
     ]
   },
