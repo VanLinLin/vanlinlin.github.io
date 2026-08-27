@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a8e153f3f79e8c6e8350eb9",
+    "id": "6a8fa5e5afea455a9ad9db50",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8e153f3f79e8c6e8350eb9.json",
-    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8e153f3f79e8c6e8350eb9.md",
-    "created_at": "2026-08-25 22:20:47 UTC",
-    "processed_at": "2026-08-25 22:20:47 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8fa5e5afea455a9ad9db50.json",
+    "markdown_endpoint": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8fa5e5afea455a9ad9db50.md",
+    "created_at": "2026-08-27 02:50:13 UTC",
+    "processed_at": "2026-08-27 02:50:13 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8e153f3f79e8c6e8350eb9.html",
-    "total_time_taken": 1.76
+    "raw_html_file": "https://serpapi.com/searches/PUL2Qhq9PSoVS3MREc_-WQ/6a8fa5e5afea455a9ad9db50.html",
+    "total_time_taken": 0.84
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -238,6 +238,20 @@
       "year": "2025"
     },
     {
+      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
+      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919147532466870372",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11919147532466870372&engine=google_scholar&hl=en",
+        "cites_id": "11919147532466870372"
+      },
+      "year": "2026"
+    },
+    {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:2osOgNQ5qMEC",
       "citation_id": "ook-p6wAAAAJ:2osOgNQ5qMEC",
@@ -249,20 +263,6 @@
         "cites_id": "6911928956960792046"
       },
       "year": "2024"
-    },
-    {
-      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
-      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
-      "cited_by": {
-        "value": 3,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919147532466870372",
-        "serpapi_link": "https://serpapi.com/search.json?cites=11919147532466870372&engine=google_scholar&hl=en",
-        "cites_id": "11919147532466870372"
-      },
-      "year": "2026"
     },
     {
       "title": "Multi source covid-19 detection via kernel-density-based slice sampling",
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 413,
-          "since_2021": 413
+          "all": 414,
+          "since_2021": 414
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 205
+        "citations": 206
       }
     ]
   },
