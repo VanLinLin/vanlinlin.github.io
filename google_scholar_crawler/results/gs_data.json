@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a94c6443ee4c2537d007d09",
+    "id": "6a9622e2d08cfedb01ad296b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/OqhicvayE4ZMl1NwoQWQj4_X95_GlMHznSKufub2jFE/6a94c6443ee4c2537d007d09.json",
-    "markdown_endpoint": "https://serpapi.com/searches/OqhicvayE4ZMl1NwoQWQj4_X95_GlMHznSKufub2jFE/6a94c6443ee4c2537d007d09.md",
-    "created_at": "2026-08-31 00:09:40 UTC",
-    "processed_at": "2026-08-31 00:09:40 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PraU1jX_cpOmfmBE9ya5EK6pGQXlgYx9OBL9Xwno9rI/6a9622e2d08cfedb01ad296b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/PraU1jX_cpOmfmBE9ya5EK6pGQXlgYx9OBL9Xwno9rI/6a9622e2d08cfedb01ad296b.md",
+    "created_at": "2026-09-01 00:57:06 UTC",
+    "processed_at": "2026-09-01 00:57:06 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/OqhicvayE4ZMl1NwoQWQj4_X95_GlMHznSKufub2jFE/6a94c6443ee4c2537d007d09.html",
-    "total_time_taken": 1.08
+    "raw_html_file": "https://serpapi.com/searches/PraU1jX_cpOmfmBE9ya5EK6pGQXlgYx9OBL9Xwno9rI/6a9622e2d08cfedb01ad296b.html",
+    "total_time_taken": 1.87
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -112,6 +112,20 @@
       "year": "2026"
     },
     {
+      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "ook-p6wAAAAJ:kNdYIx-mwKoC",
+      "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
+      "cited_by": {
+        "value": 26,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C293946418635235173%2C18054841875686507267%2C12608264280383273224&engine=google_scholar&hl=en",
+        "cites_id": "4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224"
+      },
+      "year": "2026"
+    },
+    {
       "title": "TIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
       "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
@@ -124,20 +138,6 @@
         "cites_id": "14562378443683320208"
       },
       "year": "2025"
-    },
-    {
-      "title": "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:kNdYIx-mwKoC",
-      "citation_id": "ook-p6wAAAAJ:kNdYIx-mwKoC",
-      "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
-      "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
-      "cited_by": {
-        "value": 24,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,18054841875686507267,293946418635235173,12608264280383273224",
-        "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C18054841875686507267%2C293946418635235173%2C12608264280383273224&engine=google_scholar&hl=en",
-        "cites_id": "4649120131747553119,18054841875686507267,293946418635235173,12608264280383273224"
-      },
-      "year": "2026"
     },
     {
       "title": "3rd Workshop on Maritime Computer Vision (MaCVi) 2025: Challenge Results",
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 414,
-          "since_2021": 414
+          "all": 416,
+          "since_2021": 416
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 206
+        "citations": 208
       }
     ]
   },
