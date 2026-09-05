@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a9b56b431a6013bf72996dc",
+    "id": "6a9ca60528c7fb01b5f6729f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6KDIB3OBPknFbRyaR1q-7wJJzRDy9saIk5JRoQjXgmI/6a9b56b431a6013bf72996dc.json",
-    "markdown_endpoint": "https://serpapi.com/searches/6KDIB3OBPknFbRyaR1q-7wJJzRDy9saIk5JRoQjXgmI/6a9b56b431a6013bf72996dc.md",
-    "created_at": "2026-09-04 23:39:32 UTC",
-    "processed_at": "2026-09-04 23:39:32 UTC",
+    "json_endpoint": "https://serpapi.com/searches/-QUKVly6qkrsYYr31v1KpjixIDzmBDr26MYhYIeylrI/6a9ca60528c7fb01b5f6729f.json",
+    "markdown_endpoint": "https://serpapi.com/searches/-QUKVly6qkrsYYr31v1KpjixIDzmBDr26MYhYIeylrI/6a9ca60528c7fb01b5f6729f.md",
+    "created_at": "2026-09-05 23:30:13 UTC",
+    "processed_at": "2026-09-05 23:30:13 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/6KDIB3OBPknFbRyaR1q-7wJJzRDy9saIk5JRoQjXgmI/6a9b56b431a6013bf72996dc.html",
-    "total_time_taken": 0.35
+    "raw_html_file": "https://serpapi.com/searches/-QUKVly6qkrsYYr31v1KpjixIDzmBDr26MYhYIeylrI/6a9ca60528c7fb01b5f6729f.html",
+    "total_time_taken": 1.08
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -307,26 +307,26 @@
       "year": "2026"
     },
     {
-      "title": "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:UebtZRa9Y70C",
-      "citation_id": "ook-p6wAAAAJ:UebtZRa9Y70C",
-      "authors": "RL Jian, MC Lo, CW Huang, CM Lee, YF Lin, CC Hsu",
-      "publication": "ACMMM 2025, 2025",
+      "title": "HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "ook-p6wAAAAJ:KlAtU1dfN6UC",
+      "authors": "CM Lee, YH Ho, YF Lin, JW Lee, LW Kang, CC Hsu",
+      "publication": "ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and …, 2026",
       "cited_by": {
         "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10309457544719769368",
-        "serpapi_link": "https://serpapi.com/search.json?cites=10309457544719769368&engine=google_scholar&hl=en",
-        "cites_id": "10309457544719769368"
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3758995353948241274",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3758995353948241274&engine=google_scholar&hl=en",
+        "cites_id": "3758995353948241274"
       },
-      "year": "2025"
+      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 416,
-          "since_2021": 416
+          "all": 417,
+          "since_2021": 417
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 208
+        "citations": 209
       }
     ]
   },
