@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6a9f4f0001289b300e568a72",
+    "id": "6aa09e99703f17c79323e16c",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/1d-BebifST0IkWpZbZaU__Ym5mWTFlWiKhH2WxDJOIc/6a9f4f0001289b300e568a72.json",
-    "markdown_endpoint": "https://serpapi.com/searches/1d-BebifST0IkWpZbZaU__Ym5mWTFlWiKhH2WxDJOIc/6a9f4f0001289b300e568a72.md",
-    "created_at": "2026-09-07 23:55:44 UTC",
-    "processed_at": "2026-09-07 23:55:44 UTC",
+    "json_endpoint": "https://serpapi.com/searches/-wEo--R9MldfnWy1anvjzvmGfRJed4C9pezR_nSfOvY/6aa09e99703f17c79323e16c.json",
+    "markdown_endpoint": "https://serpapi.com/searches/-wEo--R9MldfnWy1anvjzvmGfRJed4C9pezR_nSfOvY/6aa09e99703f17c79323e16c.md",
+    "created_at": "2026-09-08 23:47:37 UTC",
+    "processed_at": "2026-09-08 23:47:37 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/1d-BebifST0IkWpZbZaU__Ym5mWTFlWiKhH2WxDJOIc/6a9f4f0001289b300e568a72.html",
-    "total_time_taken": 6.15
+    "raw_html_file": "https://serpapi.com/searches/-wEo--R9MldfnWy1anvjzvmGfRJed4C9pezR_nSfOvY/6aa09e99703f17c79323e16c.html",
+    "total_time_taken": 5.37
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "K Yang, J Cai, L Ouyang, FA Vasluianu, R Timofte, J Ding, H Sun, L Fu, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 46,
+        "value": 47,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148325222184111124",
         "serpapi_link": "https://serpapi.com/search.json?cites=1148325222184111124&engine=google_scholar&hl=en",
         "cites_id": "1148325222184111124"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 418,
-          "since_2021": 418
+          "all": 419,
+          "since_2021": 419
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 210
+        "citations": 211
       }
     ]
   },
