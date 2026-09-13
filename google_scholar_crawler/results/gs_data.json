@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6aa5e2e9bde97971dc6ab56a",
+    "id": "6aa736f9f5d5ac8c756ee4d8",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/8fsEjPSSbgAb7C-n8EvgCJnMQ9DNw6Wta1s6C7FDRio/6aa5e2e9bde97971dc6ab56a.json",
-    "markdown_endpoint": "https://serpapi.com/searches/8fsEjPSSbgAb7C-n8EvgCJnMQ9DNw6Wta1s6C7FDRio/6aa5e2e9bde97971dc6ab56a.md",
-    "created_at": "2026-09-12 23:40:25 UTC",
-    "processed_at": "2026-09-12 23:40:25 UTC",
+    "json_endpoint": "https://serpapi.com/searches/0IihzXU5WSep346gaJb9RqnV1A0Nfv4k_WxGzUVyGy4/6aa736f9f5d5ac8c756ee4d8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/0IihzXU5WSep346gaJb9RqnV1A0Nfv4k_WxGzUVyGy4/6aa736f9f5d5ac8c756ee4d8.md",
+    "created_at": "2026-09-13 23:51:21 UTC",
+    "processed_at": "2026-09-13 23:51:21 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/8fsEjPSSbgAb7C-n8EvgCJnMQ9DNw6Wta1s6C7FDRio/6aa5e2e9bde97971dc6ab56a.html",
-    "total_time_taken": 7.76
+    "raw_html_file": "https://serpapi.com/searches/0IihzXU5WSep346gaJb9RqnV1A0Nfv4k_WxGzUVyGy4/6aa736f9f5d5ac8c756ee4d8.html",
+    "total_time_taken": 0.42
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -118,7 +118,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 26,
+        "value": 27,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C293946418635235173%2C18054841875686507267%2C12608264280383273224&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224"
@@ -188,7 +188,7 @@
       "authors": "YF Lin, CM Lee, CC Hsu",
       "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 10,
+        "value": 11,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
         "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
         "cites_id": "12099199047212617245"
@@ -325,14 +325,14 @@
     "table": [
       {
         "citations": {
-          "all": 419,
-          "since_2021": 419
+          "all": 421,
+          "since_2021": 421
         }
       },
       {
         "h_index": {
-          "all": 10,
-          "since_2021": 10
+          "all": 11,
+          "since_2021": 11
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 211
+        "citations": 213
       }
     ]
   },
