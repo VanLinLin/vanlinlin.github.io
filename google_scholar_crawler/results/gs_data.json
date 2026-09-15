@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6aa88d41ef15ce7bcbc2a6b3",
+    "id": "6aa9dae041ffc846f17a548b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/r8aAwl9YzMg4haJup1mmXvUoUcBe3_EMoc0iowxR7xY/6aa88d41ef15ce7bcbc2a6b3.json",
-    "markdown_endpoint": "https://serpapi.com/searches/r8aAwl9YzMg4haJup1mmXvUoUcBe3_EMoc0iowxR7xY/6aa88d41ef15ce7bcbc2a6b3.md",
-    "created_at": "2026-09-15 00:11:45 UTC",
-    "processed_at": "2026-09-15 00:11:45 UTC",
+    "json_endpoint": "https://serpapi.com/searches/G1eeo_7ONW159uG8j6r9j1Qa4ki_NoirrF_xCRfP4Ho/6aa9dae041ffc846f17a548b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/G1eeo_7ONW159uG8j6r9j1Qa4ki_NoirrF_xCRfP4Ho/6aa9dae041ffc846f17a548b.md",
+    "created_at": "2026-09-15 23:55:12 UTC",
+    "processed_at": "2026-09-15 23:55:12 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/r8aAwl9YzMg4haJup1mmXvUoUcBe3_EMoc0iowxR7xY/6aa88d41ef15ce7bcbc2a6b3.html",
-    "total_time_taken": 0.57
+    "raw_html_file": "https://serpapi.com/searches/G1eeo_7ONW159uG8j6r9j1Qa4ki_NoirrF_xCRfP4Ho/6aa9dae041ffc846f17a548b.html",
+    "total_time_taken": 0.69
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -146,7 +146,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 20,
+        "value": 21,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 421,
-          "since_2021": 421
+          "all": 422,
+          "since_2021": 422
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 213
+        "citations": 214
       }
     ]
   },
