@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6aac7d13392e0b5828669aed",
+    "id": "6aadce1cafea453f034865aa",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/rLQqgQObv_DsPM-VNDkovgstePOzN7KJmMd8UHW_fTU/6aac7d13392e0b5828669aed.json",
-    "markdown_endpoint": "https://serpapi.com/searches/rLQqgQObv_DsPM-VNDkovgstePOzN7KJmMd8UHW_fTU/6aac7d13392e0b5828669aed.md",
-    "created_at": "2026-09-17 23:51:47 UTC",
-    "processed_at": "2026-09-17 23:51:47 UTC",
+    "json_endpoint": "https://serpapi.com/searches/yaAO-y8TuA7GsPm1vo6DbfsBeXPVBypXteFd65ut7N8/6aadce1cafea453f034865aa.json",
+    "markdown_endpoint": "https://serpapi.com/searches/yaAO-y8TuA7GsPm1vo6DbfsBeXPVBypXteFd65ut7N8/6aadce1cafea453f034865aa.md",
+    "created_at": "2026-09-18 23:49:48 UTC",
+    "processed_at": "2026-09-18 23:49:48 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/rLQqgQObv_DsPM-VNDkovgstePOzN7KJmMd8UHW_fTU/6aac7d13392e0b5828669aed.html",
-    "total_time_taken": 0.26
+    "raw_html_file": "https://serpapi.com/searches/yaAO-y8TuA7GsPm1vo6DbfsBeXPVBypXteFd65ut7N8/6aadce1cafea453f034865aa.html",
+    "total_time_taken": 2.25
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -202,7 +202,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, LW Kang",
       "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026",
       "cited_by": {
-        "value": 8,
+        "value": 9,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16769234913081667924,3102822500283588834",
         "serpapi_link": "https://serpapi.com/search.json?cites=16769234913081667924%2C3102822500283588834&engine=google_scholar&hl=en",
         "cites_id": "16769234913081667924,3102822500283588834"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 422,
-          "since_2021": 422
+          "all": 423,
+          "since_2021": 423
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 215
+        "citations": 216
       }
     ]
   },
@@ -373,7 +373,7 @@
       "serpapi_link": "https://serpapi.com/search.json?author_id=koBVaaUAAAAJ&engine=google_scholar_author&hl=en",
       "author_id": "koBVaaUAAAAJ",
       "affiliations": "University at Albany, State University of New York (SUNY)",
-      "email": "Verified email at nycu.edu.tw",
+      "email": "Verified email at albany.edu",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=22"
     },
     {
