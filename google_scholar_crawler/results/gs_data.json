@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6aadce1cafea453f034865aa",
+    "id": "6aaf1ff304e10ab74918280b",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/yaAO-y8TuA7GsPm1vo6DbfsBeXPVBypXteFd65ut7N8/6aadce1cafea453f034865aa.json",
-    "markdown_endpoint": "https://serpapi.com/searches/yaAO-y8TuA7GsPm1vo6DbfsBeXPVBypXteFd65ut7N8/6aadce1cafea453f034865aa.md",
-    "created_at": "2026-09-18 23:49:48 UTC",
-    "processed_at": "2026-09-18 23:49:48 UTC",
+    "json_endpoint": "https://serpapi.com/searches/czaY2r5eY1je0YwVAIJG0F-w7RI4a1ovHc8sM3JUGKI/6aaf1ff304e10ab74918280b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/czaY2r5eY1je0YwVAIJG0F-w7RI4a1ovHc8sM3JUGKI/6aaf1ff304e10ab74918280b.md",
+    "created_at": "2026-09-19 23:51:15 UTC",
+    "processed_at": "2026-09-19 23:51:15 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/yaAO-y8TuA7GsPm1vo6DbfsBeXPVBypXteFd65ut7N8/6aadce1cafea453f034865aa.html",
-    "total_time_taken": 2.25
+    "raw_html_file": "https://serpapi.com/searches/czaY2r5eY1je0YwVAIJG0F-w7RI4a1ovHc8sM3JUGKI/6aaf1ff304e10ab74918280b.html",
+    "total_time_taken": 0.78
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -76,7 +76,7 @@
       "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
       "cited_by": {
-        "value": 44,
+        "value": 45,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2563308900532835670,10028608956788078541",
         "serpapi_link": "https://serpapi.com/search.json?cites=2563308900532835670%2C10028608956788078541&engine=google_scholar&hl=en",
         "cites_id": "2563308900532835670,10028608956788078541"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 423,
-          "since_2021": 423
+          "all": 424,
+          "since_2021": 424
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 216
+        "citations": 217
       }
     ]
   },
