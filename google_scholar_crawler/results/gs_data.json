@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ab5bc9b5989b9a7d38eab9a",
+    "id": "6ab70fa150849c3e9661c200",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/uy9RDxR22Rxf2sxDToz1jxttmYQMhEnlx0nw6Du_Uto/6ab5bc9b5989b9a7d38eab9a.json",
-    "markdown_endpoint": "https://serpapi.com/searches/uy9RDxR22Rxf2sxDToz1jxttmYQMhEnlx0nw6Du_Uto/6ab5bc9b5989b9a7d38eab9a.md",
-    "created_at": "2026-09-25 00:13:15 UTC",
-    "processed_at": "2026-09-25 00:13:15 UTC",
+    "json_endpoint": "https://serpapi.com/searches/MvfuSm62jd5Juir0mj9_FVFeK2X4OI32_jlanKUP2Bo/6ab70fa150849c3e9661c200.json",
+    "markdown_endpoint": "https://serpapi.com/searches/MvfuSm62jd5Juir0mj9_FVFeK2X4OI32_jlanKUP2Bo/6ab70fa150849c3e9661c200.md",
+    "created_at": "2026-09-26 00:19:45 UTC",
+    "processed_at": "2026-09-26 00:19:45 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/uy9RDxR22Rxf2sxDToz1jxttmYQMhEnlx0nw6Du_Uto/6ab5bc9b5989b9a7d38eab9a.html",
-    "total_time_taken": 2.67
+    "raw_html_file": "https://serpapi.com/searches/MvfuSm62jd5Juir0mj9_FVFeK2X4OI32_jlanKUP2Bo/6ab70fa150849c3e9661c200.html",
+    "total_time_taken": 3.1
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -160,7 +160,7 @@
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
       "cited_by": {
-        "value": 12,
+        "value": 13,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 426,
-          "since_2021": 426
+          "all": 427,
+          "since_2021": 427
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 219
+        "citations": 220
       }
     ]
   },
