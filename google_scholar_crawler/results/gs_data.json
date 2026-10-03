@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6abf05a5be918a1ed2c75fce",
+    "id": "6ac05201ea58e8cf61a0f21a",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/wGD0LBVouFPNqT928tlIiMj3TsE8CeaYuDg2XHWUvZg/6abf05a5be918a1ed2c75fce.json",
-    "markdown_endpoint": "https://serpapi.com/searches/wGD0LBVouFPNqT928tlIiMj3TsE8CeaYuDg2XHWUvZg/6abf05a5be918a1ed2c75fce.md",
-    "created_at": "2026-10-02 01:15:17 UTC",
-    "processed_at": "2026-10-02 01:15:17 UTC",
+    "json_endpoint": "https://serpapi.com/searches/VMrzA94_BGB0cHwYSIrgX6SbmSPyvxUdPDkx5NUBQuU/6ac05201ea58e8cf61a0f21a.json",
+    "markdown_endpoint": "https://serpapi.com/searches/VMrzA94_BGB0cHwYSIrgX6SbmSPyvxUdPDkx5NUBQuU/6ac05201ea58e8cf61a0f21a.md",
+    "created_at": "2026-10-03 00:53:21 UTC",
+    "processed_at": "2026-10-03 00:53:21 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/wGD0LBVouFPNqT928tlIiMj3TsE8CeaYuDg2XHWUvZg/6abf05a5be918a1ed2c75fce.html",
-    "total_time_taken": 2.54
+    "raw_html_file": "https://serpapi.com/searches/VMrzA94_BGB0cHwYSIrgX6SbmSPyvxUdPDkx5NUBQuU/6ac05201ea58e8cf61a0f21a.html",
+    "total_time_taken": 1.06
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -293,6 +293,20 @@
       "year": "2025"
     },
     {
+      "title": "NTIRE 2025 challenge on image super-resolution (× 4): Methods and results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:7PzlFSSx8tAC",
+      "citation_id": "ook-p6wAAAAJ:7PzlFSSx8tAC",
+      "authors": "Z Chen, K Liu, J Gong, J Wang, L Sun, Z Wu, R Timofte, Y Zhang, X Kong, ...",
+      "publication": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR …, 2025",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15835503047425090013",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15835503047425090013&engine=google_scholar&hl=en",
+        "cites_id": "15835503047425090013"
+      },
+      "year": "2025"
+    },
+    {
       "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
       "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
@@ -305,28 +319,14 @@
         "cites_id": "1721132332576153921"
       },
       "year": "2026"
-    },
-    {
-      "title": "HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:KlAtU1dfN6UC",
-      "citation_id": "ook-p6wAAAAJ:KlAtU1dfN6UC",
-      "authors": "CM Lee, YH Ho, YF Lin, JW Lee, LW Kang, CC Hsu",
-      "publication": "ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and …, 2026",
-      "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3758995353948241274",
-        "serpapi_link": "https://serpapi.com/search.json?cites=3758995353948241274&engine=google_scholar&hl=en",
-        "cites_id": "3758995353948241274"
-      },
-      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 431,
-          "since_2021": 431
+          "all": 433,
+          "since_2021": 433
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 224
+        "citations": 226
       }
     ]
   },
