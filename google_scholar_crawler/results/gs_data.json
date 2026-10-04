@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ac05201ea58e8cf61a0f21a",
+    "id": "6ac19ba02f47f8c2c10c5b75",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/VMrzA94_BGB0cHwYSIrgX6SbmSPyvxUdPDkx5NUBQuU/6ac05201ea58e8cf61a0f21a.json",
-    "markdown_endpoint": "https://serpapi.com/searches/VMrzA94_BGB0cHwYSIrgX6SbmSPyvxUdPDkx5NUBQuU/6ac05201ea58e8cf61a0f21a.md",
-    "created_at": "2026-10-03 00:53:21 UTC",
-    "processed_at": "2026-10-03 00:53:21 UTC",
+    "json_endpoint": "https://serpapi.com/searches/PY6cnLlKaqO-IYpqkdm5WtE7PNZCw-soYjFHYWpGRVs/6ac19ba02f47f8c2c10c5b75.json",
+    "markdown_endpoint": "https://serpapi.com/searches/PY6cnLlKaqO-IYpqkdm5WtE7PNZCw-soYjFHYWpGRVs/6ac19ba02f47f8c2c10c5b75.md",
+    "created_at": "2026-10-04 00:19:44 UTC",
+    "processed_at": "2026-10-04 00:19:44 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/VMrzA94_BGB0cHwYSIrgX6SbmSPyvxUdPDkx5NUBQuU/6ac05201ea58e8cf61a0f21a.html",
-    "total_time_taken": 1.06
+    "raw_html_file": "https://serpapi.com/searches/PY6cnLlKaqO-IYpqkdm5WtE7PNZCw-soYjFHYWpGRVs/6ac19ba02f47f8c2c10c5b75.html",
+    "total_time_taken": 0.9
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -54,6 +54,20 @@
         "cites_id": "14189750575234650542"
       },
       "year": "2025"
+    },
+    {
+      "title": "Ntire 2023 challenge on image super-resolution (× 4): Methods and results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:7PzlFSSx8tAC",
+      "citation_id": "ook-p6wAAAAJ:7PzlFSSx8tAC",
+      "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
+      "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
+      "cited_by": {
+        "value": 82,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
+        "cites_id": "11054112966266623850"
+      },
+      "year": "2023"
     },
     {
       "title": "NTIRE 2025 challenge on single image reflection removal in the wild: Datasets, methods and results",
@@ -293,20 +307,6 @@
       "year": "2025"
     },
     {
-      "title": "NTIRE 2025 challenge on image super-resolution (× 4): Methods and results",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:7PzlFSSx8tAC",
-      "citation_id": "ook-p6wAAAAJ:7PzlFSSx8tAC",
-      "authors": "Z Chen, K Liu, J Gong, J Wang, L Sun, Z Wu, R Timofte, Y Zhang, X Kong, ...",
-      "publication": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR …, 2025",
-      "cited_by": {
-        "value": 2,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15835503047425090013",
-        "serpapi_link": "https://serpapi.com/search.json?cites=15835503047425090013&engine=google_scholar&hl=en",
-        "cites_id": "15835503047425090013"
-      },
-      "year": "2025"
-    },
-    {
       "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
       "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 433,
-          "since_2021": 433
+          "all": 513,
+          "since_2021": 513
         }
       },
       {
@@ -337,27 +337,27 @@
       },
       {
         "i10_index": {
-          "all": 11,
-          "since_2021": 11
+          "all": 12,
+          "since_2021": 12
         }
       }
     ],
     "graph": [
       {
         "year": 2023,
-        "citations": 17
+        "citations": 35
       },
       {
         "year": 2024,
-        "citations": 44
+        "citations": 72
       },
       {
         "year": 2025,
-        "citations": 141
+        "citations": 161
       },
       {
         "year": 2026,
-        "citations": 226
+        "citations": 238
       }
     ]
   },
