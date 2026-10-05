@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ac19ba02f47f8c2c10c5b75",
+    "id": "6ac2ee081bd4f0adf3d10595",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/PY6cnLlKaqO-IYpqkdm5WtE7PNZCw-soYjFHYWpGRVs/6ac19ba02f47f8c2c10c5b75.json",
-    "markdown_endpoint": "https://serpapi.com/searches/PY6cnLlKaqO-IYpqkdm5WtE7PNZCw-soYjFHYWpGRVs/6ac19ba02f47f8c2c10c5b75.md",
-    "created_at": "2026-10-04 00:19:44 UTC",
-    "processed_at": "2026-10-04 00:19:44 UTC",
+    "json_endpoint": "https://serpapi.com/searches/FkIjsWTmJiTk-CswiIS4T8uZrSptuDrQR_bMoWNRpmw/6ac2ee081bd4f0adf3d10595.json",
+    "markdown_endpoint": "https://serpapi.com/searches/FkIjsWTmJiTk-CswiIS4T8uZrSptuDrQR_bMoWNRpmw/6ac2ee081bd4f0adf3d10595.md",
+    "created_at": "2026-10-05 00:23:36 UTC",
+    "processed_at": "2026-10-05 00:23:36 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/PY6cnLlKaqO-IYpqkdm5WtE7PNZCw-soYjFHYWpGRVs/6ac19ba02f47f8c2c10c5b75.html",
-    "total_time_taken": 0.9
+    "raw_html_file": "https://serpapi.com/searches/FkIjsWTmJiTk-CswiIS4T8uZrSptuDrQR_bMoWNRpmw/6ac2ee081bd4f0adf3d10595.html",
+    "total_time_taken": 0.89
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -48,7 +48,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 108,
+        "value": 109,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -132,7 +132,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 27,
+        "value": 28,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C293946418635235173%2C18054841875686507267%2C12608264280383273224&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224"
@@ -160,7 +160,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 22,
+        "value": 23,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 513,
-          "since_2021": 513
+          "all": 516,
+          "since_2021": 516
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 238
+        "citations": 241
       }
     ]
   },
