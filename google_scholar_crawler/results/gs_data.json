@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ac59c26a8dce6e7b3dfb5b5",
+    "id": "6ac6f26c3107b895a299e639",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/-SIckIfecnn9QbMoXOSwwLCKJ7bCKChvjE84meljc08/6ac59c26a8dce6e7b3dfb5b5.json",
-    "markdown_endpoint": "https://serpapi.com/searches/-SIckIfecnn9QbMoXOSwwLCKJ7bCKChvjE84meljc08/6ac59c26a8dce6e7b3dfb5b5.md",
-    "created_at": "2026-10-07 01:11:02 UTC",
-    "processed_at": "2026-10-07 01:11:02 UTC",
+    "json_endpoint": "https://serpapi.com/searches/FXmnAGv7UxOQqVPpOG0lPxIWygyN9-Dh1znsshhWZso/6ac6f26c3107b895a299e639.json",
+    "markdown_endpoint": "https://serpapi.com/searches/FXmnAGv7UxOQqVPpOG0lPxIWygyN9-Dh1znsshhWZso/6ac6f26c3107b895a299e639.md",
+    "created_at": "2026-10-08 01:31:24 UTC",
+    "processed_at": "2026-10-08 01:31:24 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/-SIckIfecnn9QbMoXOSwwLCKJ7bCKChvjE84meljc08/6ac59c26a8dce6e7b3dfb5b5.html",
-    "total_time_taken": 1.9
+    "raw_html_file": "https://serpapi.com/searches/FXmnAGv7UxOQqVPpOG0lPxIWygyN9-Dh1znsshhWZso/6ac6f26c3107b895a299e639.html",
+    "total_time_taken": 0.75
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -168,6 +168,20 @@
       "year": "2025"
     },
     {
+      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
+      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
+      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
+        "cites_id": "18307115968291267381"
+      },
+      "year": "2024"
+    },
+    {
       "title": "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:qjMakFHDy7sC",
       "citation_id": "ook-p6wAAAAJ:qjMakFHDy7sC",
@@ -180,20 +194,6 @@
         "cites_id": "2163386554197043219"
       },
       "year": "2025"
-    },
-    {
-      "title": "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:u5HHmVD_uO8C",
-      "citation_id": "ook-p6wAAAAJ:u5HHmVD_uO8C",
-      "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
-      "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
-      "cited_by": {
-        "value": 13,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
-        "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
-        "cites_id": "18307115968291267381"
-      },
-      "year": "2024"
     },
     {
       "title": "DenseSR: Image Shadow Removal as Dense Prediction",
@@ -307,26 +307,26 @@
       "year": "2025"
     },
     {
-      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "authors": "BC Qiu, FY Lin, MH Sun, YF Lin, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2605.22096, 2026",
+      "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
+      "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
+      "authors": "CM Lee, BC Qiu, YH Wu, CJ Kang, JL Chen, YF Lin, YS Chou, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 1,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1721132332576153921",
-        "serpapi_link": "https://serpapi.com/search.json?cites=1721132332576153921&engine=google_scholar&hl=en",
-        "cites_id": "1721132332576153921"
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=961602506341138901",
+        "serpapi_link": "https://serpapi.com/search.json?cites=961602506341138901&engine=google_scholar&hl=en",
+        "cites_id": "961602506341138901"
       },
-      "year": "2026"
+      "year": "2025"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 516,
-          "since_2021": 516
+          "all": 518,
+          "since_2021": 518
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 241
+        "citations": 243
       }
     ]
   },
