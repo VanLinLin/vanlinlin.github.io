@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ad2bc28d0a88ffdb6a9e287",
+    "id": "6ad407ef636cb0f58c2f0629",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/Vp3yqEHTpk-36Y8qeuJudyLZuhwof_lY_OptEnXvwYI/6ad2bc28d0a88ffdb6a9e287.json",
-    "markdown_endpoint": "https://serpapi.com/searches/Vp3yqEHTpk-36Y8qeuJudyLZuhwof_lY_OptEnXvwYI/6ad2bc28d0a88ffdb6a9e287.md",
-    "created_at": "2026-10-17 00:07:04 UTC",
-    "processed_at": "2026-10-17 00:07:04 UTC",
+    "json_endpoint": "https://serpapi.com/searches/Qt5-cOC0j6jC6ftaMXKaB-XmuTXLX-gsVu9qoUuxECk/6ad407ef636cb0f58c2f0629.json",
+    "markdown_endpoint": "https://serpapi.com/searches/Qt5-cOC0j6jC6ftaMXKaB-XmuTXLX-gsVu9qoUuxECk/6ad407ef636cb0f58c2f0629.md",
+    "created_at": "2026-10-17 23:42:39 UTC",
+    "processed_at": "2026-10-17 23:42:39 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/Vp3yqEHTpk-36Y8qeuJudyLZuhwof_lY_OptEnXvwYI/6ad2bc28d0a88ffdb6a9e287.html",
-    "total_time_taken": 0.5
+    "raw_html_file": "https://serpapi.com/searches/Qt5-cOC0j6jC6ftaMXKaB-XmuTXLX-gsVu9qoUuxECk/6ad407ef636cb0f58c2f0629.html",
+    "total_time_taken": 4.14
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 86,
+        "value": 82,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -307,26 +307,26 @@
       "year": "2025"
     },
     {
-      "title": "NTIRE 2025 challenge on image super-resolution (× 4): Methods and results",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:L8Ckcad2t8MC",
-      "citation_id": "ook-p6wAAAAJ:L8Ckcad2t8MC",
-      "authors": "Z Chen, K Liu, J Gong, J Wang, L Sun, Z Wu, R Timofte, Y Zhang, X Kong, ...",
-      "publication": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR …, 2025",
+      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
+      "authors": "BC Qiu, FY Lin, MH Sun, YF Lin, CM Lee, CC Hsu",
+      "publication": "arXiv preprint arXiv:2605.22096, 2026",
       "cited_by": {
-        "value": 3,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15835503047425090013",
-        "serpapi_link": "https://serpapi.com/search.json?cites=15835503047425090013&engine=google_scholar&hl=en",
-        "cites_id": "15835503047425090013"
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1721132332576153921",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1721132332576153921&engine=google_scholar&hl=en",
+        "cites_id": "1721132332576153921"
       },
-      "year": "2025"
+      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 528,
-          "since_2021": 528
+          "all": 522,
+          "since_2021": 522
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 253
+        "citations": 247
       }
     ]
   },
