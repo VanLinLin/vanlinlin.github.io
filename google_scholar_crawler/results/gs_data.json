@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ad6bb59a6cfac5a6c94bdef",
+    "id": "6ad8055741ffc8e2a2c7a6b7",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/XlCzBlUfX1RbTniYRXNRtXvHmC_ICu-Go5pQqfN5wrY/6ad6bb59a6cfac5a6c94bdef.json",
-    "markdown_endpoint": "https://serpapi.com/searches/XlCzBlUfX1RbTniYRXNRtXvHmC_ICu-Go5pQqfN5wrY/6ad6bb59a6cfac5a6c94bdef.md",
-    "created_at": "2026-10-20 00:52:41 UTC",
-    "processed_at": "2026-10-20 00:52:41 UTC",
+    "json_endpoint": "https://serpapi.com/searches/-mzAyNtHFEy4OLTUW-iUqT6Zp9cbYiYHnqDrcQsv-A4/6ad8055741ffc8e2a2c7a6b7.json",
+    "markdown_endpoint": "https://serpapi.com/searches/-mzAyNtHFEy4OLTUW-iUqT6Zp9cbYiYHnqDrcQsv-A4/6ad8055741ffc8e2a2c7a6b7.md",
+    "created_at": "2026-10-21 00:20:39 UTC",
+    "processed_at": "2026-10-21 00:20:39 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/XlCzBlUfX1RbTniYRXNRtXvHmC_ICu-Go5pQqfN5wrY/6ad6bb59a6cfac5a6c94bdef.html",
-    "total_time_taken": 0.56
+    "raw_html_file": "https://serpapi.com/searches/-mzAyNtHFEy4OLTUW-iUqT6Zp9cbYiYHnqDrcQsv-A4/6ad8055741ffc8e2a2c7a6b7.html",
+    "total_time_taken": 1.56
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 82,
+        "value": 83,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 522,
-          "since_2021": 522
+          "all": 523,
+          "since_2021": 523
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 247
+        "citations": 248
       }
     ]
   },
