@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ad8055741ffc8e2a2c7a6b7",
+    "id": "6ad9575d85f8c6b15b99da9f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/-mzAyNtHFEy4OLTUW-iUqT6Zp9cbYiYHnqDrcQsv-A4/6ad8055741ffc8e2a2c7a6b7.json",
-    "markdown_endpoint": "https://serpapi.com/searches/-mzAyNtHFEy4OLTUW-iUqT6Zp9cbYiYHnqDrcQsv-A4/6ad8055741ffc8e2a2c7a6b7.md",
-    "created_at": "2026-10-21 00:20:39 UTC",
-    "processed_at": "2026-10-21 00:20:39 UTC",
+    "json_endpoint": "https://serpapi.com/searches/fW8zlDP5TutJgaRKxD5Jl89b4qrEBbflufl9x6Goqrg/6ad9575d85f8c6b15b99da9f.json",
+    "markdown_endpoint": "https://serpapi.com/searches/fW8zlDP5TutJgaRKxD5Jl89b4qrEBbflufl9x6Goqrg/6ad9575d85f8c6b15b99da9f.md",
+    "created_at": "2026-10-22 00:22:53 UTC",
+    "processed_at": "2026-10-22 00:22:53 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/-mzAyNtHFEy4OLTUW-iUqT6Zp9cbYiYHnqDrcQsv-A4/6ad8055741ffc8e2a2c7a6b7.html",
-    "total_time_taken": 1.56
+    "raw_html_file": "https://serpapi.com/searches/fW8zlDP5TutJgaRKxD5Jl89b4qrEBbflufl9x6Goqrg/6ad9575d85f8c6b15b99da9f.html",
+    "total_time_taken": 1.06
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -353,7 +353,7 @@
       },
       {
         "year": 2025,
-        "citations": 161
+        "citations": 162
       },
       {
         "year": 2026,
