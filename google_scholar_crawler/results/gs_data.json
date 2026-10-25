@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6add45db8d50e68c33f62c4c",
+    "id": "6ade945645a66a0792b5df0d",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/nd8j7KOf7PXrChTosW47bVHHy-hjIp6qkGI_Oi_I8FA/6add45db8d50e68c33f62c4c.json",
-    "markdown_endpoint": "https://serpapi.com/searches/nd8j7KOf7PXrChTosW47bVHHy-hjIp6qkGI_Oi_I8FA/6add45db8d50e68c33f62c4c.md",
-    "created_at": "2026-10-24 23:57:15 UTC",
-    "processed_at": "2026-10-24 23:57:15 UTC",
+    "json_endpoint": "https://serpapi.com/searches/--Bu7WyHzLFW_YKpFw-tiSrYcBbb5m6m3azK4TJl8vg/6ade945645a66a0792b5df0d.json",
+    "markdown_endpoint": "https://serpapi.com/searches/--Bu7WyHzLFW_YKpFw-tiSrYcBbb5m6m3azK4TJl8vg/6ade945645a66a0792b5df0d.md",
+    "created_at": "2026-10-25 23:44:22 UTC",
+    "processed_at": "2026-10-25 23:44:22 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/nd8j7KOf7PXrChTosW47bVHHy-hjIp6qkGI_Oi_I8FA/6add45db8d50e68c33f62c4c.html",
-    "total_time_taken": 1.63
+    "raw_html_file": "https://serpapi.com/searches/--Bu7WyHzLFW_YKpFw-tiSrYcBbb5m6m3azK4TJl8vg/6ade945645a66a0792b5df0d.html",
+    "total_time_taken": 0.81
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -238,6 +238,20 @@
       "year": "2024"
     },
     {
+      "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
+      "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
+      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
+      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034,8212239710552032345",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034%2C8212239710552032345&engine=google_scholar&hl=en",
+        "cites_id": "3178425287188456034,8212239710552032345"
+      },
+      "year": "2025"
+    },
+    {
       "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
       "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
@@ -250,20 +264,6 @@
         "cites_id": "11919147532466870372"
       },
       "year": "2026"
-    },
-    {
-      "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
-      "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
-      "authors": "CM Lee, YF Lin, LW Kang, CC Hsu",
-      "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium …, 2025",
-      "cited_by": {
-        "value": 5,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034,8212239710552032345",
-        "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034%2C8212239710552032345&engine=google_scholar&hl=en",
-        "cites_id": "3178425287188456034,8212239710552032345"
-      },
-      "year": "2025"
     },
     {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 523,
-          "since_2021": 523
+          "all": 524,
+          "since_2021": 524
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 248
+        "citations": 249
       }
     ]
   },
