@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6adff85b2c7c6904b4e5341a",
+    "id": "6ae14800d3243296096958f3",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/Nf7KqKDZtFcZ_sAmu4wP4-qPK1chb6eYZ0ccJ3gPBas/6adff85b2c7c6904b4e5341a.json",
-    "markdown_endpoint": "https://serpapi.com/searches/Nf7KqKDZtFcZ_sAmu4wP4-qPK1chb6eYZ0ccJ3gPBas/6adff85b2c7c6904b4e5341a.md",
-    "created_at": "2026-10-27 01:03:23 UTC",
-    "processed_at": "2026-10-27 01:03:23 UTC",
+    "json_endpoint": "https://serpapi.com/searches/OM3UwhVpzWSq1vJA2UZziqdd69hnW0Nw-fR1gYHKAa4/6ae14800d3243296096958f3.json",
+    "markdown_endpoint": "https://serpapi.com/searches/OM3UwhVpzWSq1vJA2UZziqdd69hnW0Nw-fR1gYHKAa4/6ae14800d3243296096958f3.md",
+    "created_at": "2026-10-28 00:55:28 UTC",
+    "processed_at": "2026-10-28 00:55:28 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/Nf7KqKDZtFcZ_sAmu4wP4-qPK1chb6eYZ0ccJ3gPBas/6adff85b2c7c6904b4e5341a.html",
-    "total_time_taken": 0.85
+    "raw_html_file": "https://serpapi.com/searches/OM3UwhVpzWSq1vJA2UZziqdd69hnW0Nw-fR1gYHKAa4/6ae14800d3243296096958f3.html",
+    "total_time_taken": 0.63
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 83,
+        "value": 82,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -174,7 +174,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
       "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
       "cited_by": {
-        "value": 14,
+        "value": 15,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
@@ -293,6 +293,20 @@
       "year": "2025"
     },
     {
+      "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
+      "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
+      "authors": "CM Lee, BC Qiu, YH Wu, CJ Kang, JL Chen, YF Lin, YS Chou, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=961602506341138901",
+        "serpapi_link": "https://serpapi.com/search.json?cites=961602506341138901&engine=google_scholar&hl=en",
+        "cites_id": "961602506341138901"
+      },
+      "year": "2025"
+    },
+    {
       "title": "Multi source covid-19 detection via kernel-density-based slice sampling",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:5nxA0vEk-isC",
       "citation_id": "ook-p6wAAAAJ:5nxA0vEk-isC",
@@ -305,28 +319,14 @@
         "cites_id": "1982240719688971802"
       },
       "year": "2025"
-    },
-    {
-      "title": "VISTA: Validation-Guided Integration of Spatial and Temporal Foundation Models with Anatomical Decoding for Rare-Pathology VCE Event Detection--after competition results",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "citation_id": "ook-p6wAAAAJ:YOwf2qJgpHMC",
-      "authors": "BC Qiu, FY Lin, MH Sun, YF Lin, CM Lee, CC Hsu",
-      "publication": "arXiv preprint arXiv:2605.22096, 2026",
-      "cited_by": {
-        "value": 2,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1721132332576153921",
-        "serpapi_link": "https://serpapi.com/search.json?cites=1721132332576153921&engine=google_scholar&hl=en",
-        "cites_id": "1721132332576153921"
-      },
-      "year": "2026"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 524,
-          "since_2021": 524
+          "all": 525,
+          "since_2021": 525
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 249
+        "citations": 250
       }
     ]
   },
