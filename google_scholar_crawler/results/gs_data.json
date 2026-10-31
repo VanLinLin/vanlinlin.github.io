@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ae3f31d346aa6e5f985c433",
+    "id": "6ae5430700e12f2604fb6ba2",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/14oNZkeZIBKi2DeXXqgDWI0t4jYF3ZGldXywij1SwSQ/6ae3f31d346aa6e5f985c433.json",
-    "markdown_endpoint": "https://serpapi.com/searches/14oNZkeZIBKi2DeXXqgDWI0t4jYF3ZGldXywij1SwSQ/6ae3f31d346aa6e5f985c433.md",
-    "created_at": "2026-10-30 01:30:05 UTC",
-    "processed_at": "2026-10-30 01:30:05 UTC",
+    "json_endpoint": "https://serpapi.com/searches/1ysSRWssKsH0Tt3W1LWb9r4QoYG2Xv4DHyPteNppSYg/6ae5430700e12f2604fb6ba2.json",
+    "markdown_endpoint": "https://serpapi.com/searches/1ysSRWssKsH0Tt3W1LWb9r4QoYG2Xv4DHyPteNppSYg/6ae5430700e12f2604fb6ba2.md",
+    "created_at": "2026-10-31 01:23:19 UTC",
+    "processed_at": "2026-10-31 01:23:19 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/14oNZkeZIBKi2DeXXqgDWI0t4jYF3ZGldXywij1SwSQ/6ae3f31d346aa6e5f985c433.html",
-    "total_time_taken": 3.23
+    "raw_html_file": "https://serpapi.com/searches/1ysSRWssKsH0Tt3W1LWb9r4QoYG2Xv4DHyPteNppSYg/6ae5430700e12f2604fb6ba2.html",
+    "total_time_taken": 1.45
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 83,
+        "value": 82,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -90,7 +90,7 @@
       "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
       "cited_by": {
-        "value": 45,
+        "value": 46,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2563308900532835670,10028608956788078541",
         "serpapi_link": "https://serpapi.com/search.json?cites=2563308900532835670%2C10028608956788078541&engine=google_scholar&hl=en",
         "cites_id": "2563308900532835670,10028608956788078541"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 526,
-          "since_2021": 526
+          "all": 527,
+          "since_2021": 527
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 251
+        "citations": 252
       }
     ]
   },
