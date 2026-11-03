@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6ae7e330b7c28cfff77cbc44",
+    "id": "6ae951cbb747aaf0fdb08eff",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/tmJvOaWW57Y2xl_qbCyLbxzpe_jVHunOXM_maMu8uGE/6ae7e330b7c28cfff77cbc44.json",
-    "markdown_endpoint": "https://serpapi.com/searches/tmJvOaWW57Y2xl_qbCyLbxzpe_jVHunOXM_maMu8uGE/6ae7e330b7c28cfff77cbc44.md",
-    "created_at": "2026-11-02 01:11:12 UTC",
-    "processed_at": "2026-11-02 01:11:12 UTC",
+    "json_endpoint": "https://serpapi.com/searches/ywZ6JNl-ARo3HRCHQra87kkUIxmZqbNApaG8zqa5ses/6ae951cbb747aaf0fdb08eff.json",
+    "markdown_endpoint": "https://serpapi.com/searches/ywZ6JNl-ARo3HRCHQra87kkUIxmZqbNApaG8zqa5ses/6ae951cbb747aaf0fdb08eff.md",
+    "created_at": "2026-11-03 03:15:23 UTC",
+    "processed_at": "2026-11-03 03:15:23 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/tmJvOaWW57Y2xl_qbCyLbxzpe_jVHunOXM_maMu8uGE/6ae7e330b7c28cfff77cbc44.html",
-    "total_time_taken": 1.01
+    "raw_html_file": "https://serpapi.com/searches/ywZ6JNl-ARo3HRCHQra87kkUIxmZqbNApaG8zqa5ses/6ae951cbb747aaf0fdb08eff.html",
+    "total_time_taken": 0.66
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -70,6 +70,20 @@
       "year": "2023"
     },
     {
+      "title": "The Fourth Challenge on Image Super-Resolution (x4) at NTIRE 2026: Benchmark Results and Method Overview",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:dhFuZR0502QC",
+      "citation_id": "ook-p6wAAAAJ:dhFuZR0502QC",
+      "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
+      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
+      "cited_by": {
+        "value": 47,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2563308900532835670,10028608956788078541",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2563308900532835670%2C10028608956788078541&engine=google_scholar&hl=en",
+        "cites_id": "2563308900532835670,10028608956788078541"
+      },
+      "year": "2026"
+    },
+    {
       "title": "NTIRE 2025 challenge on single image reflection removal in the wild: Datasets, methods and results",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:eQOLeE2rZwMC",
       "citation_id": "ook-p6wAAAAJ:eQOLeE2rZwMC",
@@ -82,20 +96,6 @@
         "cites_id": "1148325222184111124"
       },
       "year": "2025"
-    },
-    {
-      "title": "The Fourth Challenge on Image Super-Resolution (x4) at NTIRE 2026: Benchmark Results and Method Overview",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:dhFuZR0502QC",
-      "citation_id": "ook-p6wAAAAJ:dhFuZR0502QC",
-      "authors": "Z Chen, K Liu, J Wang, X Yan, J Li, Z Zhang, J Gong, J Li, L Sun, X Liu, ...",
-      "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026",
-      "cited_by": {
-        "value": 46,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2563308900532835670,10028608956788078541",
-        "serpapi_link": "https://serpapi.com/search.json?cites=2563308900532835670%2C10028608956788078541&engine=google_scholar&hl=en",
-        "cites_id": "2563308900532835670,10028608956788078541"
-      },
-      "year": "2026"
     },
     {
       "title": "Learning-Based Ambient Lighting Normalization: NTIRE 2026 Challenge Results and Findings",
@@ -188,7 +188,7 @@
       "authors": "CM Lee, YF Lin, YH Ho, LW Kang, CC Hsu",
       "publication": "IGARSS 2025-2025 IEEE International Geoscience and Remote Sensing Symposium, 2025",
       "cited_by": {
-        "value": 13,
+        "value": 14,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163386554197043219",
         "serpapi_link": "https://serpapi.com/search.json?cites=2163386554197043219&engine=google_scholar&hl=en",
         "cites_id": "2163386554197043219"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 529,
-          "since_2021": 529
+          "all": 531,
+          "since_2021": 531
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 254
+        "citations": 256
       }
     ]
   },
