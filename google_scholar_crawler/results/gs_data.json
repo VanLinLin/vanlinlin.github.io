@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6aefc9b3de20ee9d6874ee87",
+    "id": "6af12089dd703ceda6c9cdcc",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/nQL873Im-M-sAgWilLDRd6f4ClREaS33j6ScGTj1yL8/6aefc9b3de20ee9d6874ee87.json",
-    "markdown_endpoint": "https://serpapi.com/searches/nQL873Im-M-sAgWilLDRd6f4ClREaS33j6ScGTj1yL8/6aefc9b3de20ee9d6874ee87.md",
-    "created_at": "2026-11-08 01:00:35 UTC",
-    "processed_at": "2026-11-08 01:00:35 UTC",
+    "json_endpoint": "https://serpapi.com/searches/ccFLOJ7a6bqmjGGTu1yhPmQMf492CiBEd9rqF3gtZBc/6af12089dd703ceda6c9cdcc.json",
+    "markdown_endpoint": "https://serpapi.com/searches/ccFLOJ7a6bqmjGGTu1yhPmQMf492CiBEd9rqF3gtZBc/6af12089dd703ceda6c9cdcc.md",
+    "created_at": "2026-11-09 01:23:21 UTC",
+    "processed_at": "2026-11-09 01:23:21 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/nQL873Im-M-sAgWilLDRd6f4ClREaS33j6ScGTj1yL8/6aefc9b3de20ee9d6874ee87.html",
-    "total_time_taken": 1.36
+    "raw_html_file": "https://serpapi.com/searches/ccFLOJ7a6bqmjGGTu1yhPmQMf492CiBEd9rqF3gtZBc/6af12089dd703ceda6c9cdcc.html",
+    "total_time_taken": 1.63
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -48,7 +48,7 @@
       "authors": "FA Vasluianu, T Seizinger, Z Zhou, Z Wu, C Chen, R Timofte, W Dong, ...",
       "publication": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2025",
       "cited_by": {
-        "value": 112,
+        "value": 113,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14189750575234650542",
         "serpapi_link": "https://serpapi.com/search.json?cites=14189750575234650542&engine=google_scholar&hl=en",
         "cites_id": "14189750575234650542"
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 83,
+        "value": 82,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -353,11 +353,11 @@
       },
       {
         "year": 2025,
-        "citations": 163
+        "citations": 164
       },
       {
         "year": 2026,
-        "citations": 258
+        "citations": 257
       }
     ]
   },
