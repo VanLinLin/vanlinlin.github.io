@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6af295e0d12e2ea24be115fd",
+    "id": "6af3c78f2691db04918e2d80",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/8aqDLb3l4LPauoaUxzbXVJ3RW0x4Vyu9lV-bbzwJPfA/6af295e0d12e2ea24be115fd.json",
-    "markdown_endpoint": "https://serpapi.com/searches/8aqDLb3l4LPauoaUxzbXVJ3RW0x4Vyu9lV-bbzwJPfA/6af295e0d12e2ea24be115fd.md",
-    "created_at": "2026-11-10 03:56:16 UTC",
-    "processed_at": "2026-11-10 03:56:16 UTC",
+    "json_endpoint": "https://serpapi.com/searches/ROu_ugvwGHC3lDZuE6fqK_rq_S2PDgjqMfM0mYNS6NI/6af3c78f2691db04918e2d80.json",
+    "markdown_endpoint": "https://serpapi.com/searches/ROu_ugvwGHC3lDZuE6fqK_rq_S2PDgjqMfM0mYNS6NI/6af3c78f2691db04918e2d80.md",
+    "created_at": "2026-11-11 01:40:31 UTC",
+    "processed_at": "2026-11-11 01:40:31 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/8aqDLb3l4LPauoaUxzbXVJ3RW0x4Vyu9lV-bbzwJPfA/6af295e0d12e2ea24be115fd.html",
-    "total_time_taken": 1.76
+    "raw_html_file": "https://serpapi.com/searches/ROu_ugvwGHC3lDZuE6fqK_rq_S2PDgjqMfM0mYNS6NI/6af3c78f2691db04918e2d80.html",
+    "total_time_taken": 0.99
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 82,
+        "value": 83,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -132,7 +132,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 28,
+        "value": 30,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C293946418635235173%2C18054841875686507267%2C12608264280383273224&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224"
@@ -174,7 +174,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
       "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
       "cited_by": {
-        "value": 16,
+        "value": 17,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
@@ -202,7 +202,7 @@
       "authors": "YF Lin, CM Lee, CC Hsu",
       "publication": "ACMMM 2025, 2025",
       "cited_by": {
-        "value": 11,
+        "value": 12,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12099199047212617245",
         "serpapi_link": "https://serpapi.com/search.json?cites=12099199047212617245&engine=google_scholar&hl=en",
         "cites_id": "12099199047212617245"
@@ -216,7 +216,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, LW Kang",
       "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026",
       "cited_by": {
-        "value": 9,
+        "value": 10,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16769234913081667924,3102822500283588834",
         "serpapi_link": "https://serpapi.com/search.json?cites=16769234913081667924%2C3102822500283588834&engine=google_scholar&hl=en",
         "cites_id": "16769234913081667924,3102822500283588834"
@@ -325,20 +325,20 @@
     "table": [
       {
         "citations": {
-          "all": 535,
-          "since_2021": 535
+          "all": 541,
+          "since_2021": 541
         }
       },
       {
         "h_index": {
-          "all": 11,
-          "since_2021": 11
+          "all": 12,
+          "since_2021": 12
         }
       },
       {
         "i10_index": {
-          "all": 12,
-          "since_2021": 12
+          "all": 13,
+          "since_2021": 13
         }
       }
     ],
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 257
+        "citations": 263
       }
     ]
   },
