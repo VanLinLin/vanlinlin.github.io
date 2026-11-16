@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6af90ad3a6ff7d818f33425b",
+    "id": "6afa5d265423e13810616be4",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/c1QWGbKlfiro7_qeU9XJ6Tps2vPVRy6y-MfIkHfjGGo/6af90ad3a6ff7d818f33425b.json",
-    "markdown_endpoint": "https://serpapi.com/searches/c1QWGbKlfiro7_qeU9XJ6Tps2vPVRy6y-MfIkHfjGGo/6af90ad3a6ff7d818f33425b.md",
-    "created_at": "2026-11-15 01:28:51 UTC",
-    "processed_at": "2026-11-15 01:28:51 UTC",
+    "json_endpoint": "https://serpapi.com/searches/8CvDIwfaHhw-9KTz9vdCx_6Mtpx8_FHxK22FdYQAuII/6afa5d265423e13810616be4.json",
+    "markdown_endpoint": "https://serpapi.com/searches/8CvDIwfaHhw-9KTz9vdCx_6Mtpx8_FHxK22FdYQAuII/6afa5d265423e13810616be4.md",
+    "created_at": "2026-11-16 01:32:22 UTC",
+    "processed_at": "2026-11-16 01:32:22 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/c1QWGbKlfiro7_qeU9XJ6Tps2vPVRy6y-MfIkHfjGGo/6af90ad3a6ff7d818f33425b.html",
-    "total_time_taken": 1.41
+    "raw_html_file": "https://serpapi.com/searches/8CvDIwfaHhw-9KTz9vdCx_6Mtpx8_FHxK22FdYQAuII/6afa5d265423e13810616be4.html",
+    "total_time_taken": 0.84
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -146,7 +146,7 @@
       "authors": "S Han, H Fan, F Kong, W Liao, C Guo, C Li, R Timofte, L Li, T Li, J Cui, ...",
       "publication": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2025",
       "cited_by": {
-        "value": 25,
+        "value": 26,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14562378443683320208",
         "serpapi_link": "https://serpapi.com/search.json?cites=14562378443683320208&engine=google_scholar&hl=en",
         "cites_id": "14562378443683320208"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 541,
-          "since_2021": 541
+          "all": 542,
+          "since_2021": 542
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 263
+        "citations": 264
       }
     ]
   },
