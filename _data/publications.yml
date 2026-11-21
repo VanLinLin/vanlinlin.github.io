@@ -18,12 +18,15 @@
 # ============================================================
 
 - title: "CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization"
-  badge: "CVPR 2026"
+  badge: "CVPRW 2026"
   # media: images/CANDLE.png   # ← 補上圖片後把這行的 # 拿掉
-  authors: "Rong-Lin Jian, Tsung-Yu Chen, **Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html), [Chih-Chung Hsu](https://cchsu.info/)"
+  authors: "Rong-Lin Jian, Ting-Yao Chen, **Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Ambient Lighting Normalization
     - Illumination-Invariant Representation
+  links:
+    paper: https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Jian_CANDLE_Illumination-Invariant_Semantic_Priors_for_Color_Ambient_Lighting_Normalization_CVPRW_2026_paper.html
+    arxiv: https://arxiv.org/abs/2604.02785
 
 - title: "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors"
   badge: "CVPR 2026"
