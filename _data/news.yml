@@ -5,8 +5,20 @@
 #   hot:  (選填) true 的話會有醒目的高亮樣式
 # ============================================================
 
+- date: "2026.10.08"
+  text: "My master's thesis (PriorSR) received the **Honorable Mention** of the **IET Taipei Local Network Master's Thesis Award**."
+  hot: true
+
+- date: "2026.09.15"
+  text: "My master's thesis on scene-prior-guided single image shadow removal received the **Master's Thesis Honorable Mention** at the **19th IPPR Thesis Award**."
+  hot: true
+
 - date: "2026.05.27"
   text: "One paper accepted by **ICML CoLoRAI Workshop**."
+  hot: true
+
+- date: "2026.05.05"
+  text: "I received the **1st place** (Depth Track) and **2nd place** (Cross-Modal Track) in the ICPR 2026 Top-View RGB-Depth Re-ID Challenge."
   hot: true
 
 - date: "2026.04.30"

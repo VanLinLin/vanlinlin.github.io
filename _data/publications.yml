@@ -139,7 +139,7 @@
 - title: "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation"
   badge: "TGRS 2026"
   media: images/promptHSI5.png
-  authors: "[Chia-Ming Lee](https://ming053l.github.io/), Ching-Heng Cheng, **Yu-Fan Lin**, Yi-Ching Cheng, Wo-Ting Liao, [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)"
+  authors: "Ching-Heng Cheng, [Chia-Ming Lee](https://ming053l.github.io/), Wo-Ting Liao, **Yu-Fan Lin**, Yi-Ching Cheng, [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Hyperspectral Image Restoration
     - All-in-One Image Restoration
