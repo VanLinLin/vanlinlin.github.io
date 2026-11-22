@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6b0108814674de471473cedc",
+    "id": "6b024ab502e7f37b9c83475f",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/IsKv2_x6ASdXN9nR1BAstRQvRVzOL7eK3UU8staub14/6b0108814674de471473cedc.json",
-    "markdown_endpoint": "https://serpapi.com/searches/IsKv2_x6ASdXN9nR1BAstRQvRVzOL7eK3UU8staub14/6b0108814674de471473cedc.md",
-    "created_at": "2026-11-21 02:57:05 UTC",
-    "processed_at": "2026-11-21 02:57:05 UTC",
+    "json_endpoint": "https://serpapi.com/searches/W5tmFLo6FpCIo1b4A-p6r3-KCRU7uf4vQ6Sqa15mDf8/6b024ab502e7f37b9c83475f.json",
+    "markdown_endpoint": "https://serpapi.com/searches/W5tmFLo6FpCIo1b4A-p6r3-KCRU7uf4vQ6Sqa15mDf8/6b024ab502e7f37b9c83475f.md",
+    "created_at": "2026-11-22 01:51:49 UTC",
+    "processed_at": "2026-11-22 01:51:49 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/IsKv2_x6ASdXN9nR1BAstRQvRVzOL7eK3UU8staub14/6b0108814674de471473cedc.html",
-    "total_time_taken": 0.72
+    "raw_html_file": "https://serpapi.com/searches/W5tmFLo6FpCIo1b4A-p6r3-KCRU7uf4vQ6Sqa15mDf8/6b024ab502e7f37b9c83475f.html",
+    "total_time_taken": 3.91
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -140,7 +140,7 @@
       "year": "2026"
     },
     {
-      "title": "TIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
+      "title": "NTIRE 2025 challenge on Text to Image Generation Model Quality Assessment",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:WF5omc3nYNoC",
       "citation_id": "ook-p6wAAAAJ:WF5omc3nYNoC",
       "authors": "S Han, H Fan, F Kong, W Liao, C Guo, C Li, R Timofte, L Li, T Li, J Cui, ...",
@@ -238,6 +238,20 @@
       "year": "2024"
     },
     {
+      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
+      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
+      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919147532466870372",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11919147532466870372&engine=google_scholar&hl=en",
+        "cites_id": "11919147532466870372"
+      },
+      "year": "2026"
+    },
+    {
       "title": "Robust hyperspectral image pansharpening via sparse spatial-spectral representation",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:0EnyYjriUFMC",
       "citation_id": "ook-p6wAAAAJ:0EnyYjriUFMC",
@@ -250,20 +264,6 @@
         "cites_id": "3178425287188456034,8212239710552032345"
       },
       "year": "2025"
-    },
-    {
-      "title": "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "citation_id": "ook-p6wAAAAJ:MXK_kJrjxJIC",
-      "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
-      "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
-      "cited_by": {
-        "value": 5,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919147532466870372",
-        "serpapi_link": "https://serpapi.com/search.json?cites=11919147532466870372&engine=google_scholar&hl=en",
-        "cites_id": "11919147532466870372"
-      },
-      "year": "2026"
     },
     {
       "title": "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model",
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 542,
-          "since_2021": 542
+          "all": 544,
+          "since_2021": 544
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 264
+        "citations": 266
       }
     ]
   },
