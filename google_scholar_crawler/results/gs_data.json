@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6b03a04db747aa5507ea5e8a",
+    "id": "6b0523dc5e3c5c9cc99e7a42",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/TmrEd-d51nLUqEffgDNCtYgI5MAszOMHGEN2HLKhyGQ/6b03a04db747aa5507ea5e8a.json",
-    "markdown_endpoint": "https://serpapi.com/searches/TmrEd-d51nLUqEffgDNCtYgI5MAszOMHGEN2HLKhyGQ/6b03a04db747aa5507ea5e8a.md",
-    "created_at": "2026-11-23 02:09:17 UTC",
-    "processed_at": "2026-11-23 02:09:17 UTC",
+    "json_endpoint": "https://serpapi.com/searches/v5YjC5alESp-edhprssM8a8Dqi2rviEqlVCmKPiWI0M/6b0523dc5e3c5c9cc99e7a42.json",
+    "markdown_endpoint": "https://serpapi.com/searches/v5YjC5alESp-edhprssM8a8Dqi2rviEqlVCmKPiWI0M/6b0523dc5e3c5c9cc99e7a42.md",
+    "created_at": "2026-11-24 05:42:52 UTC",
+    "processed_at": "2026-11-24 05:42:52 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/TmrEd-d51nLUqEffgDNCtYgI5MAszOMHGEN2HLKhyGQ/6b03a04db747aa5507ea5e8a.html",
-    "total_time_taken": 3.67
+    "raw_html_file": "https://serpapi.com/searches/v5YjC5alESp-edhprssM8a8Dqi2rviEqlVCmKPiWI0M/6b0523dc5e3c5c9cc99e7a42.html",
+    "total_time_taken": 0.65
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -132,7 +132,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 30,
+        "value": 31,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C293946418635235173%2C18054841875686507267%2C12608264280383273224&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224"
@@ -160,7 +160,7 @@
       "authors": "B Kiefer, L Zust, J Muhovic, M Kristan, J Pers, M Tersek, U Mudenagudi, ...",
       "publication": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025",
       "cited_by": {
-        "value": 24,
+        "value": 26,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3658394587071482250,14065050833808040817",
         "serpapi_link": "https://serpapi.com/search.json?cites=3658394587071482250%2C14065050833808040817&engine=google_scholar&hl=en",
         "cites_id": "3658394587071482250,14065050833808040817"
@@ -244,7 +244,7 @@
       "authors": "CM Lee, YF Lin, YJ Hsiao, JH Jiang, YL Liu, CC Hsu",
       "publication": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
       "cited_by": {
-        "value": 6,
+        "value": 7,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11919147532466870372",
         "serpapi_link": "https://serpapi.com/search.json?cites=11919147532466870372&engine=google_scholar&hl=en",
         "cites_id": "11919147532466870372"
@@ -262,6 +262,20 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3178425287188456034,8212239710552032345",
         "serpapi_link": "https://serpapi.com/search.json?cites=3178425287188456034%2C8212239710552032345&engine=google_scholar&hl=en",
         "cites_id": "3178425287188456034,8212239710552032345"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
+      "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
+      "authors": "CM Lee, BC Qiu, YH Wu, CJ Kang, JL Chen, YF Lin, YS Chou, CC Hsu",
+      "publication": "ACMMM 2025, 2025",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=961602506341138901",
+        "serpapi_link": "https://serpapi.com/search.json?cites=961602506341138901&engine=google_scholar&hl=en",
+        "cites_id": "961602506341138901"
       },
       "year": "2025"
     },
@@ -305,28 +319,14 @@
         "cites_id": "10309457544719769368"
       },
       "year": "2025"
-    },
-    {
-      "title": "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ook-p6wAAAAJ&citation_for_view=ook-p6wAAAAJ:Se3iqnhoufwC",
-      "citation_id": "ook-p6wAAAAJ:Se3iqnhoufwC",
-      "authors": "CM Lee, BC Qiu, YH Wu, CJ Kang, JL Chen, YF Lin, YS Chou, CC Hsu",
-      "publication": "ACMMM 2025, 2025",
-      "cited_by": {
-        "value": 3,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=961602506341138901",
-        "serpapi_link": "https://serpapi.com/search.json?cites=961602506341138901&engine=google_scholar&hl=en",
-        "cites_id": "961602506341138901"
-      },
-      "year": "2025"
     }
   ],
   "cited_by": {
     "table": [
       {
         "citations": {
-          "all": 544,
-          "since_2021": 544
+          "all": 549,
+          "since_2021": 549
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 266
+        "citations": 269
       }
     ]
   },
@@ -368,15 +368,6 @@
   },
   "co_authors": [
     {
-      "name": "Chia-Ming Lee",
-      "link": "https://scholar.google.com/citations?user=koBVaaUAAAAJ&hl=en",
-      "serpapi_link": "https://serpapi.com/search.json?author_id=koBVaaUAAAAJ&engine=google_scholar_author&hl=en",
-      "author_id": "koBVaaUAAAAJ",
-      "affiliations": "University at Albany, State University of New York (SUNY)",
-      "email": "Verified email at albany.edu",
-      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=22"
-    },
-    {
       "name": "Chih-Chung Hsu",
       "link": "https://scholar.google.com/citations?user=mIWRYc4AAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=mIWRYc4AAAAJ&engine=google_scholar_author&hl=en",
@@ -384,6 +375,15 @@
       "affiliations": "Associate Professor of Institute of Intelligent Systems, College of AI, NYCU",
       "email": "Verified email at nycu.edu.tw",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mIWRYc4AAAAJ&citpid=7"
+    },
+    {
+      "name": "Chia-Ming Lee",
+      "link": "https://scholar.google.com/citations?user=koBVaaUAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=koBVaaUAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "koBVaaUAAAAJ",
+      "affiliations": "University at Albany, State University of New York (SUNY)",
+      "email": "Verified email at albany.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=koBVaaUAAAAJ&citpid=22"
     },
     {
       "name": "Li-Wei Kang (康立威)",
