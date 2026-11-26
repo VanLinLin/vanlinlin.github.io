@@ -10,6 +10,9 @@
 #   authors:  作者列表 (Markdown;自己用 **Yu-Fan Lin**,別人可加連結)
 #   venue:    (選填) 顯示在標題下的會議/期刊全名
 #   keywords: 關鍵字清單
+#   topics:   主題 id 清單（見 _data/topics.yml），決定篩選鈕
+#   selected: true → 放進上方 Selected 大卡；其他只在 All Publications 清單
+#   summary:  一句話（問題→做法→結果），顯示在卡片上
 #   links:    有哪個就填哪個,沒有就整個省略
 #     paper:   正式出版連結 (CVF / IEEE Xplore / ACM DL)
 #     arxiv:   arXiv 連結
@@ -19,7 +22,11 @@
 
 - title: "CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization"
   badge: "CVPRW 2026"
-  # media: images/CANDLE.png   # ← 補上圖片後把這行的 # 拿掉
+  topics: [restoration]
+  selected: true
+  summary: "Colored lights shift object colors; CANDLE injects illumination-robust DINOv3 features into the restoration network, gaining +1.22 dB PSNR on CL3AN and placing 3rd in the NTIRE 2026 ALN challenge."
+  media: images/CANDLE_demo.mp4
+  poster: images/CANDLE_demo_poster.jpg
   authors: "Rong-Lin Jian, Ting-Yao Chen, **Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Ambient Lighting Normalization
@@ -27,9 +34,13 @@
   links:
     paper: https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Jian_CANDLE_Illumination-Invariant_Semantic_Priors_for_Color_Ambient_Lighting_Normalization_CVPRW_2026_paper.html
     arxiv: https://arxiv.org/abs/2604.02785
+    code: https://github.com/ron941/CANDLE
 
 - title: "PhaSR: Generalized Image Shadow Removal with Physically Aligned Priors"
   badge: "CVPR 2026"
+  topics: [restoration]
+  selected: true
+  summary: "Shadow removal breaks down under multi-source lighting; PhaSR aligns physical priors (closed-form illumination normalization plus geometry–semantic attention) and generalizes from single-light shadows to ambient lighting at lower complexity."
   media: images/PhaSR_demo.mp4
   poster: images/PhaSR_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Jou Hsiao, Jin-Hui Jiang, [Yu-Lun Liu](https://yulunalexliu.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
@@ -39,9 +50,13 @@
     paper: https://openaccess.thecvf.com/content/CVPR2026/html/Lee_PhaSR_Generalized_Image_Shadow_Removal_with_Physically_Aligned_Priors_CVPR_2026_paper.html
     arxiv: https://arxiv.org/abs/2601.17470
     project: https://ming053l.github.io/PhaSR_github/
+    code: https://github.com/ming053l/PhaSR
 
 - title: "ReflexSplit: Single Image Reflection Separation via Layer Fusion–Separation"
   badge: "CVPR 2026"
+  topics: [restoration]
+  selected: true
+  summary: "Separating a reflection from a single photo tends to mix up the two layers; ReflexSplit alternates layer fusion and differential separation in a dual-stream network and reaches state of the art on synthetic and real benchmarks."
   media: images/ReflexSplit_demo.mp4
   poster: images/ReflexSplit_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Jin-Hui Jiang, Yu-Jou Hsiao, [Chih-Chung Hsu](https://cchsu.info/), [Yu-Lun Liu](https://yulunalexliu.github.io/)"
@@ -54,23 +69,37 @@
 
 - title: "FracQuant: Rank-Adaptive Image Super-Resolution Network Quantization via Fractal Complexity Assessment"
   badge: "ICML CoLoRAI Workshop 2026"
-  # media: images/FracQuant.png   # ← 補上圖片後把這行的 # 拿掉
+  topics: [efficient, restoration]
+  summary: "Gradient-based complexity misallocates bits in low-bit super-resolution models; FracQuant uses fractal dimension as a stable rank proxy for single-pass post-training quantization that matches QAT methods at W4A4 and W8A6."
+  media: images/FracQuant_demo.mp4
+  poster: images/FracQuant_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Wei-Hao Tsai, [Ming-Ching Chang](https://www.albany.edu/faculty/mchang2), Xin Li, [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Network Quantization
     - Image Super-Resolution
+  links:
+    paper: https://openreview.net/forum?id=4mC4qRdD4t
+
 
 - title: "HMS<sup>3</sup>Former: A Hyperspectral Image Restoration Model Based on Multi-Stage Spatial-Spectral Transformer and Endmember Attention"
   badge: "ICIP 2026"
-  # media: images/HMS3Former.png   # ← 補上圖片後把這行的 # 拿掉
-  authors: "Zong-Yu Wu, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/), Shih-Yu Chen, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
+  topics: [hsi]
+  summary: "Real hyperspectral images arrive noisy and occluded; HMS³Former adds global spectral attention and endmember-aware spectral features to a multi-stage Transformer, matching or beating prior methods on HSI denoising and inpainting."
+  media: images/HMS3Former_demo.mp4
+  poster: images/HMS3Former_demo_poster.jpg
+  authors: "Zheng-Yang Wu, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/), Shih-Yu Chen, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
   keywords:
     - Hyperspectral Image Restoration
     - Endmember Attention
+  links:
+    paper: https://ieeexplore.ieee.org/document/11630244
 
 - title: "HyFusion: Enhanced Reception Field Transformer for Hyperspectral Image Fusion"
   badge: "IGARSS 2025"
-  media: images/HyFusionhpe.png
+  topics: [hsi]
+  summary: "Fusing low-resolution hyperspectral and high-resolution multispectral images needs wide context; HyFusion's dual-coupled network with enhanced receptive-field blocks achieves state-of-the-art fusion."
+  media: images/HyFusion_demo.mp4
+  poster: images/HyFusion_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Yu-Hao Ho, [Chih-Chung Hsu](https://cchsu.info/), [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
   keywords:
     - Hyperspectral Image
@@ -81,7 +110,10 @@
 
 - title: "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion"
   badge: "ACMMM 2025"
-  media: images/Anchoring_trend.png
+  topics: [multimodal]
+  summary: "Popularity predictors drift as trends change; we cluster multi-modal content and add LLM-generated semantic anchor features, keeping video popularity prediction robust on out-of-distribution data."
+  media: images/Anchoring_demo.mp4
+  poster: images/Anchoring_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), Bo-Cheng Qiu, Cheng-Jun Kang, Yi-Hsuan Wu, Jun-Lin Chen, **Yu-Fan Lin**, Yi-Shiuan Chou, [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Social Media Popularity Prediction
@@ -90,18 +122,27 @@
     arxiv: https://arxiv.org/abs/2507.19863
 
 - title: "GTATrack: Winner Solution to SoccerTrack 2025 with Deep-EIoU and Global Tracklet Association"
-  badge: "ACMMM 2025"
-  media: images/GTATrack.png
-  authors: "Rong-Lin Jian, Ming-Chi Luo, Cheng-Wei Huang, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/)"
+  badge: "MMSports 2025"
+  topics: [perception]
+  selected: true
+  summary: "Tracking look-alike players in distorted fisheye soccer video: Deep-EIoU online association plus global tracklet association won SoccerTrack 2025 (HOTA 0.60, only 982 false positives)."
+  media: images/GTATrack_demo.mp4
+  poster: images/GTATrack_demo_poster.jpg
+  authors: "Rong-Lin Jian, Ming-Chi Luo, Chen-Wei Huang, [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Object Tracking
   links:
     paper: https://dl.acm.org/doi/10.1145/3728423.3759416
     arxiv: https://arxiv.org/abs/2602.00484
+    code: https://github.com/ron941/GTATrack-STC2025
 
 - title: "DenseSR: Image Shadow Removal as Dense Prediction"
   badge: "ACMMM 2025"
-  media: images/DenseSR.png
+  topics: [restoration]
+  selected: true
+  summary: "Shadow removal often blurs details and boundaries; DenseSR treats it as dense prediction, using geometric–semantic priors and a Dense Fusion Block to restore consistent content with sharp edges."
+  media: images/DenseSR_demo.mp4
+  poster: images/DenseSR_demo_poster.jpg
   authors: "**Yu-Fan Lin**, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Single Image Shadow Removal
@@ -112,25 +153,37 @@
 
 - title: "HSSDCT: Factorized Spatial-Spectral Correlation for Hyperspectral Image Fusion"
   badge: "ICASSP 2026"
-  media: images/SSCNet.png
+  topics: [hsi, efficient]
+  summary: "Self-attention makes hyperspectral fusion expensive; HSSDCT factorizes spatial and spectral correlation to linear complexity and reaches state-of-the-art fusion at much lower compute."
+  media: images/HSSDCT_demo.mp4
+  poster: images/HSSDCT_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), Yo-Hao Ho, **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Efficient Hyperspectral Image Pansharpening
   links:
     arxiv: https://arxiv.org/abs/2602.00490
+    code: https://github.com/jemmyleee/HSSDCT
 
-- title: "S<sup>3</sup>RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Hyperspectral Image Pansharpening"
+- title: "S<sup>3</sup>RNet: Sparse Spatial-Spectral Representation with Hybrid Knowledge Distillation for Efficient Multispectral and Hyperspectral Image Fusion"
   badge: "JSTARS 2026"
-  media: images/S3RNET_second.png
-  authors: "[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
+  topics: [hsi, efficient]
+  summary: "Fusing low-res hyperspectral with high-res multispectral images under tight compute: a heavy teacher is distilled into a 7.44M-parameter student that matches DHIF-Net's PSNR (39.15 dB) with 95× fewer FLOPs."
+  media: images/S3RNet_demo.mp4
+  poster: images/S3RNet_demo_poster.jpg
+  authors: "[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, Chih-Chien Ni, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en)"
   keywords:
-    - Efficient Hyperspectral Image Pansharpening
-    - Robustness and Sparse Representation
-    - Network Compression and Knowledge Distillation
+    - Multispectral and Hyperspectral Image Fusion
+    - Sparse Representation
+    - Knowledge Distillation
+  links:
+    paper: https://doi.org/10.1109/JSTARS.2026.3692909
 
 - title: "Robust Hyperspectral Image Pansharpening via Sparse Spatial-Spectral Representation"
   badge: "IGARSS 2025"
-  media: images/Robust.png
+  topics: [hsi]
+  summary: "Hyperspectral pansharpening suffers from noise and redundant features; a multi-branch fusion network with spatial–spectral attention keeps the representation sparse and stays accurate under challenging conditions."
+  media: images/RobustPan_demo.mp4
+  poster: images/RobustPan_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Li-Wei Kang](https://scholar.google.com/citations?user=QwSzhgEAAAAJ&hl=en), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Hyperspectral Image
@@ -141,7 +194,11 @@
 
 - title: "PromptHSI: Universal Hyperspectral Image Restoration with Vision-Language Modulated Frequency Adaptation"
   badge: "TGRS 2026"
-  media: images/promptHSI5.png
+  topics: [hsi, multimodal]
+  selected: true
+  summary: "One model for many hyperspectral degradations: PromptHSI turns vision-language text prompts into frequency-aware feature modulation, the first all-in-one hyperspectral restoration framework."
+  media: images/PromptHSI_demo.mp4
+  poster: images/PromptHSI_demo_poster.jpg
   authors: "Ching-Heng Cheng, [Chia-Ming Lee](https://ming053l.github.io/), Wo-Ting Liao, **Yu-Fan Lin**, Yi-Ching Cheng, [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Hyperspectral Image Restoration
@@ -154,7 +211,10 @@
 
 - title: "AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation"
   badge: "Submitted to TGRS"
-  media: images/DGA.png
+  topics: [hsi]
+  summary: "[DRAFT — from the title only] Hyperspectral image fusion that stays robust to unknown degradations through mask-guided information sharing and compensation."
+  media: images/AuroraHSI_demo.mp4
+  poster: images/AuroraHSI_demo_poster.jpg
   authors: "[Chia-Ming Lee](https://ming053l.github.io/), Cheng-Jun Kang, Ching-Heng Cheng, **Yu-Fan Lin**, [Yi-Shiuan Chou](https://nelly0421.github.io/), [Chih-Chung Hsu](https://cchsu.info/), [Fu-En Yang](https://fuenyang1127.github.io/), [Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)"
   keywords:
     - Hyperspectral Image Restoration
@@ -163,7 +223,10 @@
 
 - title: "Revisiting Vision-Language Features Adaptation and Inconsistency for Social Media Popularity Prediction"
   badge: "ACMMM 2024"
-  media: images/SMPD24.png
+  topics: [multimodal]
+  summary: "CLIP features are standard for social media popularity, but image–text inconsistency grows with popularity; modeling it and adapting text features reaches SRC 0.729."
+  media: images/SMPD24_demo.mp4
+  poster: images/SMPD24_demo_poster.jpg
   venue: "ACM International Conference on Multimedia (ACMMM 2024)"
   authors: "[Chih-Chung Hsu](https://cchsu.info/), [Chia-Ming Lee](https://ming053l.github.io/), **Yu-Fan Lin**, [Yi-Shiuan Chou](https://nelly0421.github.io/), Chih-Yu Jiang, Chi-Han Tsai"
   keywords:
@@ -175,7 +238,10 @@
 
 - title: "Divide and Conquer: Grounding a Bleeding Areas in Gastrointestinal Image with Two-Stage Model"
   badge: "arXiv 2024"
-  media: images/ICIP.png
+  topics: [perception]
+  summary: "Classify first, then segment: a two-stage model avoids multi-task interference when grounding bleeding in capsule-endoscopy images, taking 2nd place in the Auto-WCEBleedGen V2 challenge."
+  media: images/Bleeding_demo.mp4
+  poster: images/Bleeding_demo_poster.jpg
   authors: "**Yu-Fan Lin**, Bo-Cheng Qiu, [Chia-Ming Lee](https://ming053l.github.io/), [Chih-Chung Hsu](https://cchsu.info/)"
   keywords:
     - Instance Segmentation

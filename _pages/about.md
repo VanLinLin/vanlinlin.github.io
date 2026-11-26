@@ -26,14 +26,12 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
   </div>
 
   <div class="hero__interests">
-    <span class="tag-chip">Multimodal Learning</span>
-    <span class="tag-chip">Image / Video Processing</span>
-    <span class="tag-chip">Image Restoration</span>
+    {% for t in site.data.topics %}<a class="tag-chip tag-chip--link js-topic-link" href="#-publications" data-topic="{{ t.id }}">{{ t.label }}</a>{% endfor %}
   </div>
 
   <div style="margin-top: 0.8em;">
     <a class="btn-pill btn-pill--paper" href="{{ '/_pages/docs/yufanlin.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-file-download" aria-hidden="true"></i> Resume / CV</a>
-    <span style="font-size: 0.8em; color: var(--ink-3);">last updated Jul 30, 2026</span>
+    <span style="font-size: 0.8em; color: var(--ink-3);">last updated Nov 23, 2026</span>
   </div>
 </div>
 
@@ -43,33 +41,48 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 {% include news-timeline.html limit=8 %}
 
-# 📝 Selected Publications
+# 📝 Publications
 
-{% include pub-cards.html data=site.data.publications %}
+{% include pub-filter.html %}
 
-# 🎖 Honors and Awards
+<h2 class="pub-section-title">Selected</h2>
+<p class="pub-empty-note" hidden>No selected papers in this topic — see the full list below.</p>
 
-{% include awards-list.html %}
+{% include pub-cards.html data=site.data.publications selected=true %}
 
-# 🔨 Projects
+<div class="pub-all">
+  <button class="timeline__more pub-all__toggle js-more" type="button" data-target="all-pubs-wrap" data-more="All publications ({{ site.data.publications | size }})" data-less="Hide full list" aria-expanded="false">All publications ({{ site.data.publications | size }}) <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+  <div id="all-pubs-wrap" class="js-extra" hidden>
+{% include pub-compact.html data=site.data.publications %}
+  </div>
+</div>
+
+# 🎖 Awards
+
+{% include awards-list.html limit=6 %}
+
+# 💼 Experience
+
+## 🔨 Projects
 
 {% include pub-cards.html data=site.data.research_projects %}
 
-## 💼 Funded & Industry Projects
+## 💰 Funded & Industry Projects
 
 {% include funded-list.html %}
 
-# 📖 Education
+## 📖 Education
 
 {% include edu-list.html %}
 
-# 💼 Academic Services
+## 🧑‍⚖️ Academic Services
 
 {% include services-list.html %}
 
-# 🌍 Global Collaborations
+# 🌍 Visitors
 
 <div class="globe-card reveal" style="width:100%; max-width:1000px; margin: 10px auto 30px; text-align:center;">
+{% include visitor-summary.html %}
 <div id="visitor-map-holder" style="margin:0 auto;">
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=8ADnNsCiMHFDsAXXuNSPeDLnFpxr3cBBct0zxB4WkaQ&cl=ffffff&w=a"></script>
 </div>
@@ -90,4 +103,5 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
   window.addEventListener('resize', pin);
 })();
 </script>
+<p class="visitor-note">Map shows the last 30 days · <a href="https://mapmyvisitors.com/web/1c1nu" target="_blank" rel="noopener">full statistics ↗</a></p>
 </div>

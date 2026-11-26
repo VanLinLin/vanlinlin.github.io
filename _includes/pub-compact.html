@@ -1,0 +1,22 @@
+{% comment %}
+  Compact one-row-per-paper list (All Publications). Same data and topic attributes as pub-cards.
+  Usage: {% include pub-compact.html data=site.data.publications %}
+{% endcomment %}
+<ol class="pub-compact" id="all-pubs">
+{% for item in include.data %}
+  <li class="pub-row" data-cite-title="{{ item.title | strip_html | escape }}"{% if item.topics %} data-topics="{{ item.topics | join: ' ' }}"{% endif %}>
+    <div class="pub-row__thumb">
+      {% if item.poster and item.media contains ".mp4" %}<button type="button" class="pub-row__play js-video-pop" data-video="{{ item.media }}" data-poster="{{ item.poster }}" aria-label="Play preview video: {{ item.title | strip_html | escape }}"><img src="{{ item.poster }}" alt="" loading="lazy"><span class="pub-row__play-icon" aria-hidden="true"><i class="fas fa-play"></i></span></button>
+      {% elsif item.poster %}<img src="{{ item.poster }}" alt="" loading="lazy">
+      {% elsif item.media and item.media contains ".mp4" %}<span class="pub-row__thumb-empty" aria-hidden="true"><i class="fas fa-film"></i></span>
+      {% elsif item.media %}<img src="{{ item.media }}" alt="" loading="lazy">
+      {% else %}<span class="pub-row__thumb-empty" aria-hidden="true"><i class="fas fa-file-alt"></i></span>{% endif %}
+    </div>
+    <div class="pub-row__body">
+      <p class="pub-row__title">{% if item.badge %}<span class="pub-row__badge">{{ item.badge }}</span>{% endif %}{{ item.title }}</p>
+      <p class="pub-row__authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% include pub-links.html links=item.links %}
+    </div>
+  </li>
+{% endfor %}
+</ol>

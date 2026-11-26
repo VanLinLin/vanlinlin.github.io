@@ -276,4 +276,137 @@
       }
     });
   }
+
+  /* ---------- Generic show-all toggles (awards groups, full publication list) ----------
+     <button class="js-more" data-target="ID" data-more=".." data-less="..">: toggles
+     every .js-extra inside #ID (or #ID itself when it carries .js-extra). */
+  function extrasOf(target) {
+    if (!target) return [];
+    if (target.classList.contains("js-extra")) return [target];
+    return Array.prototype.slice.call(target.querySelectorAll(".js-extra"));
+  }
+  function setOpen(btn, opening) {
+    var target = document.getElementById(btn.getAttribute("data-target"));
+    extrasOf(target).forEach(function (el) {
+      if (opening) {
+        el.removeAttribute("hidden");
+        el.classList.add("revealed");
+        Array.prototype.forEach.call(el.querySelectorAll(".reveal"), function (r) { r.classList.add("revealed"); });
+      } else {
+        el.setAttribute("hidden", "");
+      }
+    });
+    btn.classList.toggle("is-open", opening);
+    btn.setAttribute("aria-expanded", opening ? "true" : "false");
+    btn.childNodes[0].textContent =
+      (opening ? btn.getAttribute("data-less") : btn.getAttribute("data-more")) + " ";
+  }
+  Array.prototype.forEach.call(document.querySelectorAll(".js-more"), function (btn) {
+    btn.addEventListener("click", function () {
+      setOpen(btn, !btn.classList.contains("is-open"));
+    });
+  });
+
+  /* ---------- Publication topic filter ---------- */
+  var filterBtns = Array.prototype.slice.call(document.querySelectorAll(".js-topic-filter"));
+  function applyTopic(topic) {
+    filterBtns.forEach(function (b) {
+      var on = b.getAttribute("data-topic") === topic;
+      b.classList.toggle("is-active", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    var shownSelected = 0;
+    Array.prototype.forEach.call(
+      document.querySelectorAll(".pub-card[data-topics], .pub-row[data-topics]"),
+      function (el) {
+        var topics = (el.getAttribute("data-topics") || "").split(" ");
+        var show = topic === "all" || topics.indexOf(topic) !== -1;
+        if (show) {
+          el.removeAttribute("hidden");
+          el.classList.add("revealed");
+          if (el.classList.contains("pub-card")) shownSelected++;
+        } else {
+          el.setAttribute("hidden", "");
+        }
+      }
+    );
+    var note = document.querySelector(".pub-empty-note");
+    if (note) {
+      if (shownSelected === 0) note.removeAttribute("hidden");
+      else note.setAttribute("hidden", "");
+    }
+    /* a topic pick opens the full list so every matching paper is visible */
+    var allBtn = document.querySelector('.js-more[data-target="all-pubs-wrap"]');
+    if (allBtn && topic !== "all") setOpen(allBtn, true);
+  }
+  filterBtns.forEach(function (b) {
+    b.addEventListener("click", function () { applyTopic(b.getAttribute("data-topic")); });
+  });
+  /* hero interest chips: filter, then scroll to the publications */
+  Array.prototype.forEach.call(document.querySelectorAll(".js-topic-link"), function (a) {
+    a.addEventListener("click", function () { applyTopic(a.getAttribute("data-topic")); });
+  });
+
+  /* ---------- Preview videos: load when near the viewport, pause when off-screen ---------- */
+  var lazyVideos = Array.prototype.slice.call(document.querySelectorAll("video.js-lazy-video"));
+  function loadVideo(v) {
+    if (!v.getAttribute("src") && v.getAttribute("data-src")) {
+      v.setAttribute("src", v.getAttribute("data-src"));
+      v.load();
+    }
+  }
+  if ("IntersectionObserver" in window && lazyVideos.length) {
+    var vio = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          var v = entry.target;
+          if (entry.isIntersecting) {
+            loadVideo(v);
+            if (!reduceMotion) {
+              var p = v.play();
+              if (p && p.catch) p.catch(function () {});
+            }
+          } else if (!v.paused) {
+            v.pause();
+          }
+        });
+      },
+      { rootMargin: "200px 0px", threshold: 0.01 }
+    );
+    lazyVideos.forEach(function (v) { vio.observe(v); });
+  } else {
+    lazyVideos.forEach(function (v) {
+      loadVideo(v);
+      if (!reduceMotion) v.setAttribute("autoplay", "");
+    });
+  }
+
+  /* ---------- All-publications rows: poster thumb opens the preview video in a dialog ---------- */
+  var popBtns = document.querySelectorAll(".js-video-pop");
+  if (popBtns.length && typeof HTMLDialogElement === "function") {
+    var dlg = document.createElement("dialog");
+    dlg.className = "video-pop";
+    dlg.innerHTML = '<video muted loop playsinline controls></video>' +
+      '<button type="button" class="video-pop__close" aria-label="Close">&times;</button>';
+    document.body.appendChild(dlg);
+    var pv = dlg.querySelector("video");
+    var closeDlg = function () { if (dlg.open) dlg.close(); };
+    dlg.querySelector(".video-pop__close").addEventListener("click", closeDlg);
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) closeDlg(); });
+    dlg.addEventListener("close", function () { pv.pause(); pv.removeAttribute("src"); pv.load(); });
+    Array.prototype.forEach.call(popBtns, function (b) {
+      b.addEventListener("click", function () {
+        pv.setAttribute("poster", b.getAttribute("data-poster"));
+        pv.setAttribute("src", b.getAttribute("data-video"));
+        dlg.showModal();
+        var p = pv.play();
+        if (p && p.catch) p.catch(function () {});
+      });
+    });
+  } else {
+    /* no <dialog> support: fall back to opening the video file */
+    Array.prototype.forEach.call(popBtns, function (b) {
+      b.addEventListener("click", function () { window.open(b.getAttribute("data-video"), "_blank", "noopener"); });
+    });
+  }
 })();

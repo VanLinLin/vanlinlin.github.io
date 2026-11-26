@@ -1,10 +1,29 @@
-{% comment %} Honors & awards from _data/awards.yml {% endcomment %}
-<div class="award-list">
-{% for item in site.data.awards %}
-  <div class="award-item reveal{% if item.tier %} award-item--{{ item.tier }}{% endif %}">
-    <span class="award-item__medal" aria-hidden="true">{% case item.tier %}{% when 'gold' %}🥇{% when 'silver' %}🥈{% when 'bronze' %}🥉{% else %}🏅{% endcase %}</span>
-    <span class="award-item__date">{{ item.date }}</span>
-    <span class="award-item__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-  </div>
+{% comment %}
+  Honors & awards from _data/awards.yml, grouped by `category`.
+  Each group shows its first `limit` items; the rest open with the group's "Show all" button.
+{% endcomment %}
+{% assign groups = "challenge|Challenges & Competitions|fa-trophy,paper|Paper & Thesis Awards|fa-scroll,scholarship|Scholarships & Academic Honors|fa-graduation-cap" | split: "," %}
+{% assign limit = include.limit | default: 6 %}
+<div class="award-groups">
+{% for g in groups %}
+  {% assign parts = g | split: "|" %}
+  {% assign items = site.data.awards | where: "category", parts[0] %}
+  {% assign n = items | size %}
+  {% if n == 0 %}{% continue %}{% endif %}
+  <section class="award-group" id="awards-{{ parts[0] }}">
+    <h3 class="award-group__title"><i class="fas {{ parts[2] }}" aria-hidden="true"></i> {{ parts[1] }} <span class="award-group__n">{{ n }}</span></h3>
+    <div class="award-list">
+    {% for item in items %}
+      <div class="award-item reveal{% if item.tier %} award-item--{{ item.tier }}{% endif %}{% if forloop.index > limit %} js-extra{% endif %}"{% if forloop.index > limit %} hidden{% endif %}>
+        <span class="award-item__medal" aria-hidden="true">{% case item.tier %}{% when 'gold' %}🥇{% when 'silver' %}🥈{% when 'bronze' %}🥉{% else %}🏅{% endcase %}</span>
+        <span class="award-item__date">{{ item.date }}</span>
+        <span class="award-item__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </div>
+    {% endfor %}
+    </div>
+    {% if n > limit %}
+    <button class="timeline__more js-more" type="button" data-target="awards-{{ parts[0] }}" data-more="Show all {{ n }}" data-less="Show fewer">Show all {{ n }} <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+    {% endif %}
+  </section>
 {% endfor %}
 </div>
