@@ -1,0 +1,33 @@
+{% comment %}
+  Cumulative visitor globe (globe.gl, loaded only when the card nears the viewport).
+  Data: _data/visitors.json (daily, .github/workflows/update_visitor_stats.yml)
+        + assets/data/countries-110m.json (Natural Earth 110m, visitor_stats/build_countries.py).
+  Script: assets/js/visitor-globe.js.
+{% endcomment %}
+<div class="vglobe" id="vglobe"
+     data-geo="{{ '/assets/data/countries-110m.json' | relative_url }}"
+     data-lib="https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js">
+  <div class="vglobe__stage" id="vglobe-stage" role="img"
+       aria-label="Globe of cumulative visitors: {{ site.data.visitors.total_display }} pageviews from {{ site.data.visitors.countries }} countries and regions"></div>
+  <div class="vglobe__loading" id="vglobe-loading"><span class="vglobe__spinner" aria-hidden="true"></span>Loading globe…</div>
+
+  <div class="vglobe__hud vglobe__hud--tl" aria-hidden="true">
+    <span class="vglobe__live"><span class="vglobe__live-dot"></span>cumulative</span>
+    <span class="vglobe__hint">drag to spin · click a country</span>
+  </div>
+
+  <div class="vglobe__controls" role="group" aria-label="Globe controls">
+    <button type="button" class="vglobe__btn" data-act="in" aria-label="Zoom in" title="Zoom in"><i class="fas fa-plus" aria-hidden="true"></i></button>
+    <button type="button" class="vglobe__btn" data-act="out" aria-label="Zoom out" title="Zoom out"><i class="fas fa-minus" aria-hidden="true"></i></button>
+    <button type="button" class="vglobe__btn" data-act="home" aria-label="Reset view" title="Reset view"><i class="fas fa-crosshairs" aria-hidden="true"></i></button>
+    <button type="button" class="vglobe__btn" data-act="spin" aria-label="Pause rotation" title="Pause / resume rotation" aria-pressed="true"><i class="fas fa-pause" aria-hidden="true"></i></button>
+  </div>
+
+  <div class="vglobe__legend" aria-hidden="true">
+    <span>1</span><span class="vglobe__legend-bar"></span><span id="vglobe-legend-max">{{ site.data.visitors.all[0].v | default: site.data.visitors.top[0].visits }}</span><span class="vglobe__legend-unit">visits</span>
+  </div>
+
+  <div class="vglobe__tip" id="vglobe-tip" hidden></div>
+</div>
+<script type="application/json" id="vglobe-data">{{ site.data.visitors | jsonify }}</script>
+<script src="{{ '/assets/js/visitor-globe.js' | relative_url }}" defer></script>

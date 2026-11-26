@@ -71,5 +71,207 @@
       "uniques": 11
     }
   ],
+  "all": [
+    {
+      "c": "TW",
+      "n": "Taiwan",
+      "v": 464
+    },
+    {
+      "c": "US",
+      "n": "United States",
+      "v": 341
+    },
+    {
+      "c": "GB",
+      "n": "United Kingdom",
+      "v": 113
+    },
+    {
+      "c": "AU",
+      "n": "Australia",
+      "v": 83
+    },
+    {
+      "c": "PT",
+      "n": "Portugal",
+      "v": 74
+    },
+    {
+      "c": "IE",
+      "n": "Ireland",
+      "v": 21
+    },
+    {
+      "c": "KR",
+      "n": "South Korea",
+      "v": 14
+    },
+    {
+      "c": "VN",
+      "n": "Vietnam",
+      "v": 11
+    },
+    {
+      "c": "JP",
+      "n": "Japan",
+      "v": 11
+    },
+    {
+      "c": "DE",
+      "n": "Germany",
+      "v": 11
+    },
+    {
+      "c": "HK",
+      "n": "Hong Kong",
+      "v": 11
+    },
+    {
+      "c": "CA",
+      "n": "Canada",
+      "v": 8
+    },
+    {
+      "c": "SG",
+      "n": "Singapore",
+      "v": 8
+    },
+    {
+      "c": "FR",
+      "n": "France",
+      "v": 7
+    },
+    {
+      "c": "IN",
+      "n": "India",
+      "v": 7
+    },
+    {
+      "c": "TR",
+      "n": "Turkey",
+      "v": 6
+    },
+    {
+      "c": "NO",
+      "n": "Norway",
+      "v": 5
+    },
+    {
+      "c": "CH",
+      "n": "Switzerland",
+      "v": 4
+    },
+    {
+      "c": "IR",
+      "n": "Iran",
+      "v": 4
+    },
+    {
+      "c": "ES",
+      "n": "Spain",
+      "v": 4
+    },
+    {
+      "c": "RU",
+      "n": "Russia",
+      "v": 2
+    },
+    {
+      "c": "PL",
+      "n": "Poland",
+      "v": 2
+    },
+    {
+      "c": "CO",
+      "n": "Colombia",
+      "v": 2
+    },
+    {
+      "c": "BR",
+      "n": "Brazil",
+      "v": 2
+    },
+    {
+      "c": "BD",
+      "n": "Bangladesh",
+      "v": 2
+    },
+    {
+      "c": "LV",
+      "n": "Latvia",
+      "v": 2
+    },
+    {
+      "c": "BE",
+      "n": "Belgium",
+      "v": 2
+    },
+    {
+      "c": "SE",
+      "n": "Sweden",
+      "v": 1
+    },
+    {
+      "c": "RO",
+      "n": "Romania",
+      "v": 1
+    },
+    {
+      "c": "PE",
+      "n": "Peru",
+      "v": 1
+    },
+    {
+      "c": "NL",
+      "n": "Netherlands",
+      "v": 1
+    },
+    {
+      "c": "MY",
+      "n": "Malaysia",
+      "v": 1
+    },
+    {
+      "c": "IT",
+      "n": "Italy",
+      "v": 1
+    },
+    {
+      "c": "IQ",
+      "n": "Iraq",
+      "v": 1
+    },
+    {
+      "c": "ID",
+      "n": "Indonesia",
+      "v": 1
+    },
+    {
+      "c": "JO",
+      "n": "Hashemite Kingdom of Jordan",
+      "v": 1
+    },
+    {
+      "c": "GH",
+      "n": "Ghana",
+      "v": 1
+    },
+    {
+      "c": "CN",
+      "n": "China",
+      "v": 1
+    },
+    {
+      "c": "BH",
+      "n": "Bahrain",
+      "v": 1
+    },
+    {
+      "c": "DZ",
+      "n": "Algeria",
+      "v": 1
+    }
+  ],
   "updated": "2026-11-26"
 }

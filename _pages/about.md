@@ -83,8 +83,13 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
 
 <div class="globe-card reveal" style="width:100%; max-width:1000px; margin: 10px auto 30px; text-align:center;">
 {% include visitor-summary.html %}
-<div id="visitor-map-holder" style="margin:0 auto;">
+{% include visitor-globe.html %}
+<!-- mapmyvisitors does the counting that feeds _data/visitors.json: keep it loaded
+     (rendered off-screen at a normal width) but out of sight; the globe replaces it -->
+<div class="visitor-recent" aria-hidden="true">
+<div id="visitor-map-holder">
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=8ADnNsCiMHFDsAXXuNSPeDLnFpxr3cBBct0zxB4WkaQ&cl=ffffff&w=a"></script>
+</div>
 </div>
 <script>
 (function () {
@@ -103,5 +108,5 @@ I am also enthusiastic about exploring other cutting-edge fields in artificial i
   window.addEventListener('resize', pin);
 })();
 </script>
-<p class="visitor-note">Map shows the last 30 days · <a href="https://mapmyvisitors.com/web/1c1nu" target="_blank" rel="noopener">full statistics ↗</a></p>
+<p class="visitor-note">Globe: all-time totals per country, updated daily · <a href="https://mapmyvisitors.com/web/1c1nu" target="_blank" rel="noopener">full statistics ↗</a></p>
 </div>

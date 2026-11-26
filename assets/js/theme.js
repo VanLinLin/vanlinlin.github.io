@@ -53,9 +53,10 @@
   }
 
   /* ---------- Count-up animation ---------- */
+  function fmt(n) { return Number(n).toLocaleString("en-US"); }   /* 1589 -> "1,589" */
   function countUp(el, target) {
     if (reduceMotion || !window.requestAnimationFrame) {
-      el.textContent = target;
+      el.textContent = fmt(target);
       return;
     }
     var duration = 1100;
@@ -64,13 +65,13 @@
       if (!start) start = ts;
       var p = Math.min((ts - start) / duration, 1);
       var eased = 1 - Math.pow(1 - p, 3); /* ease-out cubic */
-      el.textContent = Math.round(target * eased);
+      el.textContent = fmt(Math.round(target * eased));
       if (p < 1) requestAnimationFrame(step);
     }
     requestAnimationFrame(step);
     /* safety net: rAF can stall (background tab, frozen virtual time) —
        make sure the final value always lands */
-    setTimeout(function () { el.textContent = target; }, duration + 400);
+    setTimeout(function () { el.textContent = fmt(target); }, duration + 400);
   }
 
   /* Static counters (from data-count) start when scrolled into view */

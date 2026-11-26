@@ -6,13 +6,13 @@
 {% if v and v.total_pageviews %}
 <div class="visitor-summary">
   <div class="visitor-summary__stats">
-    <span class="visitor-summary__stat"><b>{{ v.total_display | default: v.total_pageviews }}</b> pageviews</span>
-    <span class="visitor-summary__stat"><b>{{ v.countries }}</b> countries &amp; regions</span>
+    <span class="visitor-summary__stat"><b class="js-count" data-count="{{ v.total_pageviews }}">{{ v.total_display | default: v.total_pageviews }}</b> pageviews</span>
+    <span class="visitor-summary__stat"><b class="js-count" data-count="{{ v.countries }}">{{ v.countries }}</b> countries &amp; regions</span>
     {% if v.since %}<span class="visitor-summary__stat visitor-summary__since">since {{ v.since }}</span>{% endif %}
   </div>
   <div class="visitor-summary__top">
     {% for c in v.top limit: 6 %}
-      <span class="visitor-chip" title="{{ c.name }}: {{ c.visits }} visits">{{ c.flag }} {{ c.name }} <span class="visitor-chip__n">{{ c.visits }}</span></span>
+      <button type="button" class="visitor-chip js-globe-fly" data-code="{{ c.code }}" title="Show {{ c.name }} on the globe ({{ c.visits }} visits)">{{ c.flag }} {{ c.name }} <span class="visitor-chip__n">{{ c.visits }}</span></button>
     {% endfor %}
   </div>
 </div>

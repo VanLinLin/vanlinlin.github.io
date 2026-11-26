@@ -870,6 +870,130 @@ html, body { overflow-x: clip; }
 .globe-card .visitor-note { margin: 10px 0 0; font-size: 0.78em; color: var(--ink-3); }
 .globe-card .visitor-note a { color: var(--ink-3); }
 
+button.visitor-chip { font: inherit; font-size: 0.78em; cursor: pointer; transition: border-color 0.2s, transform 0.2s, background 0.2s; }
+button.visitor-chip:hover { border-color: var(--accent); transform: translateY(-1px); }
+button.visitor-chip.is-active { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+
+/* cumulative visitor globe (_includes/visitor-globe.html, assets/js/visitor-globe.js) */
+.vglobe {
+  --vg-h: 460px;
+  position: relative;
+  height: var(--vg-h);
+  margin: 4px auto 0;
+  border-radius: 14px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% 55%, var(--accent-soft), transparent 62%),
+    radial-gradient(circle at 18% 22%, rgba(124, 58, 237, 0.07), transparent 40%),
+    var(--surface-2);
+  text-align: left;
+  isolation: isolate;
+}
+html[data-theme="dark"] .vglobe {
+  background:
+    radial-gradient(ellipse at 50% 55%, rgba(88, 166, 255, 0.13), transparent 62%),
+    radial-gradient(circle at 80% 15%, rgba(188, 140, 255, 0.10), transparent 40%),
+    #0b1018;
+}
+/* faint star field */
+.vglobe::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0.55;
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, var(--ink-3), transparent 60%),
+    radial-gradient(1px 1px at 72% 12%, var(--ink-3), transparent 60%),
+    radial-gradient(1.5px 1.5px at 88% 64%, var(--ink-3), transparent 60%),
+    radial-gradient(1px 1px at 30% 82%, var(--ink-3), transparent 60%),
+    radial-gradient(1px 1px at 55% 40%, var(--ink-3), transparent 60%),
+    radial-gradient(1.5px 1.5px at 6% 58%, var(--ink-3), transparent 60%),
+    radial-gradient(1px 1px at 94% 28%, var(--ink-3), transparent 60%),
+    radial-gradient(1px 1px at 44% 8%, var(--ink-3), transparent 60%);
+}
+.vglobe__stage { position: absolute; inset: 0; }
+.vglobe__stage canvas { outline: none; }
+.vglobe__loading {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 10px;
+  color: var(--ink-3); font-size: 0.85em;
+}
+.vglobe__loading.is-error { padding: 0 24px; text-align: center; }
+.vglobe__spinner {
+  width: 16px; height: 16px; border-radius: 50%;
+  border: 2px solid var(--border); border-top-color: var(--accent);
+  animation: vg-spin 0.9s linear infinite;
+}
+@keyframes vg-spin { to { transform: rotate(360deg); } }
+
+.vglobe__hud { position: absolute; z-index: 2; pointer-events: none; display: flex; flex-direction: column; gap: 4px; }
+.vglobe__hud--tl { top: 12px; left: 14px; }
+.vglobe__live {
+  display: inline-flex; align-items: center; gap: 6px; width: max-content;
+  padding: 2px 9px; border-radius: 999px; border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  font-size: 0.68em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2);
+}
+.vglobe__live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 0 var(--green); animation: vg-pulse 2s ease-out infinite; }
+@keyframes vg-pulse { 0% { box-shadow: 0 0 0 0 rgba(63, 185, 80, 0.55); } 100% { box-shadow: 0 0 0 8px rgba(63, 185, 80, 0); } }
+.vglobe__hint { font-size: 0.7em; color: var(--ink-3); transition: opacity 0.4s; }
+.vglobe.is-ready .vglobe__hint { animation: vg-fade 1s ease 6s forwards; }
+@keyframes vg-fade { to { opacity: 0; } }
+
+.vglobe__controls {
+  position: absolute; z-index: 2; right: 12px; bottom: 12px;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.vglobe__btn {
+  width: 32px; height: 32px; display: grid; place-items: center; padding: 0; cursor: pointer;
+  border-radius: 9px; border: 1px solid var(--border); color: var(--ink-2); font-size: 0.78em;
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  transition: color 0.2s, border-color 0.2s, transform 0.15s;
+}
+.vglobe__btn:hover { color: var(--accent); border-color: var(--accent); }
+.vglobe__btn:active { transform: scale(0.93); }
+.vglobe__btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.vglobe__legend {
+  position: absolute; z-index: 2; left: 14px; bottom: 14px; pointer-events: none;
+  display: flex; align-items: center; gap: 6px; font-size: 0.68em; color: var(--ink-3);
+}
+.vglobe__legend-bar { width: 84px; height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--accent-2), var(--accent)); opacity: 0.85; }
+.vglobe__legend-unit { margin-left: 2px; }
+
+.vglobe__tip {
+  position: absolute; z-index: 3; pointer-events: none; min-width: 150px;
+  padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18); color: var(--ink); font-size: 0.8em; line-height: 1.35;
+}
+.vglobe__tip.is-pinned { left: 50% !important; top: 14px !important; transform: translateX(-50%); text-align: center; }
+.vglobe__tip-flag { font-size: 1.25em; margin-right: 6px; vertical-align: -2px; }
+.vglobe__tip-row { display: block; color: var(--ink-2); font-size: 0.92em; }
+.vglobe__tip-n { color: var(--accent); }
+
+/* "Van @ UAlbany" marker (globe.gl html element) */
+.vglobe__home { position: relative; pointer-events: none; transform: translate(-50%, -50%); }
+.vglobe__home-pin {
+  display: block; width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent); border: 2px solid #fff; box-shadow: 0 0 10px var(--accent);
+}
+.vglobe__home-label {
+  position: absolute; left: 14px; top: 50%; transform: translateY(-50%); white-space: nowrap;
+  padding: 1px 7px; border-radius: 6px; font-size: 10px; font-weight: 700;
+  color: #fff; background: var(--grad); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* counter widget kept alive off-screen (see _pages/about.md) */
+.visitor-recent {
+  position: absolute; left: -10000px; top: 0; width: 340px;
+  overflow: hidden; pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .vglobe { --vg-h: 340px; }
+  .vglobe__hint { display: none; }
+  .vglobe__legend-bar { width: 56px; }
+}
+
 /* ---------- 13. Scroll-reveal ---------- */
 
 html.js .reveal {

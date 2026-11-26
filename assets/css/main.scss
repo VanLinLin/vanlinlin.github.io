@@ -44,7 +44,11 @@
 
 // anchor scroll offset — must clear the sticky masthead
 $scroll_offset : 4em;
-h1:before, .anchor:before {
+/* h1 uses scroll-margin instead of the old negative-margin :before block,
+   which overlapped (and swallowed clicks on) whatever sat just above a heading,
+   e.g. the News "Show all" button. */
+h1 { scroll-margin-top: $scroll_offset; }
+.anchor:before {
     content: '';
     display: block;
     position: relative;

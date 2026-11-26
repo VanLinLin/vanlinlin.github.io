@@ -52,6 +52,8 @@ def parse(page):
         "locations": sum(c["locations"] for c in countries),
         "uniques": sum(c["uniques"] for c in countries),
         "top": countries[:8],
+        # every country, compact, for the cumulative globe (_includes/visitor-globe.html)
+        "all": [{"c": c["code"], "n": c["name"], "v": c["visits"]} for c in countries],
         "updated": datetime.date.today().isoformat(),
     }
 
