@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6b0667c08ffee1b892ac755e",
+    "id": "6b07ad705e878bd5120503b6",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/pZyrANk16XUJs3GaJQ6BBF6ZXuua68LobS-9LlqbTKY/6b0667c08ffee1b892ac755e.json",
-    "markdown_endpoint": "https://serpapi.com/searches/pZyrANk16XUJs3GaJQ6BBF6ZXuua68LobS-9LlqbTKY/6b0667c08ffee1b892ac755e.md",
-    "created_at": "2026-11-25 04:44:48 UTC",
-    "processed_at": "2026-11-25 04:44:48 UTC",
+    "json_endpoint": "https://serpapi.com/searches/5GTWnmjZ3vOZnyjFaAzHME6JNdNPV4bMsqWS7LX6_ls/6b07ad705e878bd5120503b6.json",
+    "markdown_endpoint": "https://serpapi.com/searches/5GTWnmjZ3vOZnyjFaAzHME6JNdNPV4bMsqWS7LX6_ls/6b07ad705e878bd5120503b6.md",
+    "created_at": "2026-11-26 03:54:24 UTC",
+    "processed_at": "2026-11-26 03:54:24 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/pZyrANk16XUJs3GaJQ6BBF6ZXuua68LobS-9LlqbTKY/6b0667c08ffee1b892ac755e.html",
-    "total_time_taken": 0.47
+    "raw_html_file": "https://serpapi.com/searches/5GTWnmjZ3vOZnyjFaAzHME6JNdNPV4bMsqWS7LX6_ls/6b07ad705e878bd5120503b6.html",
+    "total_time_taken": 3.78
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -174,7 +174,7 @@
       "authors": "CC Hsu, CM Lee, YF Lin, YS Chou, CY Jian, CH Tsai",
       "publication": "Proceedings of the 32nd ACM International Conference on Multimedia, 11464-11469, 2024",
       "cited_by": {
-        "value": 17,
+        "value": 18,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18307115968291267381",
         "serpapi_link": "https://serpapi.com/search.json?cites=18307115968291267381&engine=google_scholar&hl=en",
         "cites_id": "18307115968291267381"
@@ -325,8 +325,8 @@
     "table": [
       {
         "citations": {
-          "all": 549,
-          "since_2021": 549
+          "all": 550,
+          "since_2021": 550
         }
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "year": 2026,
-        "citations": 269
+        "citations": 270
       }
     ]
   },
