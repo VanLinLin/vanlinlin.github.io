@@ -1,10 +1,10 @@
 {
-  "total_pageviews": 1556,
-  "total_display": "1,556",
+  "total_pageviews": 1589,
+  "total_display": "1,589",
   "since": "Jan 5th 2026",
   "countries": 40,
   "locations": 140,
-  "uniques": 930,
+  "uniques": 935,
   "top": [
     {
       "code": "TW",
@@ -19,8 +19,8 @@
       "flag": "🇺🇸",
       "name": "United States",
       "locations": 37,
-      "visits": 334,
-      "uniques": 250
+      "visits": 341,
+      "uniques": 255
     },
     {
       "code": "GB",
@@ -71,5 +71,5 @@
       "uniques": 11
     }
   ],
-  "updated": "2026-11-23"
+  "updated": "2026-11-26"
 }
