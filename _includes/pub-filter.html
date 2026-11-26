@@ -1,0 +1,13 @@
+{% comment %}
+  Topic filter buttons from _data/topics.yml; counts come from publications.yml.
+  Filtering itself is in assets/js/theme.js (.js-topic-filter).
+{% endcomment %}
+{% assign total = site.data.publications | size %}
+<div class="topic-filter" role="toolbar" aria-label="Filter publications by topic">
+  <button type="button" class="topic-btn is-active js-topic-filter" data-topic="all" aria-pressed="true">All <span class="topic-btn__n">{{ total }}</span></button>
+  {% for t in site.data.topics %}
+    {% assign n = 0 %}
+    {% for p in site.data.publications %}{% if p.topics contains t.id %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+  <button type="button" class="topic-btn js-topic-filter" data-topic="{{ t.id }}" aria-pressed="false">{{ t.label }} <span class="topic-btn__n">{{ n }}</span></button>
+  {% endfor %}
+</div>

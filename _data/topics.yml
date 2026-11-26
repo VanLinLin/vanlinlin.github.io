@@ -1,0 +1,15 @@
+# ============================================================
+# Research topics — 論文區上方的篩選鈕、hero 的興趣標籤都用這一組
+#   id:    寫在 publications.yml 每篇的 topics 清單裡
+#   label: 顯示文字
+# ============================================================
+- id: restoration
+  label: Image Restoration
+- id: hsi
+  label: Hyperspectral & Remote Sensing
+- id: efficient
+  label: Efficient Models
+- id: multimodal
+  label: Vision-Language & Social Media
+- id: perception
+  label: Tracking & Segmentation
