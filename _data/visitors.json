@@ -1,18 +1,18 @@
 {
-  "total_pageviews": 1607,
-  "total_display": "1,607",
+  "total_pageviews": 1610,
+  "total_display": "1,610",
   "since": "Jan 5th 2026",
   "countries": 40,
   "locations": 140,
-  "uniques": 938,
+  "uniques": 939,
   "top": [
     {
       "code": "TW",
       "flag": "🇹🇼",
       "name": "Taiwan",
       "locations": 17,
-      "visits": 464,
-      "uniques": 358
+      "visits": 465,
+      "uniques": 359
     },
     {
       "code": "US",
@@ -75,7 +75,7 @@
     {
       "c": "TW",
       "n": "Taiwan",
-      "v": 464
+      "v": 465
     },
     {
       "c": "US",
@@ -273,5 +273,5 @@
       "v": 1
     }
   ],
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
 }
