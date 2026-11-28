@@ -1,14 +1,14 @@
 {
   "search_metadata": {
-    "id": "6b08fef0a97f520bacd2c971",
+    "id": "6b0a4d5a5c50d107f3233f37",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/Pr6tCP0BoXzdlKQxomXVsCNnTWojS2MWwrJ5HKz-3qY/6b08fef0a97f520bacd2c971.json",
-    "markdown_endpoint": "https://serpapi.com/searches/Pr6tCP0BoXzdlKQxomXVsCNnTWojS2MWwrJ5HKz-3qY/6b08fef0a97f520bacd2c971.md",
-    "created_at": "2026-11-27 03:54:24 UTC",
-    "processed_at": "2026-11-27 03:54:24 UTC",
+    "json_endpoint": "https://serpapi.com/searches/7_s022B6xxNVrKw6i_ob0HHK9-mpVqroHUqzBU01YAo/6b0a4d5a5c50d107f3233f37.json",
+    "markdown_endpoint": "https://serpapi.com/searches/7_s022B6xxNVrKw6i_ob0HHK9-mpVqroHUqzBU01YAo/6b0a4d5a5c50d107f3233f37.md",
+    "created_at": "2026-11-28 03:41:14 UTC",
+    "processed_at": "2026-11-28 03:41:14 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=ook-p6wAAAAJ&hl=en&view_op=list_works",
-    "raw_html_file": "https://serpapi.com/searches/Pr6tCP0BoXzdlKQxomXVsCNnTWojS2MWwrJ5HKz-3qY/6b08fef0a97f520bacd2c971.html",
-    "total_time_taken": 1.5
+    "raw_html_file": "https://serpapi.com/searches/7_s022B6xxNVrKw6i_ob0HHK9-mpVqroHUqzBU01YAo/6b0a4d5a5c50d107f3233f37.html",
+    "total_time_taken": 1.55
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -62,7 +62,7 @@
       "authors": "Y Zhang, K Zhang, Z Chen, Y Li, R Timofte, J Zhang, K Zhang, R Peng, ...",
       "publication": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition …, 2023",
       "cited_by": {
-        "value": 83,
+        "value": 82,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11054112966266623850",
         "serpapi_link": "https://serpapi.com/search.json?cites=11054112966266623850&engine=google_scholar&hl=en",
         "cites_id": "11054112966266623850"
@@ -132,7 +132,7 @@
       "authors": "CH Cheng, CM Lee, WT Liao, YF Lin, YC Cheng, FE Yang, YCF Wang, ...",
       "publication": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026",
       "cited_by": {
-        "value": 31,
+        "value": 32,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224",
         "serpapi_link": "https://serpapi.com/search.json?cites=4649120131747553119%2C293946418635235173%2C18054841875686507267%2C12608264280383273224&engine=google_scholar&hl=en",
         "cites_id": "4649120131747553119,293946418635235173,18054841875686507267,12608264280383273224"
